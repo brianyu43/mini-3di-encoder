@@ -5,17 +5,29 @@
 
 - [3주·15회차 계획표](PLAN.md): 매일의 이론·구현·산출물·통과 기준
 - [진행 기록](SESSION_LOG.md): 실제 완료한 것, 검증 결과, 다음 시작점
+- [2–5회차 설명서](GUIDE_DAY02_05.md): 실제 잔기 하나로 계산을 따라가기
 - [공식 구현과 데이터 출처](SOURCES.md)
 
 ## 지금 되는 것
 
-**1회차의 실행 산출물까지 완료. 자체 3Di 인코더는 아직 미구현.**
-1UBQ A 사슬의 공식 Foldseek 출력과 76개 잔기의 번호·아미노산·Cα 좌표를 확보했다.
-현재 `day01.py`는 공식 기준 출력을 준비하는 코드다. 좌표에서 특징·잠재 좌표·상태를 계산하는
-자체 구현은 2–10회차에 추가한다. 재학습과 검색 비교는 11–15회차 계획이다.
+**5회차까지 완료. 한 잔기의 좌표에서 3Di 문자까지 직접 계산하고 중간값을 추적한다.**
+`atoms.py`가 원자 좌표를 읽고, `geometry.py`가 가상 중심·상대·특징 10개를 계산하며,
+`network.py`가 공식 가중치로 순전파·중심 선택을 수행한다. `trace.py`가 과정을 JSON으로 보여 준다.
+한 잔기를 추적하는 실행에는 공식 Foldseek나 PyTorch/TensorFlow 설치가 필요 없다.
+가중치는 학습한 것이 아니라 공식 가중치를 재사용한다.
+
+예: **1UBQ 잔기 2 → 상대 잔기 14 → 특징 10개 → (-2.476632,0.726601) → 상태 18 → W**.
+
+1UBQ의 사전 선택한 위치 네 곳에서 원본 C++와 기하·특징·잠재 좌표·상태가 일치했다.
+추가 신경망 입력 44개도 일치했다. 테스트 **42개 통과**, 별도 wheel 설치에서도 동일한 trace를 확인했다.
+전체 사슬 검증(6회차), 일반 입력 처리·검색 연결(7–10회차), 재학습(11–15회차)은 아직 남아 있다.
 
 | 결과 | 내용 |
 |---|---|
+| [2–5회차 결과 요약](results/day02-05/summary.json) | 단계별 native 비교와 검증 범위 |
+| [원자 좌표 표](results/day02-05/day02_atoms.tsv) | N/CA/C/CB 좌표와 원본 존재 상태 |
+| [한 잔기의 전체 계산](results/day02-05/trace_i001.json) | 후보 거리·특징·각 신경망 층·중심 거리·최종 문자 |
+| [최종 설치·검증 기록](results/day05-validation/validation.json) | 테스트·Ruff·별도 wheel 설치 및 출력 동일성 |
 | [원본 PDB](data/raw/1UBQ.pdb) | RCSB에서 받은 1UBQ 구조 |
 | [좌표 표](results/day01/residues.tsv) | 잔기 번호, insertion code, AA, CA x/y/z, 공식 3Di 문자 |
 | [공식 3Di](results/day01/official_3di.fasta) | Foldseek 10-941cd33이 출력한 76글자 |
@@ -28,31 +40,31 @@
 끝점은 공식 인코더에서 무효 처리되지만 D로 나타날 수 있다. 따라서 **D라는 문자 자체가
 유효·무효를 알려 주지는 않는다.** 이 표는 아직 검색용 유효성 마스크를 제공하지 않는다.
 
-## 현재 Mac에서 다시 실행
+## 한 잔기를 직접 인코딩
 
-프로젝트 폴더에서 실행한다. `.venv`와 `tools/foldseek/bin/foldseek`는 로컬에 준비되어 있다.
-출력은 아직 존재하지 않는 폴더를 지정한다.
+프로젝트 폴더에서 실행한다. `.venv`는 로컬에 준비되어 있다.
+출력은 아직 존재하지 않는 파일을 지정한다. index는 0부터 세므로 1은 두 번째 잔기다.
 
 ```bash
 source .venv/bin/activate
-python -m mini3di_encoder.day01 \
-  --structure data/raw/1UBQ.pdb --chain A \
-  --foldseek tools/foldseek/bin/foldseek \
-  --out artifacts/my-day01
+python -m mini3di_encoder.trace \
+  --structure data/raw/1UBQ.pdb --chain A --index 1 \
+  --out artifacts/my-residue-2.json
 ```
 
-Python 코드가 직접 처리하는 것은 현재 CA 좌표 표다. `createdb`와 `convert2fasta`로 확보한
-3Di는 공식 출력이다. Foldseek v10의 헤더 공유는 AA/3Di/header의 DB key 일치를 검사한 후 적용한다.
+이 명령은 우리 Python 구현과 패키지에 포함된 공식 가중치로 계산한다.
+`day01.py`는 이전 단계의 공식 기준 출력 준비용으로 보존했다.
 
 ```bash
 python -m pytest -q
 ruff check .
 ruff format --check .
-python scripts/verify_day01.py --out artifacts/my-day01-check
+python scripts/run_day02_05.py --out artifacts/my-day02-05-check
 ```
 
-마지막 명령은 원본 출처 hash, PDB 고정 열과 좌표 표, 검사 도구, 공식 재실행을 확인한다.
-공식 파일·실행 파일을 참조하므로 현재 로컬 자료가 필요하다. 단위 테스트 자체는 외부 Foldseek를 실행하지 않는다.
+마지막 명령은 공식 C++ 소스를 컴파일해 선택한 잔기를 비교하고 원본 Foldseek의 descriptor와도 대조한다.
+이 검증에는 현재 로컬의 참고 소스·Foldseek·clang++가 필요하다. 단위 테스트는 보존된 native 기준값을
+사용하며, 스스로 기준 출력을 생성하거나 외부 Foldseek를 실행하지 않는다.
 
 ## 새 환경에서 설치
 
@@ -65,7 +77,8 @@ python -m pip install -r requirements-dev.lock.txt
 python -m pip install --no-build-isolation --no-deps -e .
 ```
 
-Foldseek 실행 파일·참고 소스·가상 환경은 Git에 포함하지 않는다. 전체 기준 자료를 복구할 때는
+공식 가중치·중심과 라이선스는 실행 패키지에 포함한다. Foldseek 실행 파일·참고 C++ 소스·가상 환경은
+Git에 포함하지 않는다. 전체 검증 기준 자료를 복구할 때는
 `references/source-manifest.json`의 URL/버전/hash를 따른다. 기존 Mac의 설치는 이전 프로젝트의
 로컬 wheel을 이용해 오프라인으로 진행했으며 [wheel 기록](references/wheel-manifest.json)을 남겼다.
 현재 `.venv`는 기존 프로젝트에 있던 Python 3.12 runtime을 기반으로 생성되었으므로 그 runtime을 삭제하면
@@ -73,7 +86,9 @@ Foldseek 실행 파일·참고 소스·가상 환경은 Git에 포함하지 않�
 
 ## 범위
 
-일반적인 구조 파일의 모든 예외를 지원하지 않는다. 1회차 reader는 한 모델의 지정 사슬,
-표준 ATOM 잔기, 유일하고 유한한 CA 좌표를 요구한다. 대체 위치·결측 CA·비표준 잔기는 오류로 알린다.
-HETATM(물·리간드 등)은 제외한다. 상세 입력·유효성 규칙은 계획의 2·8회차에서 확장한다.
+일반적인 구조 파일의 모든 예외를 지원하지 않는다. 현재 원자 reader는 한 모델의 지정 사슬,
+표준 ATOM 잔기를 다룬다. 대체 위치·비표준 잔기·TER 이후 다시 등장하는 사슬 등은 오류로 알린다.
+빠진 원자는 삭제·0 대체하지 않고 존재 상태로 남기며, 해당 계산의 valid와 이유를 기록한다.
+HETATM(물·리간드 등)은 제외한다. 모든 mmCIF·chain break·예외 입력을 공식과 동일하게 처리하는 단계는
+아직 아니며 상세 정책은 8회차에서 확장한다. 외부 알고리즘·가중치의 출처는 [THIRD_PARTY.md](THIRD_PARTY.md)에 있다.
 코드·계획은 AI 보조로 작성했으며 사용자의 실제 학습·이해 완료는 별도 확인한다.

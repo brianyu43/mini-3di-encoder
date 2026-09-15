@@ -12,3 +12,6 @@ references/upstream/
 artifacts/
 results/**/_db/
 results/**/_repeat/
+results/**/_build/
+results/**/_official/
+results/**/_package/

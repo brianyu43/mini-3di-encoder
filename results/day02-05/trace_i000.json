@@ -1,0 +1,54 @@
+{
+  "residue": {
+    "sequence_index_0": 0,
+    "chain": "A",
+    "pdb_residue_number": 1,
+    "insertion_code": "",
+    "residue_name": "MET",
+    "aa": "M",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          27.34,
+          24.43,
+          2.614
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          26.266,
+          25.413,
+          2.842
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          26.913,
+          26.639,
+          3.531
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          25.112,
+          24.88,
+          3.649
+        ]
+      }
+    }
+  },
+  "valid": false,
+  "invalid_reason": "chain_endpoint",
+  "state": 2,
+  "letter": "D",
+  "features": null,
+  "network": null,
+  "partner": null,
+  "official_weights_sha256": "9b8245e2855605b8aeeabf0333d38d43906671bab0af977129fa984e13a61e99"
+}

@@ -1,1 +1,1 @@
-"""Coordinate-based 3Di learning project; day 01 is reference-data preparation only."""
+"""Inspectable coordinate-to-3Di calculations, validated through learning session 05."""

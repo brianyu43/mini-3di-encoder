@@ -1,0 +1,83 @@
+[
+  {
+    "name": "foldseek_version",
+    "argv": [
+      "/Users/xavier/Documents/dev/mini-3di-encoder/tools/foldseek/bin/foldseek",
+      "version"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "compiler_version",
+    "argv": [
+      "/usr/bin/clang++",
+      "--version"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "compile_oracle",
+    "argv": [
+      "/usr/bin/clang++",
+      "-std=c++17",
+      "-O0",
+      "-ffp-contract=off",
+      "-I",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/references/upstream/foldseek/lib",
+      "-I",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/references/upstream/foldseek/lib/3di",
+      "-I",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/references/upstream/foldseek/lib/mmseqs/lib/simde",
+      "-I",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/results/day02-05/_build",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/validation/cpp_oracle.cpp",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/references/upstream/foldseek/lib/3di/structureto3di.cpp",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/references/upstream/foldseek/lib/kerasify/keras_model.cpp",
+      "-o",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/results/day02-05/_build/oracle"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "native_coordinates",
+    "argv": [
+      "/Users/xavier/Documents/dev/mini-3di-encoder/results/day02-05/_build/oracle",
+      "coordinates",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/references/upstream/foldseek/data/encoder_weights_3di.kerasify",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/results/day02-05/native_coordinate_input.txt",
+      "1",
+      "9",
+      "22",
+      "67",
+      "0",
+      "75"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "official_descriptor",
+    "argv": [
+      "/Users/xavier/Documents/dev/mini-3di-encoder/tools/foldseek/bin/foldseek",
+      "structureto3didescriptor",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/data/raw/1UBQ.pdb",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/results/day02-05/_official/descriptor",
+      "--threads",
+      "1",
+      "--chain-name-mode",
+      "1",
+      "--mask-bfactor-threshold",
+      "0"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "native_network",
+    "argv": [
+      "/Users/xavier/Documents/dev/mini-3di-encoder/results/day02-05/_build/oracle",
+      "features",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/references/upstream/foldseek/data/encoder_weights_3di.kerasify",
+      "/Users/xavier/Documents/dev/mini-3di-encoder/results/day02-05/network_probe_input.txt"
+    ],
+    "returncode": 0
+  }
+]

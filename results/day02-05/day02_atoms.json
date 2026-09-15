@@ -1,0 +1,3322 @@
+[
+  {
+    "sequence_index_0": 0,
+    "chain": "A",
+    "pdb_residue_number": 1,
+    "insertion_code": "",
+    "residue_name": "MET",
+    "aa": "M",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          27.34,
+          24.43,
+          2.614
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          26.266,
+          25.413,
+          2.842
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          26.913,
+          26.639,
+          3.531
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          25.112,
+          24.88,
+          3.649
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 1,
+    "chain": "A",
+    "pdb_residue_number": 2,
+    "insertion_code": "",
+    "residue_name": "GLN",
+    "aa": "Q",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          26.335,
+          27.77,
+          3.258
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          26.85,
+          29.021,
+          3.898
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          26.1,
+          29.253,
+          5.202
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          26.733,
+          30.148,
+          2.905
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 2,
+    "chain": "A",
+    "pdb_residue_number": 3,
+    "insertion_code": "",
+    "residue_name": "ILE",
+    "aa": "I",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          26.849,
+          29.656,
+          6.217
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          26.235,
+          30.058,
+          7.497
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          26.882,
+          31.428,
+          7.862
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          26.344,
+          29.05,
+          8.645
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 3,
+    "chain": "A",
+    "pdb_residue_number": 4,
+    "insertion_code": "",
+    "residue_name": "PHE",
+    "aa": "F",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          26.214,
+          32.097,
+          8.771
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          26.772,
+          33.436,
+          9.197
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          27.151,
+          33.362,
+          10.65
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          25.695,
+          34.498,
+          8.946
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 4,
+    "chain": "A",
+    "pdb_residue_number": 5,
+    "insertion_code": "",
+    "residue_name": "VAL",
+    "aa": "V",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          28.26,
+          33.943,
+          11.096
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          28.605,
+          33.965,
+          12.503
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          28.638,
+          35.461,
+          12.9
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          29.963,
+          33.317,
+          12.814
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 5,
+    "chain": "A",
+    "pdb_residue_number": 6,
+    "insertion_code": "",
+    "residue_name": "LYS",
+    "aa": "K",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          27.751,
+          35.867,
+          13.74
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          27.691,
+          37.315,
+          14.143
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          28.469,
+          37.475,
+          15.42
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          26.219,
+          37.684,
+          14.307
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 6,
+    "chain": "A",
+    "pdb_residue_number": 7,
+    "insertion_code": "",
+    "residue_name": "THR",
+    "aa": "T",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          29.426,
+          38.43,
+          15.446
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          30.225,
+          38.643,
+          16.662
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          29.664,
+          39.839,
+          17.434
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          31.744,
+          38.879,
+          16.299
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 7,
+    "chain": "A",
+    "pdb_residue_number": 8,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.132,
+          40.069,
+          18.642
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          29.607,
+          41.18,
+          19.467
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.075,
+          42.538,
+          18.984
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          29.919,
+          40.89,
+          20.938
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 8,
+    "chain": "A",
+    "pdb_residue_number": 9,
+    "insertion_code": "",
+    "residue_name": "THR",
+    "aa": "T",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.991,
+          42.571,
+          17.998
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.422,
+          43.94,
+          17.553
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.755,
+          44.351,
+          16.277
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          32.979,
+          43.918,
+          17.445
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 9,
+    "chain": "A",
+    "pdb_residue_number": 10,
+    "insertion_code": "",
+    "residue_name": "GLY",
+    "aa": "G",
+    "cb_status": "glycine_no_cb",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          29.721,
+          43.673,
+          15.885
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          28.978,
+          43.96,
+          14.678
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          29.604,
+          43.507,
+          13.393
+        ]
+      },
+      "CB": {
+        "present": false,
+        "xyz": null
+      }
+    }
+  },
+  {
+    "sequence_index_0": 10,
+    "chain": "A",
+    "pdb_residue_number": 11,
+    "insertion_code": "",
+    "residue_name": "LYS",
+    "aa": "K",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.563,
+          42.623,
+          13.495
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.191,
+          42.012,
+          12.331
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.459,
+          40.666,
+          12.13
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          32.672,
+          41.717,
+          12.505
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 11,
+    "chain": "A",
+    "pdb_residue_number": 12,
+    "insertion_code": "",
+    "residue_name": "THR",
+    "aa": "T",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.163,
+          40.338,
+          10.886
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          29.542,
+          39.02,
+          10.653
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.494,
+          38.261,
+          9.729
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          28.113,
+          39.049,
+          10.015
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 12,
+    "chain": "A",
+    "pdb_residue_number": 13,
+    "insertion_code": "",
+    "residue_name": "ILE",
+    "aa": "I",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.795,
+          37.015,
+          10.095
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.72,
+          36.289,
+          9.176
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.955,
+          35.211,
+          8.459
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          32.995,
+          35.883,
+          9.934
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 13,
+    "chain": "A",
+    "pdb_residue_number": 14,
+    "insertion_code": "",
+    "residue_name": "THR",
+    "aa": "T",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          31.244,
+          34.986,
+          7.197
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          30.505,
+          33.884,
+          6.512
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          31.409,
+          32.68,
+          6.446
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          30.091,
+          34.393,
+          5.078
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 14,
+    "chain": "A",
+    "pdb_residue_number": 15,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.884,
+          31.485,
+          6.666
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.677,
+          30.275,
+          6.639
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          31.022,
+          29.288,
+          5.665
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          31.562,
+          29.686,
+          8.045
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 15,
+    "chain": "A",
+    "pdb_residue_number": 16,
+    "insertion_code": "",
+    "residue_name": "GLU",
+    "aa": "E",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          31.834,
+          28.412,
+          5.125
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.22,
+          27.341,
+          4.275
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          31.44,
+          26.079,
+          5.08
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          31.827,
+          27.262,
+          2.894
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 16,
+    "chain": "A",
+    "pdb_residue_number": 17,
+    "insertion_code": "",
+    "residue_name": "VAL",
+    "aa": "V",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.31,
+          25.458,
+          5.384
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          30.288,
+          24.245,
+          6.193
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          29.279,
+          23.227,
+          5.641
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          29.903,
+          24.59,
+          7.665
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 17,
+    "chain": "A",
+    "pdb_residue_number": 18,
+    "insertion_code": "",
+    "residue_name": "GLU",
+    "aa": "E",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          29.38,
+          22.057,
+          6.232
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          28.468,
+          20.94,
+          5.98
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          27.819,
+          20.609,
+          7.316
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          29.213,
+          19.697,
+          5.506
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 18,
+    "chain": "A",
+    "pdb_residue_number": 19,
+    "insertion_code": "",
+    "residue_name": "PRO",
+    "aa": "P",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          26.559,
+          20.22,
+          7.288
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          25.829,
+          19.825,
+          8.494
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          26.541,
+          18.732,
+          9.251
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          24.469,
+          19.332,
+          7.952
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 19,
+    "chain": "A",
+    "pdb_residue_number": 20,
+    "insertion_code": "",
+    "residue_name": "SER",
+    "aa": "S",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          27.361,
+          17.959,
+          8.559
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          28.054,
+          16.835,
+          9.21
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          29.258,
+          17.318,
+          9.984
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          28.523,
+          15.82,
+          8.182
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 20,
+    "chain": "A",
+    "pdb_residue_number": 21,
+    "insertion_code": "",
+    "residue_name": "ASP",
+    "aa": "D",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          29.599,
+          18.599,
+          9.828
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          30.796,
+          19.083,
+          10.566
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.491,
+          19.162,
+          12.04
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          31.155,
+          20.515,
+          10.048
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 21,
+    "chain": "A",
+    "pdb_residue_number": 22,
+    "insertion_code": "",
+    "residue_name": "THR",
+    "aa": "T",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          31.51,
+          18.936,
+          12.852
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.398,
+          19.064,
+          14.286
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          31.593,
+          20.553,
+          14.655
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          32.492,
+          18.193,
+          14.995
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 22,
+    "chain": "A",
+    "pdb_residue_number": 23,
+    "insertion_code": "",
+    "residue_name": "ILE",
+    "aa": "I",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          31.113,
+          20.863,
+          15.86
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.288,
+          22.201,
+          16.417
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          32.776,
+          22.519,
+          16.577
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          30.52,
+          22.3,
+          17.764
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 23,
+    "chain": "A",
+    "pdb_residue_number": 24,
+    "insertion_code": "",
+    "residue_name": "GLU",
+    "aa": "E",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          33.548,
+          21.526,
+          16.95
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          35.031,
+          21.722,
+          17.069
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          35.615,
+          22.19,
+          15.759
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          35.667,
+          20.383,
+          17.447
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 24,
+    "chain": "A",
+    "pdb_residue_number": 25,
+    "insertion_code": "",
+    "residue_name": "ASN",
+    "aa": "N",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          35.139,
+          21.624,
+          14.662
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          35.59,
+          21.945,
+          13.302
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          35.238,
+          23.382,
+          12.92
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          35.064,
+          20.957,
+          12.255
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 25,
+    "chain": "A",
+    "pdb_residue_number": 26,
+    "insertion_code": "",
+    "residue_name": "VAL",
+    "aa": "V",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          34.007,
+          23.745,
+          13.25
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          33.533,
+          25.097,
+          12.978
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          34.441,
+          26.099,
+          13.684
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          32.06,
+          25.257,
+          13.364
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 26,
+    "chain": "A",
+    "pdb_residue_number": 27,
+    "insertion_code": "",
+    "residue_name": "LYS",
+    "aa": "K",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          34.734,
+          25.822,
+          14.949
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          35.596,
+          26.715,
+          15.736
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          36.975,
+          26.826,
+          15.107
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          35.715,
+          26.203,
+          17.172
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 27,
+    "chain": "A",
+    "pdb_residue_number": 28,
+    "insertion_code": "",
+    "residue_name": "ALA",
+    "aa": "A",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          37.499,
+          25.743,
+          14.571
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          38.794,
+          25.761,
+          13.88
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          38.728,
+          26.591,
+          12.611
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          39.285,
+          24.336,
+          13.566
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 28,
+    "chain": "A",
+    "pdb_residue_number": 29,
+    "insertion_code": "",
+    "residue_name": "LYS",
+    "aa": "K",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          37.633,
+          26.543,
+          11.867
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          37.471,
+          27.391,
+          10.668
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          37.441,
+          28.882,
+          11.052
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          36.193,
+          27.058,
+          9.911
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 29,
+    "chain": "A",
+    "pdb_residue_number": 30,
+    "insertion_code": "",
+    "residue_name": "ILE",
+    "aa": "I",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          36.811,
+          29.17,
+          12.192
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          36.731,
+          30.57,
+          12.645
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          38.148,
+          30.981,
+          13.069
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          35.708,
+          30.776,
+          13.806
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 30,
+    "chain": "A",
+    "pdb_residue_number": 31,
+    "insertion_code": "",
+    "residue_name": "GLN",
+    "aa": "Q",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          38.883,
+          30.11,
+          13.713
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          40.269,
+          30.508,
+          14.115
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          41.092,
+          30.808,
+          12.851
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          40.996,
+          29.399,
+          14.865
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 31,
+    "chain": "A",
+    "pdb_residue_number": 32,
+    "insertion_code": "",
+    "residue_name": "ASP",
+    "aa": "D",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          41.001,
+          29.878,
+          11.931
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          41.718,
+          30.022,
+          10.643
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          41.399,
+          31.338,
+          9.967
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          41.398,
+          28.78,
+          9.81
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 32,
+    "chain": "A",
+    "pdb_residue_number": 33,
+    "insertion_code": "",
+    "residue_name": "LYS",
+    "aa": "K",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          40.117,
+          31.75,
+          9.988
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          39.808,
+          32.994,
+          9.233
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          39.837,
+          34.271,
+          9.995
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          38.615,
+          32.801,
+          8.32
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 33,
+    "chain": "A",
+    "pdb_residue_number": 34,
+    "insertion_code": "",
+    "residue_name": "GLU",
+    "aa": "E",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          39.655,
+          34.335,
+          11.285
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          39.676,
+          35.547,
+          12.072
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          40.675,
+          35.527,
+          13.2
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          38.29,
+          35.814,
+          12.698
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 34,
+    "chain": "A",
+    "pdb_residue_number": 35,
+    "insertion_code": "",
+    "residue_name": "GLY",
+    "aa": "G",
+    "cb_status": "glycine_no_cb",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          41.317,
+          34.393,
+          13.432
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          42.345,
+          34.269,
+          14.431
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          41.949,
+          34.076,
+          15.842
+        ]
+      },
+      "CB": {
+        "present": false,
+        "xyz": null
+      }
+    }
+  },
+  {
+    "sequence_index_0": 35,
+    "chain": "A",
+    "pdb_residue_number": 36,
+    "insertion_code": "",
+    "residue_name": "ILE",
+    "aa": "I",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          40.642,
+          33.916,
+          16.112
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          40.226,
+          33.716,
+          17.509
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          40.449,
+          32.278,
+          17.945
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          38.693,
+          34.106,
+          17.595
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 36,
+    "chain": "A",
+    "pdb_residue_number": 37,
+    "insertion_code": "",
+    "residue_name": "PRO",
+    "aa": "P",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          41.189,
+          32.085,
+          19.031
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          41.461,
+          30.751,
+          19.594
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          40.168,
+          30.026,
+          19.918
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          42.195,
+          31.142,
+          20.913
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 37,
+    "chain": "A",
+    "pdb_residue_number": 38,
+    "insertion_code": "",
+    "residue_name": "PRO",
+    "aa": "P",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          40.059,
+          28.758,
+          19.607
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          38.817,
+          28.02,
+          19.889
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          38.421,
+          28.048,
+          21.341
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          39.09,
+          26.629,
+          19.325
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 38,
+    "chain": "A",
+    "pdb_residue_number": 39,
+    "insertion_code": "",
+    "residue_name": "ASP",
+    "aa": "D",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          39.374,
+          28.09,
+          22.24
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          39.063,
+          28.063,
+          23.695
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          38.365,
+          29.335,
+          24.159
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          40.34,
+          27.692,
+          24.468
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 39,
+    "chain": "A",
+    "pdb_residue_number": 40,
+    "insertion_code": "",
+    "residue_name": "GLN",
+    "aa": "Q",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          38.419,
+          30.373,
+          23.341
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          37.738,
+          31.637,
+          23.712
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          36.334,
+          31.742,
+          23.087
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          38.528,
+          32.854,
+          23.182
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 40,
+    "chain": "A",
+    "pdb_residue_number": 41,
+    "insertion_code": "",
+    "residue_name": "GLN",
+    "aa": "Q",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          36.0,
+          30.86,
+          22.172
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          34.738,
+          30.875,
+          21.473
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          33.589,
+          30.189,
+          22.181
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          34.876,
+          30.237,
+          20.066
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 41,
+    "chain": "A",
+    "pdb_residue_number": 42,
+    "insertion_code": "",
+    "residue_name": "ARG",
+    "aa": "R",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          32.478,
+          30.917,
+          22.269
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.2,
+          30.329,
+          22.78
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.21,
+          30.509,
+          21.65
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          30.847,
+          30.931,
+          24.118
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 42,
+    "chain": "A",
+    "pdb_residue_number": 43,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          29.694,
+          29.436,
+          21.054
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          28.762,
+          29.573,
+          19.906
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          27.331,
+          29.317,
+          20.364
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          29.151,
+          28.655,
+          18.755
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 43,
+    "chain": "A",
+    "pdb_residue_number": 44,
+    "insertion_code": "",
+    "residue_name": "ILE",
+    "aa": "I",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          26.436,
+          30.232,
+          20.004
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          25.034,
+          30.17,
+          20.401
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          24.101,
+          30.149,
+          19.196
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          24.639,
+          31.426,
+          21.286
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 44,
+    "chain": "A",
+    "pdb_residue_number": 45,
+    "insertion_code": "",
+    "residue_name": "PHE",
+    "aa": "F",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          23.141,
+          29.187,
+          19.241
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          22.126,
+          29.062,
+          18.183
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          20.835,
+          28.629,
+          18.904
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          22.494,
+          28.057,
+          17.109
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 45,
+    "chain": "A",
+    "pdb_residue_number": 46,
+    "insertion_code": "",
+    "residue_name": "ALA",
+    "aa": "A",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          19.81,
+          29.378,
+          18.578
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          18.443,
+          29.143,
+          19.083
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          18.453,
+          28.941,
+          20.591
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          17.864,
+          27.977,
+          18.346
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 46,
+    "chain": "A",
+    "pdb_residue_number": 47,
+    "insertion_code": "",
+    "residue_name": "GLY",
+    "aa": "G",
+    "cb_status": "glycine_no_cb",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          19.172,
+          29.808,
+          21.243
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          19.399,
+          29.894,
+          22.655
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          20.083,
+          28.729,
+          23.321
+        ]
+      },
+      "CB": {
+        "present": false,
+        "xyz": null
+      }
+    }
+  },
+  {
+    "sequence_index_0": 47,
+    "chain": "A",
+    "pdb_residue_number": 48,
+    "insertion_code": "",
+    "residue_name": "LYS",
+    "aa": "K",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          20.801,
+          27.931,
+          22.578
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          21.55,
+          26.796,
+          23.133
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          23.046,
+          27.087,
+          22.913
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          21.242,
+          25.519,
+          22.391
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 48,
+    "chain": "A",
+    "pdb_residue_number": 49,
+    "insertion_code": "",
+    "residue_name": "GLN",
+    "aa": "Q",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          23.88,
+          26.727,
+          23.851
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          25.349,
+          26.872,
+          23.643
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          25.743,
+          25.586,
+          22.922
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          26.07,
+          27.025,
+          24.96
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 49,
+    "chain": "A",
+    "pdb_residue_number": 50,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          26.465,
+          25.689,
+          21.833
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          26.826,
+          24.521,
+          21.012
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          27.994,
+          23.781,
+          21.643
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          27.043,
+          24.992,
+          19.571
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 50,
+    "chain": "A",
+    "pdb_residue_number": 51,
+    "insertion_code": "",
+    "residue_name": "GLU",
+    "aa": "E",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          27.942,
+          22.448,
+          21.648
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          29.015,
+          21.657,
+          22.288
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          29.942,
+          21.106,
+          21.24
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          28.348,
+          20.54,
+          23.066
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 51,
+    "chain": "A",
+    "pdb_residue_number": 52,
+    "insertion_code": "",
+    "residue_name": "ASP",
+    "aa": "D",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          31.233,
+          21.09,
+          21.459
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          32.262,
+          20.67,
+          20.514
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          32.128,
+          19.364,
+          19.75
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          33.638,
+          20.716,
+          21.242
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 52,
+    "chain": "A",
+    "pdb_residue_number": 53,
+    "insertion_code": "",
+    "residue_name": "GLY",
+    "aa": "G",
+    "cb_status": "glycine_no_cb",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          31.697,
+          18.311,
+          20.406
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          31.568,
+          16.962,
+          19.825
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.32,
+          16.698,
+          19.051
+        ]
+      },
+      "CB": {
+        "present": false,
+        "xyz": null
+      }
+    }
+  },
+  {
+    "sequence_index_0": 53,
+    "chain": "A",
+    "pdb_residue_number": 54,
+    "insertion_code": "",
+    "residue_name": "ARG",
+    "aa": "R",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          29.34,
+          17.594,
+          19.076
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          28.108,
+          17.439,
+          18.276
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          28.375,
+          17.999,
+          16.887
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          26.926,
+          18.191,
+          18.892
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 54,
+    "chain": "A",
+    "pdb_residue_number": 55,
+    "insertion_code": "",
+    "residue_name": "THR",
+    "aa": "T",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          27.51,
+          17.689,
+          15.954
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          27.574,
+          18.192,
+          14.563
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          26.482,
+          19.28,
+          14.432
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          27.299,
+          17.055,
+          13.533
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 55,
+    "chain": "A",
+    "pdb_residue_number": 56,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          26.585,
+          20.063,
+          13.378
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          25.594,
+          21.109,
+          13.072
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          24.241,
+          20.436,
+          12.857
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          26.084,
+          21.888,
+          11.833
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 56,
+    "chain": "A",
+    "pdb_residue_number": 57,
+    "insertion_code": "",
+    "residue_name": "SER",
+    "aa": "S",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          24.24,
+          19.233,
+          12.246
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          22.924,
+          18.583,
+          12.025
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          22.229,
+          18.244,
+          13.325
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          23.059,
+          17.326,
+          11.154
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 57,
+    "chain": "A",
+    "pdb_residue_number": 58,
+    "insertion_code": "",
+    "residue_name": "ASP",
+    "aa": "D",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          22.997,
+          17.978,
+          14.366
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          22.418,
+          17.638,
+          15.693
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          21.46,
+          18.737,
+          16.163
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          23.461,
+          17.331,
+          16.741
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 58,
+    "chain": "A",
+    "pdb_residue_number": 59,
+    "insertion_code": "",
+    "residue_name": "TYR",
+    "aa": "Y",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          21.846,
+          19.954,
+          15.905
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          21.079,
+          21.149,
+          16.251
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          20.142,
+          21.59,
+          15.149
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          22.085,
+          22.254,
+          16.581
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 59,
+    "chain": "A",
+    "pdb_residue_number": 60,
+    "insertion_code": "",
+    "residue_name": "ASN",
+    "aa": "N",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          19.993,
+          20.884,
+          14.049
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          19.065,
+          21.352,
+          12.999
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          19.442,
+          22.745,
+          12.51
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          17.586,
+          21.282,
+          13.461
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 60,
+    "chain": "A",
+    "pdb_residue_number": 61,
+    "insertion_code": "",
+    "residue_name": "ILE",
+    "aa": "I",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          20.717,
+          22.964,
+          12.26
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          21.184,
+          24.263,
+          11.69
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          21.11,
+          24.111,
+          10.173
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          22.65,
+          24.516,
+          12.172
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 61,
+    "chain": "A",
+    "pdb_residue_number": 62,
+    "insertion_code": "",
+    "residue_name": "GLN",
+    "aa": "Q",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          20.291,
+          24.875,
+          9.507
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          20.081,
+          24.773,
+          8.033
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          20.822,
+          25.914,
+          7.332
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          18.599,
+          24.736,
+          7.727
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 62,
+    "chain": "A",
+    "pdb_residue_number": 63,
+    "insertion_code": "",
+    "residue_name": "LYS",
+    "aa": "K",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          20.924,
+          25.862,
+          6.006
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          21.656,
+          26.847,
+          5.24
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          21.127,
+          28.24,
+          5.574
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          21.631,
+          26.642,
+          3.731
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 63,
+    "chain": "A",
+    "pdb_residue_number": 64,
+    "insertion_code": "",
+    "residue_name": "GLU",
+    "aa": "E",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          22.099,
+          29.163,
+          5.605
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          21.907,
+          30.563,
+          5.881
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          21.466,
+          30.953,
+          7.261
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          21.023,
+          31.223,
+          4.784
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 64,
+    "chain": "A",
+    "pdb_residue_number": 65,
+    "insertion_code": "",
+    "residue_name": "SER",
+    "aa": "S",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          21.674,
+          30.034,
+          8.191
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          21.419,
+          30.253,
+          9.62
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          22.504,
+          31.228,
+          10.136
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          21.637,
+          28.923,
+          10.353
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 65,
+    "chain": "A",
+    "pdb_residue_number": 66,
+    "insertion_code": "",
+    "residue_name": "THR",
+    "aa": "T",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          22.241,
+          31.873,
+          11.241
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          23.212,
+          32.762,
+          11.891
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          23.509,
+          32.224,
+          13.29
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          22.699,
+          34.267,
+          11.985
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 66,
+    "chain": "A",
+    "pdb_residue_number": 67,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          24.79,
+          32.021,
+          13.618
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          25.149,
+          31.609,
+          14.98
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          25.698,
+          32.876,
+          15.669
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          26.31,
+          30.594,
+          14.967
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 67,
+    "chain": "A",
+    "pdb_residue_number": 68,
+    "insertion_code": "",
+    "residue_name": "HIS",
+    "aa": "H",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          25.621,
+          32.945,
+          16.95
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          26.179,
+          34.127,
+          17.65
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          27.475,
+          33.651,
+          18.304
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          25.214,
+          34.565,
+          18.78
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 68,
+    "chain": "A",
+    "pdb_residue_number": 69,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          28.525,
+          34.447,
+          18.189
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          29.801,
+          34.145,
+          18.829
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          30.052,
+          35.042,
+          20.004
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          30.925,
+          34.304,
+          17.753
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 69,
+    "chain": "A",
+    "pdb_residue_number": 70,
+    "insertion_code": "",
+    "residue_name": "VAL",
+    "aa": "V",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          30.124,
+          34.533,
+          21.191
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          30.479,
+          35.369,
+          22.374
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          31.901,
+          34.91,
+          22.728
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          29.472,
+          35.181,
+          23.498
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 70,
+    "chain": "A",
+    "pdb_residue_number": 71,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          32.763,
+          35.831,
+          23.09
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          34.145,
+          35.472,
+          23.481
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          34.239,
+          35.353,
+          24.979
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          35.114,
+          36.564,
+          22.907
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 71,
+    "chain": "A",
+    "pdb_residue_number": 72,
+    "insertion_code": "",
+    "residue_name": "ARG",
+    "aa": "R",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          34.93,
+          34.384,
+          25.451
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          35.161,
+          34.174,
+          26.896
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          36.671,
+          34.296,
+          27.089
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          34.717,
+          32.76,
+          27.286
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 72,
+    "chain": "A",
+    "pdb_residue_number": 73,
+    "insertion_code": "",
+    "residue_name": "LEU",
+    "aa": "L",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          37.197,
+          35.397,
+          27.513
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          38.668,
+          35.502,
+          27.68
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          39.076,
+          34.931,
+          29.031
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          39.08,
+          36.941,
+          27.406
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 73,
+    "chain": "A",
+    "pdb_residue_number": 74,
+    "insertion_code": "",
+    "residue_name": "ARG",
+    "aa": "R",
+    "cb_status": "observed",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          40.294,
+          34.412,
+          29.045
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          40.873,
+          33.802,
+          30.253
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          41.765,
+          34.829,
+          30.944
+        ]
+      },
+      "CB": {
+        "present": true,
+        "xyz": [
+          41.651,
+          32.529,
+          29.923
+        ]
+      }
+    }
+  },
+  {
+    "sequence_index_0": 74,
+    "chain": "A",
+    "pdb_residue_number": 75,
+    "insertion_code": "",
+    "residue_name": "GLY",
+    "aa": "G",
+    "cb_status": "glycine_no_cb",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          41.165,
+          35.531,
+          31.898
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          41.845,
+          36.55,
+          32.686
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          41.251,
+          37.941,
+          32.588
+        ]
+      },
+      "CB": {
+        "present": false,
+        "xyz": null
+      }
+    }
+  },
+  {
+    "sequence_index_0": 75,
+    "chain": "A",
+    "pdb_residue_number": 76,
+    "insertion_code": "",
+    "residue_name": "GLY",
+    "aa": "G",
+    "cb_status": "glycine_no_cb",
+    "backbone_valid": true,
+    "atoms": {
+      "N": {
+        "present": true,
+        "xyz": [
+          40.946,
+          38.472,
+          33.757
+        ]
+      },
+      "CA": {
+        "present": true,
+        "xyz": [
+          40.373,
+          39.813,
+          33.944
+        ]
+      },
+      "C": {
+        "present": true,
+        "xyz": [
+          40.031,
+          39.992,
+          35.432
+        ]
+      },
+      "CB": {
+        "present": false,
+        "xyz": null
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+{"valid": true, "state": 18, "letter": "W", "output": "/Users/xavier/Documents/dev/mini-3di-encoder/results/day05-validation/installed_trace.json"}

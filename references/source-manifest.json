@@ -120,6 +120,136 @@
       "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/extract_pdb_features.py",
       "bytes": 8246,
       "sha256": "1098f27b08e4d5dfabbcb828d58369e2d64d866983ded78aa0bb698829e41f8a"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/kerasify/keras_model.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/kerasify/keras_model.cpp",
+      "bytes": 21091,
+      "sha256": "f5326b5051dcbe20d474fffbe6eb99120aaabd2f9505f7843946425f743f3037",
+      "retrieved_at_utc": "2026-09-15T08:32:57.803403+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/kerasify/keras_model.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/kerasify/keras_model.h",
+      "bytes": 12762,
+      "sha256": "931b126f1829635cbab258703a83e115732a7f21573c9fbabdcfd25d72a0fcd9",
+      "retrieved_at_utc": "2026-09-15T08:32:58.066268+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/kerasify/LICENSE",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/kerasify/LICENSE",
+      "bytes": 238748,
+      "sha256": "a725f032a66a2ba21cb0a14ca2e754fc18c7ace6c5fe5a6440c8edf0d0452ba7",
+      "retrieved_at_utc": "2026-09-15T08:32:58.435353+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/src/strucclustutils/GemmiWrapper.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/src/strucclustutils/GemmiWrapper.cpp",
+      "bytes": 21039,
+      "sha256": "b4de2660c1deb291d9a53f41c3bcfe266e2a0f218a18ac8bc158ad1b5554724b",
+      "retrieved_at_utc": "2026-09-15T08:33:18.644056+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/src/commons/BaseMatrix.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/src/commons/BaseMatrix.cpp",
+      "bytes": 7041,
+      "sha256": "bff446665584738a9b6bfb298697629ba85737bf988ccd2bb5f430bd48caa17e",
+      "retrieved_at_utc": "2026-09-15T08:33:19.270451+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-common.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-common.h",
+      "bytes": 41599,
+      "sha256": "b74ffa4ab790ee7a62eed210cf90124e1d62d41da84421324552360dac1e6d65",
+      "retrieved_at_utc": "2026-09-15T08:34:32.082305+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/hedley.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/hedley.h",
+      "bytes": 77513,
+      "sha256": "e1f06b9eb815d2911ed96fc3da121b11c3edc4546d745cc66d1576e7da94e916",
+      "retrieved_at_utc": "2026-09-15T08:34:32.339804+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-detect-clang.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-detect-clang.h",
+      "bytes": 5054,
+      "sha256": "7687eb7783e7785d95a73bebe9e5630027d1adbed4fec5860d123bc9b8856e32",
+      "retrieved_at_utc": "2026-09-15T08:34:32.620089+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-arch.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-arch.h",
+      "bytes": 17620,
+      "sha256": "7a1b8c783b16470686bd46474a1ab993b69ee7391facbf7794562ccfe1fa5536",
+      "retrieved_at_utc": "2026-09-15T08:34:32.918184+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-features.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-features.h",
+      "bytes": 25041,
+      "sha256": "a3eac717095fc39754c7529b06255679d02dda7f5d6d83303f0429353ca5858d",
+      "retrieved_at_utc": "2026-09-15T08:34:33.233998+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-diagnostic.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-diagnostic.h",
+      "bytes": 20930,
+      "sha256": "96f3d238299a9e1e68050f54557e8bc3a6942422dcd993a5143e5285470cbd82",
+      "retrieved_at_utc": "2026-09-15T08:34:33.491730+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-math.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-math.h",
+      "bytes": 58922,
+      "sha256": "972f0a0c919f477ab79cac0be0425d7fd2ff2ec4d17af90a2a6fbb6eb37e0742",
+      "retrieved_at_utc": "2026-09-15T08:34:33.858101+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-constify.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-constify.h",
+      "bytes": 18585,
+      "sha256": "08e029bce27502966e7ba0a0886e17aea3ee997f9ec25f962529364d7c7d711d",
+      "retrieved_at_utc": "2026-09-15T08:34:34.162253+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/simde-align.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/simde-align.h",
+      "bytes": 18009,
+      "sha256": "5ee83f398564dfcc690464640ad31ad4cb87a0116de0d78e6acff57ddf5a72ea",
+      "retrieved_at_utc": "2026-09-15T08:34:34.443007+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/check.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/check.h",
+      "bytes": 9846,
+      "sha256": "f4507972e86c6c02a6e5f33b97e76c7315dcb0d9ec4d7db958f6ca932814cc06",
+      "retrieved_at_utc": "2026-09-15T08:34:34.691610+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/lib/simde/simde/debug-trap.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/lib/simde/simde/debug-trap.h",
+      "bytes": 3119,
+      "sha256": "1bb403589f89168ca1ef582d3f8715c7eb37db30e762e1342c45a1950f197953",
+      "retrieved_at_utc": "2026-09-15T08:34:34.950734+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/src/commons/Util.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/src/commons/Util.h",
+      "bytes": 11848,
+      "sha256": "11d8468bbf860c1dc86be1612e54e52f1a421bf0f966db9b43ffee64f326ea70"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/src/commons/Debug.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/src/commons/Debug.h",
+      "bytes": 10362,
+      "sha256": "ff8eb9cc691e73da7633e04304c6ff0b9907e8a7024cca8f344173d078b4b4ea"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/mmseqs/src/commons/Util.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/mmseqs/src/commons/Util.cpp",
+      "bytes": 23294,
+      "sha256": "ff4076cd0d39ebb47a5fd46fc560a8c9bb1ecb818d70a424c3b91be6e6686de7"
     }
   ]
 }

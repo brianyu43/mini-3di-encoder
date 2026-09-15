@@ -1,0 +1,9 @@
+Processing /Users/xavier/Documents/dev/mini-3di-encoder
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mini-3di-encoder
+  Building wheel for mini-3di-encoder (pyproject.toml): started
+  Building wheel for mini-3di-encoder (pyproject.toml): finished with status 'done'
+  Created wheel for mini-3di-encoder: filename=mini_3di_encoder-0.1.0.dev1-py3-none-any.whl size=39363 sha256=d04e105c13148bc4b5a56c128cfae20f3ac2a3f4350b95e1c284b9a89b941471
+  Stored in directory: /private/var/folders/4b/fxy1bxrj2m7dxl_3358k4dn00000gn/T/pip-ephem-wheel-cache-99o6u8wi/wheels/c5/5b/fd/c1e95a726d3d7a627a0738beb068270f7f67abfcbc70f61e3a
+Successfully built mini-3di-encoder
