@@ -1,0 +1,8 @@
+convert2fasta results/day01/_db/db_ss results/day01/official_3di.fasta 
+
+MMseqs Version:	941cd33ff0771cd2e3f144e3293e22a2b87e9fda
+Use header DB	false
+Verbosity    	3
+
+Start writing file to results/day01/official_3di.fasta
+Time for processing: 0h 0m 0s 0ms

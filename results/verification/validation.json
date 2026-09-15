@@ -1,0 +1,78 @@
+{
+  "source_hashes_verified": 16,
+  "raw_ca_rows_verified": 76,
+  "repeated_outputs_byte_identical": true,
+  "scope": "Day 01 preparation only; no independent encoder exists yet.",
+  "checks": [
+    {
+      "name": "pytest",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "ruff",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/.venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "format",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/.venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "dependencies",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/.venv/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "repeat",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/.venv/bin/python",
+        "-m",
+        "mini3di_encoder.day01",
+        "--structure",
+        "data/raw/1UBQ.pdb",
+        "--chain",
+        "A",
+        "--foldseek",
+        "tools/foldseek/bin/foldseek",
+        "--out",
+        "/Users/xavier/Documents/dev/mini-3di-encoder/results/verification/_repeat"
+      ],
+      "returncode": 0
+    }
+  ],
+  "validated_files": {
+    "src/mini3di_encoder/__init__.py": "ef9a18ba138e381317e736a462f7f237bcafee458e10be0568b51ade3d68c039",
+    "src/mini3di_encoder/day01.py": "06d6185ba3f01122836b3d5b19e987d3f48d1cc1daffa772e42c8626dc8445ad",
+    "src/mini3di_encoder/structures.py": "011d0653bad5e1c811ce3bdfa5d82b656b17c69c340d66a0d7ed847871204123",
+    "tests/test_day01.py": "ce1e24ba0210420771778ddb948f1667c25cb62fbc9dd195c6beeb58bb71866f",
+    "tests/test_structures.py": "a3edb83ef3ab773e522da6c652dc54ed55b3593f09b3e3288687827c28bc359c",
+    "scripts/verify_day01.py": "d20201e4721c9badae4914d91d0dfd0a11f51d025604ecb8062c9482a9e4ace4",
+    "pyproject.toml": "f68c554ba2512f3d520fd2a4cad068346fa01f2ea390dcfbee856eb41eb858ce",
+    "requirements-dev.lock.txt": "434868cc80af1ae829f25814cebde9b9d79821a88f3b651bfc52deecddd64703"
+  }
+}

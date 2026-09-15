@@ -1,0 +1,65 @@
+{
+  "commands": [
+    {
+      "name": "version",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/tools/foldseek/bin/foldseek",
+        "version"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/mini-3di-encoder",
+      "returncode": 0,
+      "wall_seconds": 0.00897341687232256
+    },
+    {
+      "name": "createdb",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/tools/foldseek/bin/foldseek",
+        "createdb",
+        "/Users/xavier/Documents/dev/mini-3di-encoder/data/raw/1UBQ.pdb",
+        "results/day01/_db/db",
+        "--threads",
+        "1",
+        "--chain-name-mode",
+        "1",
+        "--db-extraction-mode",
+        "0",
+        "--mask-bfactor-threshold",
+        "0",
+        "--coord-store-mode",
+        "1"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/mini-3di-encoder",
+      "returncode": 0,
+      "wall_seconds": 0.011869000038132071
+    },
+    {
+      "name": "aa_fasta",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/tools/foldseek/bin/foldseek",
+        "convert2fasta",
+        "results/day01/_db/db",
+        "results/day01/official_aa.fasta"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/mini-3di-encoder",
+      "returncode": 0,
+      "wall_seconds": 0.008809250080958009
+    },
+    {
+      "name": "three_di_fasta",
+      "argv": [
+        "/Users/xavier/Documents/dev/mini-3di-encoder/tools/foldseek/bin/foldseek",
+        "convert2fasta",
+        "results/day01/_db/db_ss",
+        "results/day01/official_3di.fasta"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/mini-3di-encoder",
+      "returncode": 0,
+      "wall_seconds": 0.007930417079478502
+    }
+  ],
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

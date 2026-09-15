@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+.DS_Store
+tools/
+references/upstream/
+artifacts/
+results/**/_db/
+results/**/_repeat/

@@ -1,0 +1,22 @@
+{
+  "session": 1,
+  "structure": "/Users/xavier/Documents/dev/mini-3di-encoder/data/raw/1UBQ.pdb",
+  "structure_sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+  "chain": "A",
+  "official_record_id": "1UBQ_A",
+  "residue_count": 76,
+  "official_aa_length": 76,
+  "official_3di_length": 76,
+  "aa_exact_match": true,
+  "ca_coordinates_finite": true,
+  "own_encoder_implemented": false,
+  "three_di_validity_mask_implemented": false,
+  "state_agreement_with_own_encoder": null,
+  "header_policy": "Verified matching AA/3Di/header DB keys, then shared AA headers.",
+  "limitation": "CA presence is not a 3Di validity mask. Raw D can be valid or invalid.",
+  "output_sha256": {
+    "official_aa.fasta": "44bee567c8bbe6316d953fd263b16989692ef59a03ca6a13f0b7eb4df60eccbd",
+    "official_3di.fasta": "a29c7c4cdb643afecdc11eac09f3934f4561844af308d06e599b47ef90e9b5b9",
+    "residues.tsv": "e5d53c9d931d9cded7d5a2f8d72b7830e53390e49ad2817b18cabe9105a20f5e"
+  }
+}

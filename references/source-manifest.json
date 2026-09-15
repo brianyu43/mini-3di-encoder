@@ -1,0 +1,125 @@
+{
+  "foldseek_commit": "941cd33ff0771cd2e3f144e3293e22a2b87e9fda",
+  "analysis_commit": "654100b11242e581f9e6d43798b07a778903862e",
+  "files": [
+    {
+      "path": "data/raw/1UBQ.pdb",
+      "url": "https://files.rcsb.org/download/1UBQ.pdb",
+      "resolved_url": "https://files.rcsb.org/download/1UBQ.pdb",
+      "bytes": 78570,
+      "sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+      "retrieved_at_utc": "2026-09-15T08:23:37.435625+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/LICENSE.md",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/LICENSE.md",
+      "bytes": 35142,
+      "sha256": "d62f065830aa3739cc031156b9690805c7b2e811b4a178c8b4acd8725d561c94",
+      "retrieved_at_utc": "2026-09-15T08:23:37.733569+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/3di/structureto3di.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/3di/structureto3di.cpp",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/3di/structureto3di.cpp",
+      "bytes": 9525,
+      "sha256": "cb86fa0c7c67d855e6d9bf1ef29e02a9e55708fe6fa1b727a69c9de14480f33e",
+      "retrieved_at_utc": "2026-09-15T08:23:37.998109+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/3di/structureto3di.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/3di/structureto3di.h",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/3di/structureto3di.h",
+      "bytes": 4174,
+      "sha256": "0c2b80e1ca8ef176e4f1c11654429dce3d53e8bc7210450abd8a2154f06bb353",
+      "retrieved_at_utc": "2026-09-15T08:23:38.277483+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/src/strucclustutils/structureto3didescriptor.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/src/strucclustutils/structureto3didescriptor.cpp",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/src/strucclustutils/structureto3didescriptor.cpp",
+      "bytes": 6905,
+      "sha256": "0e31199fd66fe65f53c16e18aea214fddcb6caa6650d07639f5da5221240089d",
+      "retrieved_at_utc": "2026-09-15T08:23:38.685212+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/src/strucclustutils/structcreatedb.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/src/strucclustutils/structcreatedb.cpp",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/src/strucclustutils/structcreatedb.cpp",
+      "bytes": 67269,
+      "sha256": "311767760e48a59fa39548d97d3795c2d499b78e95a32f2bbab1c2546e7dbdb8",
+      "retrieved_at_utc": "2026-09-15T08:23:38.955440+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/data/encoder_weights_3di.kerasify",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/data/encoder_weights_3di.kerasify",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/data/encoder_weights_3di.kerasify",
+      "bytes": 1032,
+      "sha256": "9b8245e2855605b8aeeabf0333d38d43906671bab0af977129fa984e13a61e99",
+      "retrieved_at_utc": "2026-09-15T08:23:39.346919+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek/data/mat3di.out",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/data/mat3di.out",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/data/mat3di.out",
+      "bytes": 2192,
+      "sha256": "63cdc9b17de248c790e934ffb7739d067a59c7c6cdb73a2c9c99de63e662b557",
+      "retrieved_at_utc": "2026-09-15T08:23:39.658328+00:00"
+    },
+    {
+      "path": "references/upstream/analysis-commit.json",
+      "url": "https://api.github.com/repos/steineggerlab/foldseek-analysis/commits?per_page=1",
+      "resolved_url": "https://api.github.com/repos/steineggerlab/foldseek-analysis/commits?per_page=1",
+      "bytes": 4406,
+      "sha256": "de95b9f858d2322b83ee4030819cb555d0235f4e53d7e37332e7f97132191a77",
+      "retrieved_at_utc": "2026-09-15T08:23:40.026807+00:00"
+    },
+    {
+      "path": "references/upstream/analysis-tree.json",
+      "url": "https://api.github.com/repos/steineggerlab/foldseek-analysis/git/trees/654100b11242e581f9e6d43798b07a778903862e?recursive=1",
+      "resolved_url": "https://api.github.com/repos/steineggerlab/foldseek-analysis/git/trees/654100b11242e581f9e6d43798b07a778903862e?recursive=1",
+      "bytes": 69901,
+      "sha256": "90644edd36a320b4df88535d5b6562844277fb29b544e7137f84fae9c7bf8ef4",
+      "retrieved_at_utc": "2026-09-15T08:23:40.394236+00:00"
+    },
+    {
+      "path": "references/upstream/foldseek-analysis/training/README.md",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/README.md",
+      "bytes": 688,
+      "sha256": "22cb8e3d51fcafb3fb9a492766a9abecfce55b5885ca93bd934898ab2bc35fa2",
+      "retrieved_at_utc": "2026-09-15T08:23:40.776661+00:00"
+    },
+    {
+      "path": "tools/foldseek/bin/foldseek",
+      "copied_from": "/Users/xavier/Documents/dev/mini-3di-search/artifacts/m3-foldseek-10-941cd33/foldseek/bin/foldseek",
+      "upstream_commit": "941cd33ff0771cd2e3f144e3293e22a2b87e9fda",
+      "bytes": 41955896,
+      "sha256": "1b446bbece6b01cf0a50b28419f353522204f44a10a5872462f8ad400d9aadab"
+    },
+    {
+      "path": "references/upstream/foldseek-analysis/training/train_vqvae.py",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/train_vqvae.py",
+      "bytes": 5415,
+      "sha256": "083f1d0cd943d7cc4fe82a79e374a35ca39e91f8b9fe68175724d4711e6505d2"
+    },
+    {
+      "path": "references/upstream/foldseek-analysis/training/create_vqvae_training_data.py",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/create_vqvae_training_data.py",
+      "bytes": 2962,
+      "sha256": "9e193644cc376415bb79f7c34cff580f2e37a636526add90be5a9a2486218940"
+    },
+    {
+      "path": "references/upstream/foldseek-analysis/training/create_submat.py",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/create_submat.py",
+      "bytes": 6780,
+      "sha256": "4895b07954c904aab77faa0a22e772f2126d78f5b78cab414d9f332442d42e3a"
+    },
+    {
+      "path": "references/upstream/foldseek-analysis/training/extract_pdb_features.py",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/extract_pdb_features.py",
+      "bytes": 8246,
+      "sha256": "1098f27b08e4d5dfabbcb828d58369e2d64d866983ded78aa0bb698829e41f8a"
+    }
+  ]
+}
