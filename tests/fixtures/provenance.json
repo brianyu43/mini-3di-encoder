@@ -1,0 +1,71 @@
+{
+  "description": "Frozen outputs from unmodified Foldseek C++ sources, copied byte-for-byte. Tests never regenerate expected values.",
+  "archive_commit": "60de6e8e7ef88977d1d22052e0e86ef346514cc3",
+  "archive_url": "https://github.com/brianyu43/mini-3di-encoder/tree/60de6e8e7ef88977d1d22052e0e86ef346514cc3",
+  "foldseek_commit": "941cd33ff0771cd2e3f144e3293e22a2b87e9fda",
+  "regeneration_script_in_archive": "scripts/run_day02_05.py",
+  "commands_in_archive": "results/day02-05/commands.json",
+  "config_in_archive": "configs/day02-05.json",
+  "compiler_flags": [
+    "-std=c++17",
+    "-O0",
+    "-ffp-contract=off"
+  ],
+  "selected_indices_0": [
+    1,
+    9,
+    22,
+    67
+  ],
+  "network_probe_count": 44,
+  "scope": "One development structure, four preselected valid residues and two endpoints; no whole-chain or cross-structure validation.",
+  "files": [
+    {
+      "path": "examples/1UBQ.pdb",
+      "sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+      "original_path": "data/raw/1UBQ.pdb"
+    },
+    {
+      "path": "tests/fixtures/native_trace.json",
+      "sha256": "603e48df3885af78f1f635ae5b7864570d55829952bb3f1558545414a644be50",
+      "original_path": "results/day02-05/native_trace.json"
+    },
+    {
+      "path": "tests/fixtures/network_probes.json",
+      "sha256": "881b15a06cb9eb24c5ba81c01a5a301e8ccc1d07b57e917f463cdf6802169feb",
+      "original_path": "results/day02-05/network_probes.json"
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/raw/1UBQ.pdb",
+      "url": "https://files.rcsb.org/download/1UBQ.pdb",
+      "sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/3di/structureto3di.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/3di/structureto3di.cpp",
+      "sha256": "cb86fa0c7c67d855e6d9bf1ef29e02a9e55708fe6fa1b727a69c9de14480f33e"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/3di/structureto3di.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/3di/structureto3di.h",
+      "sha256": "0c2b80e1ca8ef176e4f1c11654429dce3d53e8bc7210450abd8a2154f06bb353"
+    },
+    {
+      "path": "references/upstream/foldseek/data/encoder_weights_3di.kerasify",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/data/encoder_weights_3di.kerasify",
+      "sha256": "9b8245e2855605b8aeeabf0333d38d43906671bab0af977129fa984e13a61e99"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/kerasify/keras_model.cpp",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/kerasify/keras_model.cpp",
+      "sha256": "f5326b5051dcbe20d474fffbe6eb99120aaabd2f9505f7843946425f743f3037"
+    },
+    {
+      "path": "references/upstream/foldseek/lib/kerasify/keras_model.h",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/kerasify/keras_model.h",
+      "sha256": "931b126f1829635cbab258703a83e115732a7f21573c9fbabdcfd25d72a0fcd9"
+    }
+  ]
+}

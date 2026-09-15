@@ -1,5 +1,5 @@
-# Day 01 verified macOS arm64 / CPython 3.12 environment.
-# Torch is intentionally deferred until the retraining gate.
+# Verified development environment: macOS arm64 / CPython 3.12.
+# Runtime requires only numpy; biopython is an independent test reference.
 biopython==1.88
 numpy==2.5.2
 pytest==9.1.1

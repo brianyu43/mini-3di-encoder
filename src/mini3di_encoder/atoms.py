@@ -1,4 +1,4 @@
-"""Day 02: explicit PDB residue identities and unmodified float64 backbone atoms."""
+"""Explicit PDB residue identities and unmodified float64 backbone atoms."""
 
 from dataclasses import dataclass
 from pathlib import Path
@@ -62,7 +62,6 @@ def read_backbone(path: Path, chain_id: str) -> Chain:
     """Clean single-model PDB subset. Preserve missing atoms and reject ambiguity.
 
     Parse decimal coordinates directly as float64, like pinned Gemmi/Vec3.
-    The day-01 Bio.PDB reader remains separate (Bio.PDB stores float32).
     Alternate locations, modified residues, split chains and mmCIF are deferred.
     """
     if len(chain_id) != 1:

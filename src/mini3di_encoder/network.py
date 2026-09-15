@@ -1,4 +1,4 @@
-"""Day 05: bounded kerasify reader and float32 dense inference without torch."""
+"""Bounded kerasify reader and float32 dense inference using NumPy."""
 
 import hashlib
 import json

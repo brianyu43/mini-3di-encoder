@@ -1,6 +1,6 @@
-"""Days 03–04: transparent float64 geometry following Foldseek 10-941cd33.
+"""Transparent float64 geometry following Foldseek 10-941cd33.
 
-See THIRD_PARTY.md for the pinned upstream algorithm and constants.
+See README.md for the pinned upstream algorithm and constants.
 Degenerate geometry is rejected explicitly, rather than assigned a normal state.
 """
 

@@ -1,5 +1,0 @@
-Processing /Users/xavier/Documents/dev/mini-3di-search/artifacts/m5-preflight-20260905T155705Z/wheels/biopython-1.88-cp312-cp312-macosx_11_0_arm64.whl
-Processing /Users/xavier/Documents/dev/mini-3di-search/artifacts/m5-preflight-20260905T155705Z/wheels/numpy-2.5.2-cp312-cp312-macosx_14_0_arm64.whl
-Processing ./results/day05-validation/_package/mini_3di_encoder-0.1.0.dev1-py3-none-any.whl
-Installing collected packages: numpy, mini-3di-encoder, biopython
-Successfully installed biopython-1.88 mini-3di-encoder-0.1.0.dev1 numpy-2.5.2

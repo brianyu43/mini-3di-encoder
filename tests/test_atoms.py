@@ -6,7 +6,7 @@ from Bio.PDB import PDBParser
 
 from mini3di_encoder.atoms import ATOM_NAMES, read_backbone
 
-PDB = Path(__file__).resolve().parents[1] / "data/raw/1UBQ.pdb"
+PDB = Path(__file__).resolve().parents[1] / "examples/1UBQ.pdb"
 
 
 def atom(serial, name, residue="ALA", number=7, insertion=" ", alt=" "):
