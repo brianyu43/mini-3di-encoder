@@ -30,6 +30,8 @@ JSON에는 원자 존재 여부, 후보 거리, 특징, 신경망 각 층의 계
 | `src/mini3di_encoder/geometry.py` | Cβ 근사, 가상 중심, 상대 선택, 특징 10개 |
 | `src/mini3di_encoder/network.py` | kerasify 파일 읽기, 순전파, 최근접 중심 선택 |
 | `src/mini3di_encoder/trace.py` | 위 계산을 연결하는 명령행 실행과 JSON 출력 |
+| `src/mini3di_encoder/chain.py` | 지원 범위 안의 전체 사슬 인코딩·위치별 비교 |
+| `scripts/compare_foldseek.py` | 외부 Foldseek 3Di FASTA와 전체 사슬 비교 |
 | `src/mini3di_encoder/data/` | 공식 가중치·중심·라이선스 |
 | `tests/` | 기하·신경망·입력 처리·독립 기준 출력 검사 |
 | `examples/1UBQ.pdb` | 실행 예제와 테스트에 쓰는 원본 구조 |
@@ -48,9 +50,22 @@ Biopython은 독립 좌표 검증에만 사용한다. 테스트는 네 잔기의
 별도 신경망 입력 44개를 보존된 기준 출력과 비교한다. 기준값은 테스트가 재생성하지 않는다.
 원본 입력·기준 출력의 SHA-256과 생성 절차는 [fixture 출처](tests/fixtures/provenance.json)에 있다.
 
-현재 검증은 1UBQ 한 구조의 선택한 유효 위치 4곳과 양 끝점에 한정된다.
+선택한 유효 위치 4곳의 C++ 중간값 검증에 더해, 1UBQ 사슬 A의 76문자를
+Foldseek 10-941cd33 `createdb`가 만든 3Di 서열과 대조했다. 74개 유효 위치와 양 끝점의
+invalid sentinel을 포함해 76/76 문자가 일치한다. 재현 결과와 명령은
+[`artifacts/full-chain-validation-2026-09-16.json`](artifacts/full-chain-validation-2026-09-16.json)에 있다.
+
+```bash
+python scripts/compare_foldseek.py \
+  --structure examples/1UBQ.pdb --chain A \
+  --foldseek-fasta tests/fixtures/1ubq_foldseek_10_941cd33.fasta
+```
+
+이 결과는 **현재 parser가 지원하는 깨끗한 1UBQ PDB 한 사슬**에 대한 전체 대조다.
+CA 하나를 제거한 실패 실험에서는 현재 구현이 잔기 행을 보존하는 반면 Foldseek는 그 잔기를
+서열에서 제외해 길이부터 달라졌다. 따라서 이를 일반 PDB 호환성으로 확대해 해석하면 안 된다.
 한 모델의 지정 사슬·표준 ATOM 잔기를 지원하며 대체 위치, 비표준 잔기, TER 이후 사슬 재등장은 거부한다.
-일반 mmCIF·사슬 단절 처리, 전체 사슬 대조, 검색 연결, 재학습은 아직 완료하지 않았다.
+일반 mmCIF·사슬 단절 처리, 여러 구조로 확장한 전체 사슬 대조, 검색 연결, 재학습은 아직 완료하지 않았다.
 **문자 D는 유효 상태와 무효 위치 모두에서 나올 수 있으므로 반드시 `valid`를 함께 확인한다.**
 
 ## 출처와 연구 기록

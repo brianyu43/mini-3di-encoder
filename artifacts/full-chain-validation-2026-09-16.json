@@ -1,0 +1,34 @@
+{
+  "scope": "One complete supported PDB chain plus one missing-backbone failure probe",
+  "foldseek_version": "941cd33ff0771cd2e3f144e3293e22a2b87e9fda",
+  "foldseek_release": "10-941cd33 linux-avx2",
+  "input_sha256": "97d0e679dadca40b97952427a874c39f3eb1ac8322aa20cfb92e94a96749ed77",
+  "official_success_fasta_sha256": "c685a61905d4bd948df6bd47267757788c1e3659545f24eda0427fad715c50b3",
+  "success_case": {
+    "input": "examples/1UBQ.pdb, chain A",
+    "residue_rows": 76,
+    "valid_rows": 74,
+    "invalid_rows": [
+      {"index": 0, "reason": "chain_endpoint"},
+      {"index": 75, "reason": "chain_endpoint"}
+    ],
+    "official_length": 76,
+    "exact_character_matches": 76,
+    "mismatches": [],
+    "result": "exact full-chain character match"
+  },
+  "failure_probe": {
+    "mutation": "Removed the CA ATOM record from PDB residue 10 of a temporary 1UBQ copy",
+    "mutated_input_sha256": "cbb8af76588085d54913914aa7ca388ab1947196c8283bf381643a427f9729dc",
+    "official_failure_fasta_sha256": "fde750c66a51aecc2847c8c62f74206e04c039187a0e507ac4a22e566df9834c",
+    "mini_encoder_policy": "Preserves 76 residue rows; position 9 is missing_backbone_atom and positions 8 and 10 fail the six-residue-neighborhood check",
+    "foldseek_policy": "Emits a 75-residue amino-acid and 3Di sequence, omitting that residue",
+    "result": "length mismatch; current residue-row alignment is not Foldseek-compatible for missing backbone atoms"
+  },
+  "commands": [
+    "foldseek createdb examples/1UBQ.pdb DB --threads 1",
+    "foldseek lndb DB_h DB_ss_h",
+    "foldseek convert2fasta DB_ss 1ubq.3di.fasta"
+  ],
+  "claim_boundary": "This establishes exact character agreement for the complete 1UBQ chain under the current clean-PDB parser. It does not establish general PDB or mmCIF equivalence, chain-break compatibility, alternate-location handling, missing-backbone compatibility, or search equivalence. Endpoint D characters are invalid sentinels and are interpreted with the valid mask."
+}
