@@ -1,0 +1,254 @@
+{
+  "selection_rule": "Before encoder comparisons: six dev query/target pairs, class round-robin then sorted ID, length <=300, same superfamily but distinct source PDB. Also 1UBQ.",
+  "scope": "Previously observed SCOPe development inputs; not independent generalization evaluation. No replacement after inspecting encoder outputs.",
+  "records": [
+    {
+      "record_id": "1UBQ_A",
+      "path": "examples/1UBQ.pdb",
+      "chain": "A",
+      "role": "reference",
+      "length": 76,
+      "sha256": "d4a6812d8951cf6594e6a0763f089e35f5a80b62acb3c117b2c5565228a7b161",
+      "source_url": "https://files.rcsb.org/download/1UBQ.pdb"
+    },
+    {
+      "record_id": "d1d2za_",
+      "path": "artifacts/sessions-06-10/inputs/d1d2za_.pdb",
+      "chain": "A",
+      "role": "query",
+      "length": 102,
+      "sha256": "9b91b674abc3411125ff72d7cf3209096f3f59b0e9764d3953e080fde7360f7c",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1d2za_",
+      "classification": {
+        "record_id": "d1d2za_",
+        "family": "a.77.1.2",
+        "superfamily": "a.77.1",
+        "fold": "a.77",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1ngra_",
+      "path": "artifacts/sessions-06-10/inputs/d1ngra_.pdb",
+      "chain": "A",
+      "role": "target",
+      "length": 85,
+      "sha256": "87a90bdf0ed47ea1c2ed9f979807871ad404423db64e82e618136e88dae61e12",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1ngra_",
+      "classification": {
+        "record_id": "d1ngra_",
+        "family": "a.77.1.2",
+        "superfamily": "a.77.1",
+        "fold": "a.77",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1cwva4",
+      "path": "artifacts/sessions-06-10/inputs/d1cwva4.pdb",
+      "chain": "A",
+      "role": "query",
+      "length": 91,
+      "sha256": "a184caf06c2d2217278ef9b170e2e910212791253a6b3e110f89f6afefef880a",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1cwva4",
+      "classification": {
+        "record_id": "d1cwva4",
+        "family": "b.1.14.1",
+        "superfamily": "b.1.14",
+        "fold": "b.1",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1f00i1",
+      "path": "artifacts/sessions-06-10/inputs/d1f00i1.pdb",
+      "chain": "I",
+      "role": "target",
+      "length": 95,
+      "sha256": "b90267b432c27e05d48a5e16d3b984dcbfc0ec3202c863e976fdf139653fb3b6",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1f00i1",
+      "classification": {
+        "record_id": "d1f00i1",
+        "family": "b.1.14.1",
+        "superfamily": "b.1.14",
+        "fold": "b.1",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d2ooka1",
+      "path": "artifacts/sessions-06-10/inputs/d2ooka1.pdb",
+      "chain": "A",
+      "role": "query",
+      "length": 125,
+      "sha256": "715f9836b4d49e40f53d06697d1aa0d5d7c63d867385018b76a78c6c15863c78",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d2ooka1",
+      "classification": {
+        "record_id": "d2ooka1",
+        "family": "c.13.2.2",
+        "superfamily": "c.13.2",
+        "fold": "c.13",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1vc1a_",
+      "path": "artifacts/sessions-06-10/inputs/d1vc1a_.pdb",
+      "chain": "A",
+      "role": "target",
+      "length": 110,
+      "sha256": "e34a0aa9dfc7e14931931dcda2fc8317608cc428406e5688866a5a404d6fcaf6",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1vc1a_",
+      "classification": {
+        "record_id": "d1vc1a_",
+        "family": "c.13.2.1",
+        "superfamily": "c.13.2",
+        "fold": "c.13",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1ctfa_",
+      "path": "artifacts/sessions-06-10/inputs/d1ctfa_.pdb",
+      "chain": "A",
+      "role": "query",
+      "length": 68,
+      "sha256": "30fe893779c95f3fe06627446b2e1855eb15ba0ce5d1ad1dfb488d183bed4d0d",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1ctfa_",
+      "classification": {
+        "record_id": "d1ctfa_",
+        "family": "d.45.1.1",
+        "superfamily": "d.45.1",
+        "fold": "d.45",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d3dnja_",
+      "path": "artifacts/sessions-06-10/inputs/d3dnja_.pdb",
+      "chain": "A",
+      "role": "target",
+      "length": 80,
+      "sha256": "6ef509fee95f050c2f80c83e550ba6277abc17fa4c3564bf122cc05fcd31171d",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d3dnja_",
+      "classification": {
+        "record_id": "d3dnja_",
+        "family": "d.45.1.2",
+        "superfamily": "d.45.1",
+        "fold": "d.45",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1ffya1",
+      "path": "artifacts/sessions-06-10/inputs/d1ffya1.pdb",
+      "chain": "A",
+      "role": "query",
+      "length": 273,
+      "sha256": "25cc01de8a15b8e796f2239a2b188f6f87d8444c136cedea055f4379cebdfce7",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1ffya1",
+      "classification": {
+        "record_id": "d1ffya1",
+        "family": "a.27.1.1",
+        "superfamily": "a.27.1",
+        "fold": "a.27",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1iq0a1",
+      "path": "artifacts/sessions-06-10/inputs/d1iq0a1.pdb",
+      "chain": "A",
+      "role": "target",
+      "length": 126,
+      "sha256": "884d7c99ef957808c9aaf24d57a7226ac4ab11a87e1bae66a1c09f84b04e6c1e",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1iq0a1",
+      "classification": {
+        "record_id": "d1iq0a1",
+        "family": "a.27.1.1",
+        "superfamily": "a.27.1",
+        "fold": "a.27",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1hl9a1",
+      "path": "artifacts/sessions-06-10/inputs/d1hl9a1.pdb",
+      "chain": "A",
+      "role": "query",
+      "length": 92,
+      "sha256": "95b9a8a69eed340fd5bdad3b8256d848ee53b37f005299cdbae77183452d6d3f",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1hl9a1",
+      "classification": {
+        "record_id": "d1hl9a1",
+        "family": "b.71.1.3",
+        "superfamily": "b.71.1",
+        "fold": "b.71",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    },
+    {
+      "record_id": "d1gcya1",
+      "path": "artifacts/sessions-06-10/inputs/d1gcya1.pdb",
+      "chain": "A",
+      "role": "target",
+      "length": 61,
+      "sha256": "da686e0a89ecabbfe3a7402703f828e249cd0b6d78883ae1b0c7fa7f8cf5d3d9",
+      "source_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+      "archive_member": "pdb/d1gcya1",
+      "classification": {
+        "record_id": "d1gcya1",
+        "family": "b.71.1.1",
+        "superfamily": "b.71.1",
+        "fold": "b.71",
+        "label_release": "SCOPe 2.01; Foldseek paper benchmark lookup"
+      }
+    }
+  ],
+  "related_pairs": [
+    [
+      "d1d2za_",
+      "d1ngra_"
+    ],
+    [
+      "d1cwva4",
+      "d1f00i1"
+    ],
+    [
+      "d2ooka1",
+      "d1vc1a_"
+    ],
+    [
+      "d1ctfa_",
+      "d3dnja_"
+    ],
+    [
+      "d1ffya1",
+      "d1iq0a1"
+    ],
+    [
+      "d1hl9a1",
+      "d1gcya1"
+    ]
+  ],
+  "rotation_seed": 20260916,
+  "rigid_transform_count": 3,
+  "feature_atol": 1e-10,
+  "embedding_atol": 1e-06,
+  "k": 3,
+  "gap_open": 10,
+  "gap_extend": 1,
+  "double_window": 64,
+  "ungapped_threshold": 20
+}

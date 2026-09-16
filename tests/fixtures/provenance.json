@@ -67,5 +67,14 @@
       "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/lib/kerasify/keras_model.h",
       "sha256": "931b126f1829635cbab258703a83e115732a7f21573c9fbabdcfd25d72a0fcd9"
     }
-  ]
+  ],
+  "whole_chain_reference": {
+    "source_run": "artifacts/sessions-06-10/session06-reference-v2",
+    "harness_sha256": "41b2e6bf9a0b7f44ad3f4f619d493a958e3d16909c030f9f92679902fcff432b",
+    "mask_method": "Pinned base geometry mask and six-neighbor rule; states and features from unmodified native structure2states. Not inferred from letters.",
+    "files": {
+      "1ubq_chain_native.json": "e6305390518682709e64c8a1fa43512a16e64ba08ddfba80528bcfaed277d23f",
+      "1ubq_official_3di.fasta": "a29c7c4cdb643afecdc11eac09f3934f4561844af308d06e599b47ef90e9b5b9"
+    }
+  }
 }

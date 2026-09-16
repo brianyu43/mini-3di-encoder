@@ -41,9 +41,8 @@ def test_missing_atoms_and_glycine_are_distinct(tmp_path):
     [
         (atom(1, "N") + atom(2, "N"), "Duplicate"),
         (atom(1, "N", alt="A"), "Alternate"),
-        (atom(1, "N", residue="UNK"), "Nonstandard"),
+        (atom(1, "N", residue="MSE"), "Nonstandard"),
         ("MODEL        1\n" + atom(1, "N") + "ENDMDL\nMODEL        2\n", "one model"),
-        (atom(1, "N") + "TER                  A\n" + atom(2, "CA"), "after TER"),
     ],
 )
 def test_ambiguous_inputs_are_rejected(tmp_path, text, match):

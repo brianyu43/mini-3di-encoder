@@ -10,10 +10,13 @@ from .network import forward, nearest_state, official_model
 
 
 def trace_residue(chain: Chain, i: int) -> dict:
+    return trace_prepared(chain, i, prepare_geometry(chain), *official_model())
+
+
+def trace_prepared(chain, i, geometry, layers, spec) -> dict:
+    """Share geometry and model across a whole chain without repeating their setup."""
     if not 0 <= i < len(chain.residues):
         raise ValueError("Residue index out of range")
-    layers, spec = official_model()
-    geometry = prepare_geometry(chain)
     result = {
         "residue": chain.row(i),
         "valid": False,
@@ -69,12 +72,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--structure", type=Path, required=True)
     parser.add_argument("--chain", default="A")
+    parser.add_argument("--model", type=int)
+    parser.add_argument("--altloc")
     parser.add_argument("--index", type=int, required=True, help="0-based sequential residue index")
     parser.add_argument("--out", type=Path, required=True)
     args = parser.parse_args()
     if args.out.exists():
         raise FileExistsError(args.out)
-    result = trace_residue(read_backbone(args.structure, args.chain), args.index)
+    result = trace_residue(
+        read_backbone(args.structure, args.chain, model=args.model, altloc=args.altloc), args.index
+    )
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with args.out.open("x") as handle:
         json.dump(result, handle, ensure_ascii=False, indent=2, allow_nan=False)
