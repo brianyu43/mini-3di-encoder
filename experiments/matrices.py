@@ -47,6 +47,11 @@ def write_matrix(path, matrix):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    parser.add_argument(
+        "--official-matrix",
+        type=Path,
+        default=ARCHIVE_ROOT / "references/upstream/foldseek/data/mat3di.out",
+    )
     args = parser.parse_args()
     out = args.out.resolve()
     config = read(out / "experiment_config.json")
@@ -64,7 +69,7 @@ def main():
             masks[sid] = arrays["mask"]
     directory = out / "matrices"
     directory.mkdir(exist_ok=False)
-    source = ARCHIVE_ROOT / "references/upstream/foldseek/data/mat3di.out"
+    source = args.official_matrix
     shutil.copyfile(source, directory / "official_original.mat")
     summaries = {}
     audit = read(out / "alignment_audit.json")

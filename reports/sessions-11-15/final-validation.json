@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "pytest_research": {
+    "passed": 58
+  },
+  "pytest_runtime": {
+    "passed": 55,
+    "skipped": 1
+  },
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "figure_pngs_visually_inspected": 3,
+  "bootstrap_intervals_recomputed": 12,
+  "local_document_links_missing": [],
+  "original_model_geometry_network_unchanged": true,
+  "search_repo_unchanged": true,
+  "test_frozen_files_unchanged": true,
+  "source_hashes_match_audit": true,
+  "package_and_cli_verified": true,
+  "search_commit": "4e8adf9d966dee34e581d13f4bb71f0db08a6ecd"
+}

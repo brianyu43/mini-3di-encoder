@@ -1,0 +1,99 @@
+{
+  "structures": 64,
+  "residues": 10090,
+  "valid_search_positions": 9909,
+  "scope": "Full encode_chain including geometry, per-residue tracing and model load; excludes parsing and JSON serialization",
+  "cpu_threads": 1,
+  "repeats": [
+    {
+      "repeat": 0,
+      "variant": "official",
+      "seconds": 6.038296793994959
+    },
+    {
+      "repeat": 0,
+      "variant": "learned",
+      "seconds": 5.437074753011984
+    },
+    {
+      "repeat": 1,
+      "variant": "learned",
+      "seconds": 4.965384582996194
+    },
+    {
+      "repeat": 1,
+      "variant": "official",
+      "seconds": 4.883813081993139
+    },
+    {
+      "repeat": 2,
+      "variant": "official",
+      "seconds": 4.857003708002594
+    },
+    {
+      "repeat": 2,
+      "variant": "learned",
+      "seconds": 5.182882911012712
+    }
+  ],
+  "parse_once_seconds": 0.3366473330024746,
+  "seconds_median": {
+    "official": 4.883813081993139,
+    "learned": 5.182882911012712
+  },
+  "state_counts": {
+    "official": [
+      548,
+      361,
+      1247,
+      339,
+      226,
+      279,
+      485,
+      267,
+      175,
+      607,
+      43,
+      311,
+      787,
+      575,
+      379,
+      560,
+      165,
+      1954,
+      235,
+      366
+    ],
+    "learned": [
+      191,
+      313,
+      574,
+      999,
+      221,
+      39,
+      163,
+      357,
+      611,
+      354,
+      1657,
+      846,
+      365,
+      295,
+      883,
+      334,
+      556,
+      367,
+      474,
+      310
+    ]
+  },
+  "peak_process_rss_bytes_macos": 40206336,
+  "state_mismatches": 0,
+  "script_sha256": "dfb363e96919f667ec9440673f555acd9c70dac26f9a6249fbda9638b1331bb9",
+  "hardware": {
+    "machdep.cpu.brand_string": "unavailable in sandbox",
+    "hw.memsize": "unavailable in sandbox",
+    "hw.logicalcpu": "unavailable in sandbox"
+  },
+  "model_sha256": "14e61e8c1d7cb1a7db106515687ff7c0e6dfd8128454f194c08b12e3b94a7f0b"
+}

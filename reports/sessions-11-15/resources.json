@@ -1,0 +1,9 @@
+{
+  "alignment_subprocess_seconds_sum": 13.546518833991286,
+  "three_training_runs_seconds_sum": 11.295704292002483,
+  "experiment_files_logical_bytes": 56156340,
+  "package_verification_logical_bytes": 98173473,
+  "research_venv_logical_bytes": 1060995521,
+  "original_archive_bytes": 306064157,
+  "scope": "Logical file sizes; separate existing input archive, research environment, one experiment excluding packaging, and package verification. Not cumulative RSS or whole-session wall time."
+}

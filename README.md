@@ -2,8 +2,15 @@
 
 PDB 원자 좌표를 **전체 사슬의 3Di 문자열**로 변환하고, 한 잔기의 중간 계산도 들여다보는 인코더다.
 좌표 읽기 → 가상 중심 → 상대 잔기 → 특징 10개 → 신경망 좌표 2개 → 20개 상태 중 선택을 구현했다.
-신경망 구조·가중치·중심은 공식 Foldseek 것을 사용하며 새로 학습하지 않았다.
+기본 모델은 공식 Foldseek 가중치·중심을 사용한다. 별도 실험에서는 작은 구조 집합으로 새
+가중치·중심과 전용 점수 행렬을 학습했다. 공식 모델과 재학습 모델을 명시적으로 구분한다.
 단백질의 3차원 구조를 새로 예측하는 도구가 아니라, 주어진 구조를 검색용 문자로 바꾸는 도구다.
+
+**1–15회차 완료:** [최종 실험 보고서](REPORT_11_15.md) · [재현 명령](REPRODUCE.md) ·
+[배포 모델/행렬](models/paired-vqvae-small/README.md) · [다음 연구 계획](NEXT_RESEARCH.md).
+384구조로 준비·학습하고 동결한 16×48 검색을 비교했다. 자체 엔진의 전수검색 MAP는
+공식 표현+공식 행렬 .9942, 재학습 표현+전용 행렬 .9527이었다. 작은 표본이며 공식 학습
+목록과 겹치므로 완전히 새로운 구조에 대한 공식 모델 일반화 평가라고 주장하지 않는다.
 
 ## 설치와 실행
 
@@ -37,12 +44,16 @@ JSON에는 원자 존재 여부, 후보 거리, 특징, 신경망 각 층의 계
 | `src/mini3di_encoder/atoms.py` | PDB 좌표·잔기 ID·빠진 원자 읽기 |
 | `src/mini3di_encoder/geometry.py` | Cβ 근사, 가상 중심, 상대 선택, 특징 10개 |
 | `src/mini3di_encoder/network.py` | kerasify 파일 읽기, 순전파, 최근접 중심 선택 |
+| `src/mini3di_encoder/learned.py` | 별도 JSON 학습 모델 로드·NumPy 배치 순전파 |
 | `src/mini3di_encoder/trace.py` | 한 잔기의 계산 과정과 중간값 출력 |
 | `src/mini3di_encoder/encode.py` | 전체 사슬 변환, 검색용 마스크와 JSONL 출력 |
 | `src/mini3di_encoder/data/` | 공식 가중치·중심·라이선스 |
 | `tests/` | 기하·신경망·입력 처리·독립 기준 출력 검사 |
 | `examples/1UBQ.pdb` | 실행 예제와 테스트에 쓰는 원본 구조 |
 | `validation/` | 고정한 13개 구조 목록, 공식 도구 대조·변환·검색 연결 검증 스크립트 |
+| `experiments/` | 데이터 동결·대응 쌍·재학습·행렬·검색 평가·독립 검산 |
+| `models/paired-vqvae-small/` | 선택한 새 모델과 반드시 함께 써야 하는 전용 행렬 |
+| `reports/sessions-11-15/` | 측정 JSON/TSV와 PNG/SVG 결과 그림 |
 
 ## 입력과 유효성
 

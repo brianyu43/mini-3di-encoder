@@ -1,6 +1,9 @@
 """Independent pinned-source forward/gradient checks for the optional trainer."""
 
+import hashlib
 import importlib.util
+import json
+import os
 from pathlib import Path
 
 import numpy as np
@@ -11,15 +14,28 @@ torch = pytest.importorskip("torch")
 from experiments.model import PairedVQVAE, export_model  # noqa: E402
 from mini3di_encoder.learned import embed_batch, load_learned_model  # noqa: E402
 
-REFERENCE = Path(__file__).resolve().parents[2] / (
-    "mini-3di-encoder-archive/session-01-05-60de6e8/references/upstream/"
-    "foldseek-analysis/training/train_vqvae.py"
+REFERENCE = Path(
+    os.environ.get(
+        "MINI3DI_TRAINING_REFERENCE",
+        Path(__file__).resolve().parents[2]
+        / (
+            "mini-3di-encoder-archive/session-01-05-60de6e8/references/upstream/"
+            "foldseek-analysis/training/train_vqvae.py"
+        ),
+    )
 )
 
 
 def test_forward_and_parameter_gradients_match_pinned_training_source():
     if not REFERENCE.exists():
         pytest.skip("Pinned training source not installed on this machine")
+    source_lock = json.loads(
+        (Path(__file__).resolve().parents[1] / "experiments/source-lock.json").read_text()
+    )
+    expected = next(
+        r["sha256"] for r in source_lock["files"] if r["path"] == "references/train_vqvae.py"
+    )
+    assert hashlib.sha256(REFERENCE.read_bytes()).hexdigest() == expected
     spec = importlib.util.spec_from_file_location("pinned_training", REFERENCE)
     upstream = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(upstream)

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scores_identical": 768,
+  "top1_alignments_identical": 16,
+  "matching_matrix_sha256": "a85b9eea1574bca5681a75cf56df3223644c01bc6d4bae1a9da511aad2971be1",
+  "previous_pdb_overlap": 0
+}

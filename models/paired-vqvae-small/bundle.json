@@ -1,0 +1,13 @@
+{
+  "name": "paired-vqvae-small-v1",
+  "encoder_sha256": "14e61e8c1d7cb1a7db106515687ff7c0e6dfd8128454f194c08b12e3b94a7f0b",
+  "matrix_sha256": "a85b9eea1574bca5681a75cf56df3223644c01bc6d4bae1a9da511aad2971be1",
+  "alphabet_size": 20,
+  "gap_open": 14,
+  "gap_extend": 2,
+  "seed": 29,
+  "epoch": 39,
+  "selection": "Paired validation loss for model; validation MAP for gaps",
+  "warning": "Different alphabet from official 3Di. Use this matching matrix and reencode queries and targets.",
+  "test_freeze_sha256": "c657147086fde2485c9eb39ca34c93eedb4cec68251d2a5ba10c6180fa2a40bd"
+}

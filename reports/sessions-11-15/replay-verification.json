@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "fresh_extraction_structures": 384,
+  "alignment_pairs": 480,
+  "same_arrays": true,
+  "identical_numeric_model_exports": 3,
+  "identical_epoch_metrics": 183,
+  "identical_matrices": 3,
+  "selected_seed": 29,
+  "replay_directory": "artifacts/sessions-11-15-replay",
+  "scope": "Same machine and package versions; wall times excluded",
+  "script_sha256": "2d656c564699ac5ecf5812a26cdcc611d9ba35a1c9ff0da540bd29f41bffe766",
+  "restore": {
+    "structures": 384,
+    "source_lock_sha256": "47749fda997918cfb5bea54e1ba5598482187a9fdf9c2019decc2dc58b3ec982",
+    "downloaded_bytes": 0,
+    "tmalign_sha256": "6a48bdc363c3f36ff39c5345391c89ffe138803fd76a4b57cd447c021b3f0a1f",
+    "script_sha256": "b4d290abb92e3e6aeccaaa113b5a6df9760e826dd40195a6273f3fe70fcd0416"
+  }
+}

@@ -12,6 +12,12 @@ from .common import ARCHIVE_ROOT, DEFAULT_OUT, bounded_cpu, read, save, sha
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    parser.add_argument(
+        "--upstream-training-source",
+        type=Path,
+        default=ARCHIVE_ROOT / "references/upstream/foldseek-analysis/training/train_vqvae.py",
+        help="Pinned source file used for provenance only; never executed by training",
+    )
     args = parser.parse_args()
     out = args.out.resolve()
     bounded_cpu(out)
@@ -112,9 +118,7 @@ def main():
             "validation_pairs_sha256": sha(out / "pairs-validation.npz"),
             "experiment_config_sha256": sha(out / "experiment_config.json"),
             "model_code_sha256": sha(Path(__file__).with_name("model.py")),
-            "upstream_training_sha256": sha(
-                ARCHIVE_ROOT / "references/upstream/foldseek-analysis/training/train_vqvae.py"
-            ),
+            "upstream_training_sha256": sha(args.upstream_training_source),
         }
         save(directory / "encoder.json", export_model(model, provenance))
         layers, spec = load_learned_model(directory / "encoder.json")

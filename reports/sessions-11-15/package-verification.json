@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "official": {
+      "length": 76,
+      "valid": 74,
+      "matches_source": true,
+      "refuses_overwrite": true
+    },
+    "learned": {
+      "length": 76,
+      "valid": 74,
+      "matches_source": true,
+      "refuses_overwrite": true
+    }
+  },
+  "installed_probe": {
+    "encoder": "/Users/xavier/Documents/dev/mini-3di-encoder/artifacts/sessions-11-15/package/venv/lib/python3.12/site-packages/mini3di_encoder/__init__.py",
+    "numpy": "2.5.3",
+    "torch_present": false,
+    "biopython_present": false
+  },
+  "wheel_sha256": "5db8108b0ee824af7cde9a7a8231da73f35176f2294828ba8ff5cfe56825d739",
+  "dependency_setup": "NumPy 2.5.3 copied from existing installation; wheel pip-installed offline into new venv. Not a fresh network dependency resolution."
+}

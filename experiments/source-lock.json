@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "path": "tools/usalign/TMalign.cpp",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/TMalign.cpp",
+      "sha256": "ba817485efc2b09119959b68d8ebd45f8d9ceae9352516cfc960e9e3c651cb33",
+      "bytes": 30973
+    },
+    {
+      "path": "tools/usalign/TMalign.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/TMalign.h",
+      "sha256": "3252883d7830909e4310821f0d3f6d39f322dc6bcfabd01153ed9239acc66e5b",
+      "bytes": 156553
+    },
+    {
+      "path": "tools/usalign/basic_fun.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/basic_fun.h",
+      "sha256": "0ac7688bec88d820c756f0fc196417e1e5ed934b192077a9137c263c749cc590",
+      "bytes": 38757
+    },
+    {
+      "path": "tools/usalign/NW.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/NW.h",
+      "sha256": "31ac181ec0388084759892078e51176e47389d46baaa0f157eb296cbcc8ed9f2",
+      "bytes": 11007
+    },
+    {
+      "path": "tools/usalign/Kabsch.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/Kabsch.h",
+      "sha256": "4095a4edfd3ff06e40bf6b16afcdb49ce6b8b560e4061bafae9ccbe098ade172",
+      "bytes": 11196
+    },
+    {
+      "path": "tools/usalign/param_set.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/param_set.h",
+      "sha256": "6eaccac57f6c2a554adfc9b214aad2fed97c31b3f22c1c33dadd985804f282d2",
+      "bytes": 2939
+    },
+    {
+      "path": "tools/usalign/pstream.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/pstream.h",
+      "sha256": "852f6e1b752c93f46091b042adf2e831b580e5a58545f9ed121781bb66dae4d5",
+      "bytes": 70266
+    },
+    {
+      "path": "tools/usalign/LICENSE",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/LICENSE",
+      "sha256": "5bb88694391d0e0fef49ee8b60cd9208ce755d90213584c117bd8a21837bcdca",
+      "bytes": 776
+    },
+    {
+      "path": "tools/usalign/readme.txt",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/readme.txt",
+      "sha256": "c6d22fa91861041601e4952c50e2dfc93122f5e0f30c8074ae06a2a785e32e56",
+      "bytes": 7859
+    },
+    {
+      "path": "tools/usalign/NWalign.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/NWalign.h",
+      "sha256": "c1dd213c5cb8397c2c28c104367b2dc466402a10eda91d823376a5ef47f1ebc7",
+      "bytes": 21409
+    },
+    {
+      "path": "tools/usalign/BLOSUM.h",
+      "url": "https://raw.githubusercontent.com/pylelab/USalign/1fa25a958fe3095900eba2ef9b48562bdc462251/BLOSUM.h",
+      "sha256": "1a530ee0e4950652e69dfe86817a48e82836e6e0208b7891574c96d4de377905",
+      "bytes": 51919
+    },
+    {
+      "path": "references/pdbs_train.txt",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/data/pdbs_train.txt",
+      "sha256": "d5a36e61e22b59be2e4bffef9cbede554fc1b1cd169a090911460294b1e5753f",
+      "bytes": 71623
+    },
+    {
+      "path": "references/pdbs_val.txt",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/data/pdbs_val.txt",
+      "sha256": "7c3f37c73255805966f5e6ed97e0434966cecfb59ef79786a42ade6b175ef024",
+      "bytes": 17655
+    },
+    {
+      "path": "references/train_vqvae.py",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek-analysis/654100b11242e581f9e6d43798b07a778903862e/training/train_vqvae.py",
+      "sha256": "083f1d0cd943d7cc4fe82a79e374a35ca39e91f8b9fe68175724d4711e6505d2",
+      "bytes": 5415
+    },
+    {
+      "path": "references/mat3di.out",
+      "url": "https://raw.githubusercontent.com/steineggerlab/foldseek/941cd33ff0771cd2e3f144e3293e22a2b87e9fda/data/mat3di.out",
+      "sha256": "63cdc9b17de248c790e934ffb7739d067a59c7c6cdb73a2c9c99de63e662b557",
+      "bytes": 2192
+    }
+  ],
+  "archive_sha256": "8bac002ff3c1329beaf14d6a645fab249b6dd2aae98e2093b40a6f49d3a60fa4",
+  "labels_sha256": "35a09c180af6c224287330e474b02469da58d03cf3efb771f49327f250aa6453",
+  "archive_note": "Use the existing Foldseek scop40pdb.tar.gz with matching SHA; URL provenance is retained separately in the search download manifest.",
+  "archive_url": "https://wwwuser.gwdguser.de/~compbiol/foldseek/scop40pdb.tar.gz",
+  "archive_bytes": 306064157
+}

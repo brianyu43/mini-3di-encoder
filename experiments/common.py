@@ -12,7 +12,7 @@ from time import perf_counter
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUT = ROOT / "artifacts/sessions-11-15"
 ARCHIVE_ROOT = ROOT.parent / "mini-3di-encoder-archive/session-01-05-60de6e8"
-SEARCH_ROOT = ROOT.parent / "mini-3di-search"
+SEARCH_ROOT = Path(os.environ.get("MINI3DI_SEARCH_ROOT", ROOT.parent / "mini-3di-search"))
 ALPHABET = "ACDEFGHIKLMNPQRSTVWY"
 
 

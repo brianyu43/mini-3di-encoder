@@ -1,0 +1,21 @@
+{
+  "models/paired-vqvae-small/bundle.json": "1710d08aff2fcf602f92c7135e4a358c3cb78012d224423d0bce6366e08fd792",
+  "models/paired-vqvae-small/encoder.json": "14e61e8c1d7cb1a7db106515687ff7c0e6dfd8128454f194c08b12e3b94a7f0b",
+  "models/paired-vqvae-small/substitution.mat": "a85b9eea1574bca5681a75cf56df3223644c01bc6d4bae1a9da511aad2971be1",
+  "reports/sessions-11-15/cli-verification.json": "0e7a7e72fd755f12c7241d3bf8b2dab00dc6dfae8de52ee2ac48382ea85e3c47",
+  "reports/sessions-11-15/encoding-benchmark.json": "27a7664414e557cce4102256de4903b2fd226cf085c7c50c806bdd579f700771",
+  "reports/sessions-11-15/feature-summary.json": "72ee62c4d74f6202350fc571554268e47330b385bc646e83e6873fe902ce0f23",
+  "reports/sessions-11-15/figures/filters-and-time.png": "d8876e3e1000110ca2245a2c5d55ea89003ac2ca2cfc32da31566f7daa3b1fd7",
+  "reports/sessions-11-15/figures/filters-and-time.svg": "e54eaf6f3fe9a5e8d3456c442ee9e11d96d533756142f4b3c6b523bbb8b6a202",
+  "reports/sessions-11-15/figures/search-quality.png": "824298bd626bb803b9b3cbe5b9335ff3a9802afc4720cd99d87b9b11fb31c041",
+  "reports/sessions-11-15/figures/search-quality.svg": "5522e5d11244660e3540b6147a45d241564523cadb0cba7131205aef853e95a1",
+  "reports/sessions-11-15/figures/training.png": "0e31e283e7f9fceca64e46cb195a1a1816932fa6f7436357e1124b0458bc74c1",
+  "reports/sessions-11-15/figures/training.svg": "3a37f45207133be4ff33436ed2e3ce420dfbc1ac7a07d6196248bb280e7cabf0",
+  "reports/sessions-11-15/independent-audit.json": "eda3aaaea403b9985808be97fc09064657bf897f77448e4c041ecf16cfd82df3",
+  "reports/sessions-11-15/package-verification.json": "c0eb97d2d7e1be6578ddaf8f541fc70a15a305f2fce863d3b97ebbdc603f732f",
+  "reports/sessions-11-15/replay-verification.json": "89daa75b803ac2ba6b3ef196d394aa0583e7550f006f3379bbb67054c214e816",
+  "reports/sessions-11-15/resources.json": "d7c75c4fafcc9c6112b3a0fe33a0a2d19815c914f82af1fd338463cbce71e615",
+  "reports/sessions-11-15/search-results.json": "e06fc3102df7e041d47d1842cc4ed3306a0115aa4f4ebbb0995b673a2da66e63",
+  "reports/sessions-11-15/training-results.json": "ac0c45c9f9dba370e416b3c2704ad02728aeaec2a0baa145ba779abdbaf440e3",
+  "reports/sessions-11-15/final-validation.json": "4782272ce00db582771cdb4faf9d473df91d8b844789665d606faed6cd8cb584"
+}
