@@ -1,0 +1,7 @@
+{
+  "original_freeze_sha256": "c4f666c1fdfd5e95a77df084f59958a65c7ad3ab67e1fd6adab86b038420864b",
+  "original_search_sha256": "ced61041113a24189ffcb760753cd977d94d352e17aa14ffab6a7161a1fe8f21",
+  "corrected_search_sha256": "5eb38725ba16501c8075ccb373024368335e456537c027ee75061322b47bf4e9",
+  "reason": "Fix digest function shadowed by local checksum string. Preserve all data/model/matrix/gap/metric hashes. First attempt failed before metrics/output; no scientific setting changed.",
+  "failure_log": "test-attempt1-failure.json"
+}

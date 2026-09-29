@@ -40,7 +40,8 @@ def main():
 
     sys.path.insert(0, str(SEARCH_ROOT / "src"))
     from mini3di_search.align_numba import _score_batch, warmup
-    from mini3di_search.index import IndexConfig, build_index, digest
+    from mini3di_search.index import IndexConfig, build_index
+    from mini3di_search.index import digest as record_digest
     from mini3di_search.io import read_records
     from mini3di_search.pipeline import SearchConfig
     from mini3di_search.records import Alphabet
@@ -66,7 +67,11 @@ def main():
         frozen = read(out / "test-freeze.json")
         for name, digest in frozen["files"].items():
             assert sha(out / name) == digest, name
-        assert sha(Path(__file__)) == frozen["search_code_sha256"]
+        if sha(Path(__file__)) != frozen["search_code_sha256"]:
+            repair = read(out / "execution-repair.json")
+            assert repair["original_freeze_sha256"] == sha(out / "test-freeze.json")
+            assert repair["original_search_sha256"] == frozen["search_code_sha256"]
+            assert repair["corrected_search_sha256"] == sha(Path(__file__))
         assert sha(Path(__file__).with_name("metrics.py")) == frozen["metrics_code_sha256"]
         for name, digest in frozen["search_engine_sources"].items():
             assert sha(SEARCH_ROOT / "src/mini3di_search" / name) == digest
@@ -175,7 +180,7 @@ def main():
             config=first.config,
             index_id=first.index_id,
             scoring_id=first.scoring_id,
-            query_hash=digest([asdict(q) for q in contexts[variant][0]]),
+            query_hash=record_digest([asdict(q) for q in contexts[variant][0]]),
             target_hash=first.target_hash,
             top_k=1,
             synthetic=False,

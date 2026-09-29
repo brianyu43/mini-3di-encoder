@@ -1,0 +1,7 @@
+{
+  "error": "TypeError: str object is not callable at digest([asdict(q)...])",
+  "cause": "Local file checksum loop variable shadows imported record digest function only in test stage",
+  "metrics_written": false,
+  "settings_changed": false,
+  "original_code_sha256": "ced61041113a24189ffcb760753cd977d94d352e17aa14ffab6a7161a1fe8f21"
+}
