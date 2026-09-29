@@ -9,17 +9,18 @@ import numpy as np
 
 from .atoms import Chain, read_backbone
 from .geometry import prepare_geometry
+from .learned import load_learned_model
 from .network import official_model
 from .trace import trace_prepared
 
 
-def encode_chain(chain: Chain, record_id: str) -> dict:
+def encode_chain(chain: Chain, record_id: str, *, encoder_model: Path | None = None) -> dict:
     if not record_id or any(c.isspace() or ord(c) < 32 for c in record_id):
         raise ValueError("record_id must be nonempty without whitespace/control characters")
     if not chain.residues:
         raise ValueError("Empty chains cannot be encoded")
     geometry = prepare_geometry(chain)
-    model, spec = official_model()
+    model, spec = official_model() if encoder_model is None else load_learned_model(encoder_model)
     links = chain.peptide_links()
     rows = []
     for i in range(len(chain.residues)):
@@ -73,6 +74,7 @@ def encode_chain(chain: Chain, record_id: str) -> dict:
         "synthetic": False,
         "weights_sha256": spec["weights_sha256"],
         "upstream_commit": spec["upstream_commit"],
+        "encoder_kind": spec.get("model_kind", "official-foldseek"),
     }
 
 
@@ -99,6 +101,7 @@ def main():
     parser.add_argument("--chain", default="A")
     parser.add_argument("--record-id")
     parser.add_argument("--model", type=int)
+    parser.add_argument("--encoder-model", type=Path, help="Exported learned encoder JSON")
     parser.add_argument(
         "--altloc", help="Explicit alternate-location label; blank atoms are shared"
     )
@@ -109,6 +112,7 @@ def main():
     result = encode_chain(
         read_backbone(args.structure, args.chain, model=args.model, altloc=args.altloc),
         args.record_id or f"{args.structure.stem}:{args.chain}",
+        encoder_model=args.encoder_model,
     )
     result["input"] = {
         "path": str(args.structure.resolve()),

@@ -28,6 +28,8 @@ def trace_prepared(chain, i, geometry, layers, spec) -> dict:
         "partner": None,
         "official_weights_sha256": spec["weights_sha256"],
     }
+    if spec.get("model_kind") == "learned-vqvae":
+        result["learned_model_sha256"] = result.pop("official_weights_sha256")
     if i in (0, len(chain.residues) - 1):
         result["invalid_reason"] = "chain_endpoint"
         return result

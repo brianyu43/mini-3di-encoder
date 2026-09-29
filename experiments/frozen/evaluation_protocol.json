@@ -1,0 +1,9 @@
+{
+  "primary": "MAP over all positive-score ranked targets; denominator all six relevant targets",
+  "relevance": "same SCOPe superfamily; no self-hit or shared PDB",
+  "ties": "descending raw score, ascending record_id; tie-expected AP also reported",
+  "validation_selection": "maximum MAP, then gap_open ascending, gap_extend ascending",
+  "traceback": "Top 1 Python traceback/rescore; scores saved for every positive hit",
+  "timing": "3 in-process repetitions, warmed Numba, no disk I/O; no cold-cache speedup claim",
+  "bootstrap": "2000 superfamily-cluster percentile resamples, model held fixed"
+}

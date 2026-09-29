@@ -1,0 +1,38 @@
+{
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "epochs": 60,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "commitment": 0.25,
+  "states": 20,
+  "hidden": 10,
+  "latent": 2,
+  "pair_min_tm": 0.6,
+  "pair_distance_max": 5.0,
+  "matrix_pseudocount": 0.5,
+  "matrix_scale": 2.0,
+  "gap_grid": [
+    [
+      6,
+      1
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      14,
+      2
+    ]
+  ],
+  "k": 3,
+  "window": 64,
+  "ungapped_threshold": 20,
+  "bootstrap_repeats": 2000,
+  "cpu_threads": 1,
+  "timing_repeats": 3
+}

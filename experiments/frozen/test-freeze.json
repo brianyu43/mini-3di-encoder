@@ -1,0 +1,32 @@
+{
+  "selected_seed": 29,
+  "selected_gaps": {
+    "official_original": [
+      10,
+      1
+    ],
+    "official_refit": [
+      14,
+      2
+    ],
+    "learned_refit": [
+      14,
+      2
+    ]
+  },
+  "files": {
+    "manifest.json": "95be4a049c687f1c83374b381adcea0594bdc50a0be4a48f1a7519a9a7f33745",
+    "experiment_config.json": "3df0dd372aa0191725024de31658cb4e1b7905027b752aea84097426c2b9f963",
+    "models/selection.json": "ac0c45c9f9dba370e416b3c2704ad02728aeaec2a0baa145ba779abdbaf440e3",
+    "models/seed-29/encoder.json": "14e61e8c1d7cb1a7db106515687ff7c0e6dfd8128454f194c08b12e3b94a7f0b",
+    "evaluation_protocol.json": "11c4b476a3f89d4fa8eb2ea0d1e0bc97c28bfac00480d6a9b62c3a50c82270da",
+    "search-validation/selection.json": "6733eaa5b686b9374f1ba817cc1831e8cf30b44f309aaeddaff1e2c8f2693b5d",
+    "alignment_audit.json": "70eb6db059a883c51342f76bdcff9d17821541135cc5f9341c6a9a73c7fdf301",
+    "matrices/official_original.mat": "63cdc9b17de248c790e934ffb7739d067a59c7c6cdb73a2c9c99de63e662b557",
+    "matrices/official_refit.mat": "ec0878a1d2026dc066e49f99482f8a1d16eccf0a4b43e3b199cce62c40a5e61b",
+    "matrices/learned_refit.mat": "a85b9eea1574bca5681a75cf56df3223644c01bc6d4bae1a9da511aad2971be1"
+  },
+  "script_sha256": "ddb35265c12c235706933185caa5f7f89dae822c3ad4df6946d192561e914897",
+  "metrics_code_sha256": "c479619ac683e7f7bd242d1c5d831c165474f5575aa75253f0464b0316b0e49a",
+  "test_search_has_not_run": true
+}
