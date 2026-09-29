@@ -4,6 +4,7 @@ import argparse
 import resource
 import statistics
 import sys
+from dataclasses import asdict
 from pathlib import Path
 from time import perf_counter
 
@@ -11,6 +12,22 @@ from experiments.common import SEARCH_ROOT, bounded_cpu, read, save, sha
 
 from .common import OUT
 from .metrics import cluster_interval, evaluate
+
+
+def query_batches(queries, target_length, limit=1_000_000_000):
+    """Preserve every pair while honoring the unchanged engine's per-call DP ceiling."""
+    batch, cells = [], 0
+    for query in queries:
+        cost = len(query.three_di) * target_length
+        if cost > limit:
+            raise ValueError("One query exceeds the search engine's per-call budget")
+        if batch and cells + cost > limit:
+            yield batch
+            batch, cells = [], 0
+        batch.append(query)
+        cells += cost
+    if batch:
+        yield batch
 
 
 def main():
@@ -23,12 +40,18 @@ def main():
 
     sys.path.insert(0, str(SEARCH_ROOT / "src"))
     from mini3di_search.align_numba import _score_batch, warmup
-    from mini3di_search.index import IndexConfig, build_index
+    from mini3di_search.index import IndexConfig, build_index, digest
     from mini3di_search.io import read_records
     from mini3di_search.pipeline import SearchConfig
     from mini3di_search.records import Alphabet
     from mini3di_search.scoring import Scoring, load_matrix
-    from mini3di_search.search_numba import metadata, prepare_search, search, write_outputs
+    from mini3di_search.search_numba import (
+        FastResult,
+        metadata,
+        prepare_search,
+        search,
+        write_outputs,
+    )
 
     manifest = read(out / "manifest-v2.json")
     protocol = read(out / "protocol-v2.json")
@@ -70,16 +93,24 @@ def main():
 
     def prepared(variant, gap):
         queries, targets, index, matrix = contexts[variant]
-        return prepare_search(
-            queries,
-            targets,
-            Scoring(matrix, *gap),
-            allow_real=True,
-            max_total_cells=protocol["max_search_cells_per_condition"],
+        target_length = sum(len(t.three_di) for t in targets)
+        assert (
+            sum(len(q.three_di) for q in queries) * target_length
+            <= protocol["max_search_cells_per_condition"]
         )
+        return [
+            prepare_search(
+                batch,
+                targets,
+                Scoring(matrix, *gap),
+                allow_real=True,
+                max_total_cells=1_000_000_000,
+            )
+            for batch in query_batches(queries, target_length)
+        ]
 
     if args.stage == "validation":
-        p = prepared("official_original", protocol["common_gap"])
+        p = prepared("official_original", protocol["common_gap"])[0]
         candidate_ids = np.arange(len(p.targets), dtype=np.int64)
         cells = 0
         began = perf_counter()
@@ -129,14 +160,36 @@ def main():
     def run(variant, gap, name):
         if perf_counter() - started > protocol["cpu_limit_seconds"]:
             raise RuntimeError("R1 search time ceiling exceeded")
-        result = search(
-            prepared(variant, gap),
-            contexts[variant][2],
-            SearchConfig("exhaustive", 3, 64, None),
+        begin_prepare = perf_counter()
+        batches = prepared(variant, gap)
+        preparation_seconds = perf_counter() - begin_prepare
+        parts = [
+            search(batch, contexts[variant][2], SearchConfig("exhaustive", 3, 64, None), top_k=1)
+            for batch in batches
+        ]
+        first = parts[0]
+        result = FastResult(
+            hits=tuple(h for part in parts for h in part.hits),
+            scores=tuple(s for part in parts for s in part.scores),
+            diagnostics=tuple(d for part in parts for d in part.diagnostics),
+            config=first.config,
+            index_id=first.index_id,
+            scoring_id=first.scoring_id,
+            query_hash=digest([asdict(q) for q in contexts[variant][0]]),
+            target_hash=first.target_hash,
             top_k=1,
+            synthetic=False,
+            wall_seconds=sum(part.wall_seconds for part in parts),
         )
         metrics = evaluate(result.scores, queries_meta, targets_meta)
-        report = {"variant": variant, "gap": gap, **metadata(result), "metrics": metrics}
+        report = {
+            "variant": variant,
+            "gap": gap,
+            **metadata(result),
+            "metrics": metrics,
+            "query_batches": len(batches),
+            "prepare_seconds": preparation_seconds,
+        }
         write_outputs(destination / name, result, name)
         save(destination / name / "report.json", report)
         return report

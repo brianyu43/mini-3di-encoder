@@ -1,0 +1,21 @@
+{
+  "candidate_manifest_sha256": "cbd0f79ac6c0a66694a3b573f39d6f2ca02810c02ec402d56a60326fa6bd7202",
+  "exposure_manifest_sha256": "176122744456e75e41d480a452e6898f59973345e99270402e0267eceb2060ac",
+  "script_sha256": "d6cab2241babea075220df3100884dae94da4ac150dc468a11962233cf5aafde",
+  "tmalign_sha256": "4fa7b73c9b535e3e8555208ab4787fd05ebf13e13a9c96c1d28baac5d5344ca6",
+  "total_cross_pairs": 314760,
+  "sequence_pairs": 46906,
+  "structure_pairs": 22861,
+  "identity": 0.8,
+  "both_sequence_coverage": 0.9,
+  "min_bidirectional_TM": 0.95,
+  "filter": "Length ratio is a necessary bound, not an approximate similarity filter",
+  "completed": 46906,
+  "flags": [],
+  "sequence_length_excluded_pairs": 267854,
+  "structure_length_excluded_pairs": 291899,
+  "wall_seconds_this_invocation": 665.4650236670022,
+  "tmalign_seconds_sum": 640.9015293570374,
+  "peak_parent_rss_bytes_macos": 129662976,
+  "journal_sha256": "5bf886d0ffd6a386aceceb55883386d731891b0c46d17697b0eb725a45aa56cc"
+}

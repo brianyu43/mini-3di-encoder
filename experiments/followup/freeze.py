@@ -15,6 +15,8 @@ def main():
     if (out / "data-freeze.json").exists():
         raise FileExistsError("Dataset already frozen")
     audit = read(out / "similarity-summary.json")
+    assert audit["completed"] == audit["sequence_pairs"]
+    assert sha(out / "similarity-journal.jsonl") == audit["journal_sha256"]
     assert not audit["flags"], "Near duplicates need explicit blind-data repair before freezing"
     assert sha(out / "candidate-manifest.json") == audit["candidate_manifest_sha256"]
     rows = read(out / "candidate-manifest.json")
@@ -81,6 +83,7 @@ def main():
         ),
     }
     save(out / "protocol-v2.json", protocol)
+    shutil.copyfile(ROOT / "FOLLOWUP_PLAN.md", out / "plan-at-data-freeze.md")
     save(
         out / "data-freeze.json",
         {
@@ -94,7 +97,7 @@ def main():
             "counts": dict(Counter(r["split"] + ":" + r["role"] for r in rows)),
             "test_search_has_not_run": True,
             "script_sha256": sha(Path(__file__)),
-            "plan_sha256": sha(ROOT / "FOLLOWUP_PLAN.md"),
+            "plan_sha256": sha(out / "plan-at-data-freeze.md"),
         },
     )
     print("R1 data and protocol frozen", flush=True)

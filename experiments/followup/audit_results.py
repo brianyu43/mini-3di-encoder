@@ -34,6 +34,13 @@ def main():
                 assert scores == baseline_scores
             assert len({(r["query_id"], r["target_id"]) for r in scores}) == len(scores)
             reported = read(directory / "report.json")
+            assert reported["aligned_pairs"] == len(queries) * len(targets)
+            assert reported["dp_cells"] == sum(q["length"] for q in queries) * sum(
+                t["length"] for t in targets.values()
+            )
+            assert {d["query_id"] for d in reported["diagnostics"]} == {
+                q["record_id"] for q in queries
+            }
             per_query = defaultdict(list)
             for score in scores:
                 per_query[score["query_id"]].append(score)

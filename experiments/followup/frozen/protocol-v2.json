@@ -1,0 +1,58 @@
+{
+  "experiment": "R1 hard-negative evaluation of three fixed representations/matrices",
+  "common_gap": [
+    10,
+    1
+  ],
+  "validation_gap_grid": [
+    [
+      6,
+      1
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      14,
+      2
+    ]
+  ],
+  "gap_selection": "max validation all-view query MAP; then smaller open/extend",
+  "model_selection": "Previous seed29/epoch39 fixed before this experiment; no R1 retraining",
+  "variants": [
+    "official_original",
+    "official_refit",
+    "learned_refit"
+  ],
+  "views": [
+    "all",
+    "cross_family",
+    "same_fold",
+    "other_fold"
+  ],
+  "primary": "All-view query-macro MAP and macro Recall@10; same SF positives",
+  "cross_family": "Remove same-family targets entirely; remaining same-SF targets positive",
+  "same_fold": "Keep only same-fold targets; other SFs are the hard-negative class",
+  "other_fold": "Keep same-SF positives and other-fold negatives; exclude hard negatives",
+  "published_absent_stratum": "Query SID and PDB membership absence separately; not proof of weight non-exposure",
+  "ties": "Raw score descending then record_id ascending; tie-expected AP secondary",
+  "zero_score": "Do not retrieve score-zero pairs; missing positives remain in denominators",
+  "bootstrap": {
+    "unit": "fold",
+    "repeats": 2000,
+    "seed": 20260929,
+    "statistic": "query-weighted ratio after whole-fold resampling"
+  },
+  "pr_curve": "Macro mean of per-query 101-point interpolated precision envelopes; not MAP area",
+  "backend": "Existing read-only mini-3di-search int64 Numba rolling SW, 1 compute thread",
+  "traceback": "Python top1 with independent path rescoring; all positive scores retained",
+  "timing_repeats": 3,
+  "cpu_limit_seconds": 7200,
+  "memory_limit_bytes": 4294967296,
+  "preflight_score_cells": 1000000000,
+  "max_search_cells_per_condition": 4000000000,
+  "test_single_evaluation": "One frozen test evaluation; exact repeats only for time",
+  "R2_gate": "Common-gap learned MAP at least 0.02 below official_refit, or concrete encoding/ranking failures warrant analysis",
+  "R3_gate": "Candidate/ungapped/traceback overhead remains dominant in controlled timing; benchmark separately"
+}

@@ -1,0 +1,11 @@
+{
+  "cells": 1000320288,
+  "seconds": 4.617310540998005,
+  "validation_data_only": true,
+  "test_cells_per_condition": 884778320,
+  "estimated_search_seconds_with_reserve": 749.764203405832,
+  "completed_similarity_wall_seconds": 665.4650236670022,
+  "peak_process_rss_bytes_macos": 136413184,
+  "passed": true,
+  "method": "Warm validation score throughput; 2x score reserve +600s; serial wall is conservative CPU budget proxy"
+}
