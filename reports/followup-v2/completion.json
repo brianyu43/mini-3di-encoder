@@ -1,0 +1,15 @@
+{
+  "R1_complete": true,
+  "R2_complete": true,
+  "R3_complete_with_declared_data_shortfalls": true,
+  "search_repository_unchanged_head": "4e8adf9d966dee34e581d13f4bb71f0db08a6ecd",
+  "largest_scale_backend_speedup": 7.4797994819430444,
+  "largest_scale_filter_retention": 0.9400000000000001,
+  "max_measured_python_peak_rss_bytes": 553402368,
+  "local_artifact_disk_kib": 940016,
+  "next_research_plan": "NEXT_RESEARCH_AFTER_FOLLOWUP.md",
+  "future_study_executed": false,
+  "gpu_used": false,
+  "new_structure_downloads": false,
+  "remote_push_performed": false
+}

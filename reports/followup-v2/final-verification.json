@@ -1,0 +1,39 @@
+{
+  "research_pytest": {
+    "passed": 71,
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv-research/bin/python -m pytest -q"
+  },
+  "core_pytest": {
+    "passed": 63,
+    "skipped_modules": 3,
+    "command": ".venv/bin/python -m pytest -q"
+  },
+  "ruff_check": true,
+  "ruff_format_check": true,
+  "git_diff_check": true,
+  "examples": [
+    {
+      "model": "official",
+      "sha256": "8b635d10094da40f0566d238decaa5dec33ade97927caa97e2975d54996f3d54",
+      "residues": 76,
+      "feature_valid": 74
+    },
+    {
+      "model": "learned",
+      "sha256": "f93d89c766806c110b6a65fa1863fff8f25230d5abe12fb2ccba16def60d74d8",
+      "residues": 76,
+      "feature_valid": 74
+    }
+  ],
+  "visual_review": [
+    "R1-quality.png",
+    "R1-precision-recall.png",
+    "R2/learning-stability.png",
+    "R3/system-scaling.png"
+  ],
+  "scientific_audits_passed": [
+    "R1-independent-audit.json",
+    "R2/final-audit.json",
+    "R3/independent-audit.json"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "smallest_top1_seconds": {
+    "[60, 120]": 0.11778549999871757,
+    "[121, 250]": 0.19054608299484244,
+    "[251, 500]": 0.29315787499945145
+  },
+  "estimated_sweep_seconds_with_3x_reserve": 13305.90718493113,
+  "completed_preparation_seconds": 386.8801205430027,
+  "passed": true
+}

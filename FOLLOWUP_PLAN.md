@@ -38,22 +38,60 @@ R1 완료 후 공통 gap에서 재학습 표현의 MAP 저하와 query 오류가
 | 작업 | 현재 상태 |
 |---|---|
 | R1 후보·분류층 구성 | 완료: test 100×484, 56 query SF / 34 fold |
-| R1 근접 중복 audit·데이터 동결 | audit 완료: 46,906서열/22,861구조 비교, flag 0; 동결 진행 |
-| R1 비용 예비 측정·설정 동결 | 대기 |
-| R1 전수검색·오류/불확실성 분석 | 대기 |
-| 결과 기반 R2/R3 진행 판단 | 대기 |
+| R1 근접 중복 audit·데이터 동결 | 완료: 46,906서열/22,861구조 비교, flag 0 |
+| R1 비용 예비 측정·설정 동결 | 완료: 고정된 common/selected gap, 원본 freeze 보존 |
+| R1 전수검색·오류/불확실성 분석 | 완료: 6,000 query/view/run 검산; paired fold 구간 추가 |
+| R2 학습량·경계 안정성 | 완료: 15학습, 6좌표 조건, 78점수표 독립 검산 |
+| R3 동일 결과 CPU 최적화 | 완료: 10규모·길이 조건, 1,000회 측정·저장 결과 검산 |
+| 후속 계획·최종 보고 | 완료: NEXT_RESEARCH_AFTER_FOLLOWUP.md, FOLLOWUP_REPORT.md |
 
-실제 출력은 `artifacts/followup-v2/`에 보존한다. 진행 중인 목표를 기존 작은 실험의 완료로 대체하지 않는다.
+실제 출력은 `artifacts/followup-v2/`에 보존한다. R1–R3의 실제 완료와 명시된 표본 부족 조건을
+근거로 후속 연구를 닫았다. 새 미실행 계획은 완료 결과와 구분한다.
 
 ## 실행 기록
 
 - 데이터 후보: test 100query/484target, query SF 56개, 34fold. validation 30query/84target.
 - 초기 후보에서 이전 자료와 같은 PDB인 항목을 찾아, 점수 계산 전에 제외해 다시 구성했다.
-  첫 후보·구조는 `artifacts/followup-preselection-v1`에 보존한다. 현재 후보가 아직 동결 결과는 아니다.
+  첫 후보·구조는 `artifacts/followup-preselection-v1`에 보존한다. 이후 최종 후보를 동결했다.
 - 비교할 314,760쌍 중 길이로 가능한 서열 46,906쌍/구조 22,861쌍의 근접 중복 audit가 완료됐다.
   flag 0개이며 전체 journal·TM-align 표본 원본 출력을 보존했다.
 - 평가 분모·중립 target 제외·fold 가중 bootstrap 테스트를 추가했고 총 62개 테스트가 통과했다.
-- R1과 조건부 R2 사전 등록을 `b313233`에 커밋했다. R2는 아직 실행하지 않았다.
+- R1과 조건부 R2 사전 등록을 `b313233`에 커밋했다. 당시 R2는 실행 전이었다.
 - 첫 검색 준비에서 기존 엔진의 호출당 DP 예산 상한(10억 cell)을 확인했다. 실제 지표를
   계산하기 전의 실패 로그를 보존하고, 엔진을 수정하지 않고 query를 묶음으로 나누도록 했다.
   모든 query-target 쌍과 순서는 유지하며 결과를 합친다. 묶음 경계·전체 포함 테스트를 추가했다.
+- R1 첫 test의 결과 기록에서 hash 함수 이름 충돌로 중단됐다. 원본 freeze·실패 기록을
+  보존하고 `execution-repair.json`으로 수정 전후 코드 hash를 연결했다. 지표 저장 전 실패이며
+  모델·자료·gap·평가 정의를 바꾸지 않았다. 수정 후 세 반복과 독립 검산이 통과했다.
+- R1 learned−official_refit MAP는 −0.0074, paired fold 95% 구간 [−0.0255, +0.0087]이다.
+  큰 하락 gate는 미충족이지만 AP<0.5 질의 22개가 있어 사전 등록한 R2로 진행했다.
+- R2 38/76/152 구조 쌍 × 5seed를 모두 실행했다. test MAP 평균 .7258/.7372/.7287,
+  full−quarter는 2seed 양수/3seed 음수다. 공식·학습 모델의 soft seed 모두 validation
+  retain@10 .98 미달로 채택하지 않았다. 전체 모델·실패 사례·점수 원본을 보존했다.
+- R2 한 학습 입력에서 Torch와 배포형 NumPy의 상태가 달랐다. BN folding/float32의
+  약 2.5e−7 잠재 좌표 차이가 중심 경계를 넘었다. 행렬과 검색은 배포 상태를 일관되게 쓴다.
+- R3는 기존 배포 모델·행렬·gap을 그대로 고정했다. 원본 검색 저장소를 수정하지 않고
+  실험 커널을 별도로 구현했다. `85c7402`에 사전 계획·동등성 테스트를 기록했다.
+- 테스트는 README의 `python -m pytest` 명령을 쓴다. 직접 `pytest`를 호출했을 때
+  저장소 루트의 experiments import가 실패했던 실행은 테스트 성공으로 세지 않았다.
+- R2 평가의 첫 실행은 검색 저장소 import 경로 설정 전에 멈췄다. 파일 동결·점수 생성 전
+  실패이며 경로 설정 후 정상 실행했다. 실제 실행 코드 hash/커밋은 REPRODUCE.md에 있다.
+- R3에서 50/200/1,000/5,000개 네 규모 모두 동일 결과의 backend 개선이 1.5배를 넘었다.
+  5,000개에서 12.524→1.674초(7.48배), 필터 retain@10=.94다. 필터 자체를 높은 보존율의
+  기본값으로 채택하지 않는다. 길이별 5,000개는 각각 3,514/4,646/2,094개만 적격이라 생략했다.
+- R3 전체 1,000개 timed run의 후보·점수 hash와 중앙값/범위를 검산하고 원본 경로를 재채점했다.
+  프로세스 peak RSS 553.4MB, GPU·클라우드·새 구조 다운로드 없음. 원본 검색 저장소는 그대로다.
+
+## 최종 검증
+
+- research 환경: `PYTHONDONTWRITEBYTECODE=1 .venv-research/bin/python -m pytest -q`
+  → **71 passed**. 원본 source 비교·새 커널의 300정렬/35후보 무작위 사례를 포함한다.
+- 기본 인코더 환경: `.venv/bin/python -m pytest -q` → **63 passed, 3 skipped**.
+  PyTorch/Numba가 필요한 선택적 연구 모듈을 건너뛰고 기본 기능을 검증했다.
+- `ruff check .`, `ruff format --check .` 통과. 생성 SVG의 불필요한 줄 끝 공백을
+  정리한 뒤 `git diff --check`도 통과했다. 그림 데이터와 시각적 내용은 바뀌지 않았다.
+- 공식 모델 및 새 full-data seed71로 실제 1UBQ CLI 실행 성공: 각각 76잔기, 유효 특징 74개.
+  결과는 `artifacts/followup-v2/final-example-official` / `final-example-learned`에 있다.
+- R1·R2·R3 그림을 직접 확인했고 결과표·분모·hash·실행 코드 커밋을 대조했다.
+- 연구 브랜치에 코드·모델·표·그림을 로컬 커밋했다. 새 GitHub push는 하지 않았다.
+  다음 연구의 구체적 계획은 미실행 상태로 분리했다.

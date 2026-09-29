@@ -1,15 +1,22 @@
 """Boundary cases for coordinate perturbations and positional soft-seed semantics."""
 
 import numpy as np
+import pytest
 
-from experiments.followup.evaluation import (
+from experiments.common import SEARCH_ROOT
+
+pytest.importorskip("numba")
+if not (SEARCH_ROOT / "src/mini3di_search").is_dir():
+    pytest.skip("Optional search repository is not installed", allow_module_level=True)
+
+from experiments.followup.evaluation import (  # noqa: E402
     IndexConfig,
     ProteinRecord,
     build_index,
     collect_hits,
     soft_hits,
 )
-from experiments.followup.stability import perturb, stability_counts
+from experiments.followup.stability import perturb, stability_counts  # noqa: E402
 
 
 def record(sid, sequence, mask=None):

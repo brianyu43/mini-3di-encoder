@@ -3,9 +3,15 @@
 import sys
 
 import numpy as np
+import pytest
 
 from experiments.common import ROOT, SEARCH_ROOT
-from experiments.followup.system_kernels import (
+
+pytest.importorskip("numba")
+if not (SEARCH_ROOT / "src/mini3di_search").is_dir():
+    pytest.skip("Optional search repository is not installed", allow_module_level=True)
+
+from experiments.followup.system_kernels import (  # noqa: E402
     decoded_alignment,
     packed_postings,
     support_kernel,

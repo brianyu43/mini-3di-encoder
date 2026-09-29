@@ -1,0 +1,31 @@
+{
+  "verified": true,
+  "files": [
+    {
+      "path": "experiments/followup/evaluate_curve.py",
+      "commit": "d22a2a7",
+      "sha256": "f67262a25922d7aaefb9f7206b40ce5ce0b2d9d1dc99b2720fbe854f67e205c5"
+    },
+    {
+      "path": "experiments/followup/evaluation.py",
+      "commit": "4f6e9a2",
+      "sha256": "6fbda488c9db1f2b8ebb068a4d5559cb5864c4530889d7180500c29ead98a0af"
+    },
+    {
+      "path": "experiments/followup/stability.py",
+      "commit": "d22a2a7",
+      "sha256": "de2a07342a0f5564ba30559cb5cb596f22e15ccacb85c7e0ab1dd4e4f3e21ee6"
+    },
+    {
+      "path": "experiments/followup/system_prepare.py",
+      "commit": "85c7402",
+      "sha256": "4f9a21ff6c304c9702027b7dea2f65fc2cf578effdda368f017b9c3f54210671"
+    },
+    {
+      "path": "experiments/followup/system_benchmark.py",
+      "commit": "898467f",
+      "sha256": "464b680172274bd12921971fd9d9a99c4dc894e10ca21d3c85225cea3f0a7ae2"
+    }
+  ],
+  "note": "Reporting and replay guards added later; executed source versions retain exact matching hashes"
+}

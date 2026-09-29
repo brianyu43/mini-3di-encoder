@@ -5,5 +5,5 @@
   "R2_failure_examples": 22,
   "learned_score_time_fraction": 0.7490078216895298,
   "R3_status": "No filter-throughput conclusion from exhaustive R1 alone; preserve controlled-system plan",
-  "script_sha256": "b6e1c8c290c71f358c712a7c18828f020040e1a2300ccd8d230e0726ea6bcf89"
+  "script_sha256": "55761d2ed23470904f50a5e2dbde809a39263a248c918911403665a99210f6ac"
 }

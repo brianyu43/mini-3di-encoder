@@ -115,3 +115,50 @@ export NUMBA_CACHE_DIR="$PWD/artifacts/reproduction/numba-cache"
 
 API 실험과 같은 top-1 상세 경로·모든 양수 점수 출력 조건이다. 전체 검색 결과에는
 E-value·TM-score·상동성 확률을 붙이지 않는다.
+
+## 후속 R1–R3 실험
+
+동일한 research lock 환경을 사용한다. 후속 실행은 기존 원 실험의 catalog, 152개 train
+구조 쌍, 모델, 공식 목록과 로컬 구조 archive를 재사용한다. 해당 파일은 Git에 모두 포함되어
+있지 않으므로 **새 clone에서 아래 명령만 실행하면 데이터까지 자동 복구되는 것은 아니다**.
+`experiments/followup/common.py`의 ORIGINAL/OUT, `experiments.prepare.ARCHIVE` 경로를
+확인한다. 다른 머신에서 전체 재현을 별도로 검증한 것은 아니다.
+
+실제 실행한 단계:
+
+```bash
+.venv-research/bin/python -m experiments.followup.prepare
+.venv-research/bin/python -m experiments.followup.similarity
+.venv-research/bin/python -m experiments.followup.freeze
+.venv-research/bin/python -m experiments.followup.encode
+.venv-research/bin/python -m experiments.followup.search validation
+# 이 지점에서 test-freeze와 선택 설정을 커밋하고, 그 뒤 test를 실행한다.
+.venv-research/bin/python -m experiments.followup.search test
+.venv-research/bin/python -m experiments.followup.audit_results
+.venv-research/bin/python -m experiments.followup.report
+.venv-research/bin/python -m experiments.followup.train_curve
+.venv-research/bin/python -m experiments.followup.evaluate_curve
+.venv-research/bin/python -m experiments.followup.stability
+.venv-research/bin/python -m experiments.followup.final_audit
+.venv-research/bin/python -m experiments.followup.report_r2
+.venv-research/bin/python -m experiments.followup.system_prepare
+.venv-research/bin/python -m experiments.followup.system_benchmark
+.venv-research/bin/python -m experiments.followup.report_system
+```
+
+완료 결과가 존재하는 현재 OUT에 그대로 재실행하지 않는다. 별도 checkout에서 OUT을
+새 경로로 지정하고 각 단계의 freeze를 새로 만든다. 원본 R1 test-freeze는 첫 실행의
+hash 함수 이름 충돌 수정 전 코드 hash를 포함하며, `execution-repair.json`으로 수정 이력을
+연결했다. 수정 전 코드는 `cdbb22e` 이전 커밋, 실제 수정 실행은 `cdbb22e`에 보존했다.
+현재 실행 스크립트의 편의 수정까지 원래 실험 코드였다고 간주하지 않는다.
+
+R2 평가 실행 소스는 `d22a2a7`의 evaluate_curve 및 그 직전 `4f6e9a2`의 evaluation이다.
+변형 좌표 실험은 `d22a2a7`, R3 준비는 `85c7402`, R3 측정은 `898467f`의 실행 코드다.
+각 artifacts의 freeze에 실제 파일 hash도 보존했다. 생성 보고서·검산 스크립트는 뒤에 추가했다.
+
+R2의 15개 NumPy 배포 모델과 전용 행렬은 `models/learning-curve/`에서 바로 읽을 수 있다.
+모두 연구 결과이며 기존 공식 기본값/배포 bundle을 대체하지 않았다. 모델 사용 시 대응하는
+행렬을 함께 사용하고, 기존 3Di DB도 같은 모델로 다시 인코딩한다.
+
+Numba 또는 나란한 검색 저장소가 없는 기본 환경에서는 두 후속 시스템/soft-seed 테스트
+모듈도 skip한다. `python -m pytest`로 실행하면 core 인코더 검증은 계속 동작한다.

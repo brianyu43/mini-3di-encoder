@@ -1,8 +1,9 @@
 # mini-3di-encoder
 
 - 한국어로 설명한다. 실행 방법·지원 범위·출처는 README.md를 따른다.
-- 현재 구현·실험은 1–15회차까지다. PLAN_06_10.md, PLAN_11_15.md, REPORT_11_15.md를 따른다.
-- 다음 연구는 NEXT_RESEARCH.md의 미실행 계획이다. 완료된 test로 설정을 바꾼 뒤 독립 평가라고 부르지 않는다.
+- 1–15회차와 후속 R1–R3 실험을 완료했다. 각 단계의 보고서와 FOLLOWUP_REPORT.md를 따른다.
+- NEXT_RESEARCH.md는 실행 전 원래 계획이다. 새 미실행 계획은 NEXT_RESEARCH_AFTER_FOLLOWUP.md다.
+- 완료된 test로 설정을 바꾼 뒤 독립 평가라고 부르지 않는다. R2의 R1 test 재사용을 명시한다.
 - 공식 모델은 기본값이다. 재학습 모델은 명시적으로 선택하고 전용 점수 행렬을 쓴다.
 - 전체 계획과 실험 기록은 research/sessions-01-05 브랜치에 보존되어 있다.
 - Foldseek 10-941cd33의 공식 가중치·중심·연산 규칙을 유지하고 출처·라이선스를 보존한다.

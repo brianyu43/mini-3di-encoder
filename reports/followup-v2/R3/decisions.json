@@ -1,0 +1,12 @@
+{
+  "equivalence_passed": true,
+  "sizes_with_1_5x_speedup": [
+    50,
+    200,
+    1000,
+    5000
+  ],
+  "backend_adoption_gate_passed": true,
+  "scope": "Experimental kernels only; production search repository unchanged",
+  "filter_quality_is_separate": true
+}

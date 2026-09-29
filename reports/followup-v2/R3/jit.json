@@ -1,0 +1,17 @@
+{
+  "seconds": 1.3560313749985653,
+  "preexisting_cache_files": 0,
+  "score_kernel": {
+    "compiled_in_this_call": true,
+    "first_call_including_compilation_seconds": 0.3601743749968591,
+    "repeat_call_seconds": 8.458002412226051e-06,
+    "scope": "first batch dispatch includes compiler and tiny execution; not pure compile time",
+    "cache": false,
+    "parallel": false,
+    "score_dtype": "int64",
+    "batch_nopython_signatures": [
+      "(Array(int64, 1, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int64, 2, 'C', False, aligned=True), int64, int64) -> array(int64, 1d, C)"
+    ]
+  },
+  "scope": "first calls in this process; fresh dedicated cache if count is zero"
+}

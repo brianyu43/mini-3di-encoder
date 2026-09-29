@@ -162,6 +162,25 @@ def main():
                 f"{row['search_seconds_median']:.3f} |"
             )
     absent = counts["test_published_pdb_absent_queries"]
+    failures = sorted(learned["metrics"]["all"]["per_query"], key=lambda q: q["AP"])[:3]
+    reference_queries = {
+        q["query_id"]: q for q in common["official_refit"]["metrics"]["all"]["per_query"]
+    }
+    failure_rows = [
+        f"| {q['query_id']} | {q['AP']:.4f} | "
+        f"{reference_queries[q['query_id']]['AP']:.4f} | "
+        f"{', '.join(map(str, sorted(q['positive_ranks'].values())))} |"
+        for q in failures
+    ]
+    paired_text = ""
+    if (out / "R2/final-audit.json").exists():
+        paired = read(out / "R2/final-audit.json")["R1_paired_fold_difference"]["all"]
+        low, high = paired["ci95"]
+        paired_text = (
+            f"같은 fold를 함께 재추출한 paired 차이의 95% 구간은 [{low:+.4f}, {high:+.4f}]다. "
+            "0을 포함하므로 이 표본에서 전체 MAP의 우열을 확정하지 않는다. "
+            "분류층별 paired 결과는 R2/final-audit.json에도 보존했다."
+        )
     report_text = f"""# R1: 어려운 음성을 포함한 고정 평가
 
 이전 세 표현/행렬을 그대로 두고 평가 대상을 바꿨다. 결과를 본 뒤 구조나 설정을 바꾸지 않았다.
@@ -212,6 +231,17 @@ PR은 101개 recall 지점의 query별 보간 precision을 평균한 것이며, 
 공통 gap에서 learned−official_refit MAP 차이는 **{difference:+.4f}**다. query별 실패 사례,
 네 평가 층의 분모와 순위는 [독립 검산 결과](reports/followup-v2/R1-independent-audit.json)에 있다.
 AP<0.5 사례는 원인 분석 후보이며 점수만으로 구조 표현의 실패 원인을 확정하지 않는다.
+{paired_text}
+
+낮은 AP의 구체적인 사례:
+
+| 질의 | 재학습 AP | 공식 표현+재추정 행렬 AP | 재학습에서 양성 순위 |
+|---|---:|---:|---|
+{chr(10).join(failure_rows)}
+
+이들은 후보 필터를 쓰지 않은 전수검색 결과다. 따라서 필터의 누락만으로 설명할 수 없다.
+예컨대 d1kjqa1의 상위 10개는 모두 다른 fold로 분류된 대상이었다. 표현, 점수 행렬, 구조의
+특성 중 어느 것이 원인인지는 이 순위만으로 확정할 수 없어 학습량/행렬 요인 분리가 필요하다.
 
 ## 검증·비용
 
@@ -234,7 +264,8 @@ GPU·클라우드·새 대규모 다운로드 없이 수행했다.
 R2의 수치 gate(공통 gap MAP 차이 ≤−0.02)는 {gate["R2_MAP_gate_triggered"]}다.
 R2 학습량·경계 안정성 실험은 R1 test를 보기 전에 `R2_PREREGISTRATION.json`에 조건을
 기록했다. 진행 여부는 오류 사례와 이 gate를 함께 확인한다. R3의 필터 처리량은 R1 전수검색만으로
-판정하지 않으며 별도 통제 실험이 필요하다. 목표는 아직 전체 후속 연구 진행 중이다.
+판정하지 않으며 별도 통제 실험이 필요하다. 이후 실행·판단은 FOLLOWUP_PLAN.md와
+R2/R3 보고서에서 확인한다.
 
 코드: `experiments/followup/`. 원본 출력: `artifacts/followup-v2/`. 읽을 수 있는 결과:
 `reports/followup-v2/`. 순서는 `prepare → similarity → freeze → encode → search validation

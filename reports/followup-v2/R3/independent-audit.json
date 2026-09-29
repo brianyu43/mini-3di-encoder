@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "timed_runs_checked": 1000,
+  "candidate_and_score_digests_reconstructed": true,
+  "persisted_oracle_paths_rescored": true,
+  "script_sha256": "da2ed00252177b53c89db46cba0d697f585eb5148ed09c072cd867dff60fc19e",
+  "result_sha256": "fd4c568a3a8d336b1ebf556e3d89d2266ccbdd97bfb624921eb0054534354cfd"
+}

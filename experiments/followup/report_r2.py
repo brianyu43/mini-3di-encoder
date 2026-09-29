@@ -144,6 +144,16 @@ def main():
     primary = next(r for r in raw if r["pairs"] == 152 and r["seed"] == curve["primary_seed"])
     resource = [training, curve, stability]
     delta_text = ", ".join(f"{d['seed']}: {d['full_minus_quarter_MAP']:+.4f}" for d in delta)
+    margin_rows = []
+    for r in stability["runs"]:
+        if r["condition"] != "gaussian_0.01_A" or r["split"] != "test":
+            continue
+        c = r["counts"]
+        for label, key in [("0–0.01", "0_0.01"), ("0.25–1", "0.25_1.000001")]:
+            total, changed = c[f"margin_{key}_positions"], c[f"margin_{key}_changes"]
+            margin_rows.append(
+                f"| {r['model']} | {label} | {changed}/{total} | {changed / total:.2%} |"
+            )
     report = f"""# R2: 학습량과 상태 경계 실험
 
 사전에 정한 15회 학습·검색과 6가지 좌표 조건을 모두 실행했다. 학습량 증가의 효과가
@@ -190,6 +200,17 @@ validation 검색 MAP로 고르면 seed {curve["alternative_validation_MAP_seed"
 파괴로 센다. 두 모델은 강체변환 후 상태·mask·상대가 모두 같았다. 반올림과 잡음에서는
 경계 통과가 생겼다. 중심 거리 margin별·구조별 변경 수와 분모도 저장했다.
 MAP 변화는 단조롭지 않으며 이 표에서 특정 잡음이 성능을 개선한다고 일반화하지 않는다.
+
+0.01Å 조건에서 상대 잔기가 유지된 위치만 보면, 원본 중심 거리 margin이 작은 위치에서
+상태 변경이 훨씬 잦았다. 아래는 미리 정한 구간 중 가장 낮은/높은 구간이다.
+중간 구간 역시 JSON에 전부 있다.
+
+| 모델 | 원본 normalized margin | 상태 변경/위치 수 | 변경률 |
+|---|---|---:|---:|
+{chr(10).join(margin_rows)}
+
+margin이 작은 위치는 두 중심 중 어느 쪽을 고를지 경계에 가깝다. 다만 이것을 표시하는 것과
+검색 후보를 충분히 복구하는 것은 별개의 문제였고, 아래 soft seed는 기준을 통과하지 못했다.
 
 ## Soft seed: 실패도 결과
 

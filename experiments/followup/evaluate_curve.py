@@ -33,6 +33,8 @@ def encoded_arrays(layers, spec, features):
 
 def main():
     out = OUT / "R2"
+    if (out / "search-freeze.json").exists():
+        raise FileExistsError("Curve search is already frozen; use a new output root")
     bounded_cpu(out)
     sys.path.insert(0, str(SEARCH_ROOT / "src"))
     from mini3di_search.align_numba import warmup
