@@ -1,12 +1,13 @@
 """Freeze all trained models before the prespecified repeated-test ablation."""
 
 import resource
+import sys
 from pathlib import Path
 from time import perf_counter
 
 import numpy as np
 
-from experiments.common import bounded_cpu, read, save, sha
+from experiments.common import SEARCH_ROOT, bounded_cpu, read, save, sha
 from mini3di_encoder.learned import embed_batch, load_learned_model
 
 from .common import OUT
@@ -33,6 +34,7 @@ def encoded_arrays(layers, spec, features):
 def main():
     out = OUT / "R2"
     bounded_cpu(out)
+    sys.path.insert(0, str(SEARCH_ROOT / "src"))
     from mini3di_search.align_numba import warmup
 
     from .evaluation import exhaustive, independent_recount

@@ -143,7 +143,12 @@ def filter_scores(scores, queries, targets, arrays, *, threshold=None):
             sum(s["target_id"] in sets[q.record_id] for s in top) / len(top) if top else 1.0
         )
     filtered = [s for s in scores if s["target_id"] in sets[s["query_id"]]]
-    return filtered, {
+    ranks = defaultdict(int)
+    reranked = []
+    for score in filtered:
+        ranks[score["query_id"]] += 1
+        reranked.append({**score, "rank": ranks[score["query_id"]]})
+    return reranked, {
         "threshold": threshold,
         "retain_exact_at_10": float(np.mean(retained)),
         "candidate_pairs": sum(map(len, sets.values())),
