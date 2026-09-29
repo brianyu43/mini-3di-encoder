@@ -1,0 +1,1042 @@
+[
+  {
+    "query_id": "d2cx1a2",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 20,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d1q7ha2",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 20,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d2q07a3",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 20,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d1kwia_",
+    "split": "validation",
+    "positive": 5,
+    "cross_family_positive": 5,
+    "same_fold_negative": 17,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d2ch9a_",
+    "split": "validation",
+    "positive": 5,
+    "cross_family_positive": 4,
+    "same_fold_negative": 17,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d2octa_",
+    "split": "validation",
+    "positive": 5,
+    "cross_family_positive": 4,
+    "same_fold_negative": 17,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d1nwwa_",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 12,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d3grda_",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 9,
+    "same_fold_negative": 12,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d2rgqa1",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 12,
+    "other_fold_negative": 62
+  },
+  {
+    "query_id": "d3hgma_",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 7,
+    "same_fold_negative": 9,
+    "other_fold_negative": 65
+  },
+  {
+    "query_id": "d1gpma1",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 6,
+    "same_fold_negative": 9,
+    "other_fold_negative": 65
+  },
+  {
+    "query_id": "d1mjha_",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 9,
+    "same_fold_negative": 9,
+    "other_fold_negative": 65
+  },
+  {
+    "query_id": "d3mlaa_",
+    "split": "validation",
+    "positive": 7,
+    "cross_family_positive": 2,
+    "same_fold_negative": 12,
+    "other_fold_negative": 65
+  },
+  {
+    "query_id": "d1ej2a_",
+    "split": "validation",
+    "positive": 7,
+    "cross_family_positive": 2,
+    "same_fold_negative": 12,
+    "other_fold_negative": 65
+  },
+  {
+    "query_id": "d1jhda2",
+    "split": "validation",
+    "positive": 7,
+    "cross_family_positive": 6,
+    "same_fold_negative": 12,
+    "other_fold_negative": 65
+  },
+  {
+    "query_id": "d1ne8a_",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 41,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d3hpwa_",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 41,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1m1fa_",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 41,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d2dy8a1",
+    "split": "validation",
+    "positive": 7,
+    "cross_family_positive": 5,
+    "same_fold_negative": 36,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1e0ba_",
+    "split": "validation",
+    "positive": 7,
+    "cross_family_positive": 5,
+    "same_fold_negative": 36,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1guwa_",
+    "split": "validation",
+    "positive": 7,
+    "cross_family_positive": 5,
+    "same_fold_negative": 36,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1oi1a2",
+    "split": "validation",
+    "positive": 6,
+    "cross_family_positive": 4,
+    "same_fold_negative": 37,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d3fdra_",
+    "split": "validation",
+    "positive": 6,
+    "cross_family_positive": 4,
+    "same_fold_negative": 37,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d2jnga1",
+    "split": "validation",
+    "positive": 6,
+    "cross_family_positive": 6,
+    "same_fold_negative": 37,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d2j01t1",
+    "split": "validation",
+    "positive": 5,
+    "cross_family_positive": 5,
+    "same_fold_negative": 38,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1x6oa1",
+    "split": "validation",
+    "positive": 5,
+    "cross_family_positive": 4,
+    "same_fold_negative": 38,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d2evra1",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 41,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1m9sa2",
+    "split": "validation",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 41,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1ng2a2",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 2,
+    "same_fold_negative": 33,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1ug1a_",
+    "split": "validation",
+    "positive": 10,
+    "cross_family_positive": 2,
+    "same_fold_negative": 33,
+    "other_fold_negative": 41
+  },
+  {
+    "query_id": "d1e0ta3",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 2,
+    "other_fold_negative": 480
+  },
+  {
+    "query_id": "d1pkla3",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 2,
+    "other_fold_negative": 480
+  },
+  {
+    "query_id": "d1iura_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 12,
+    "other_fold_negative": 470
+  },
+  {
+    "query_id": "d1fpoa1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 12,
+    "other_fold_negative": 470
+  },
+  {
+    "query_id": "d2c1ia1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 3,
+    "other_fold_negative": 479
+  },
+  {
+    "query_id": "d2j13a1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 3,
+    "other_fold_negative": 479
+  },
+  {
+    "query_id": "d1nj8a1",
+    "split": "test",
+    "positive": 7,
+    "cross_family_positive": 2,
+    "same_fold_negative": 6,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1qf6a1",
+    "split": "test",
+    "positive": 7,
+    "cross_family_positive": 2,
+    "same_fold_negative": 6,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1ex2a_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 3,
+    "same_fold_negative": 10,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1k7ka_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 1,
+    "same_fold_negative": 10,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1ghja_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 4,
+    "other_fold_negative": 478
+  },
+  {
+    "query_id": "d1iyua_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 4,
+    "other_fold_negative": 478
+  },
+  {
+    "query_id": "d1gsoa1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 4,
+    "other_fold_negative": 478
+  },
+  {
+    "query_id": "d1kjqa1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 4,
+    "other_fold_negative": 478
+  },
+  {
+    "query_id": "d2d29a1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 13,
+    "other_fold_negative": 469
+  },
+  {
+    "query_id": "d1ivha1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 13,
+    "other_fold_negative": 469
+  },
+  {
+    "query_id": "d3p1fa_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 1,
+    "same_fold_negative": 12,
+    "other_fold_negative": 469
+  },
+  {
+    "query_id": "d2grca_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 12,
+    "other_fold_negative": 469
+  },
+  {
+    "query_id": "d1jyaa_",
+    "split": "test",
+    "positive": 6,
+    "cross_family_positive": 2,
+    "same_fold_negative": 4,
+    "other_fold_negative": 474
+  },
+  {
+    "query_id": "d2fm8a1",
+    "split": "test",
+    "positive": 6,
+    "cross_family_positive": 2,
+    "same_fold_negative": 4,
+    "other_fold_negative": 474
+  },
+  {
+    "query_id": "d1go3f_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 33,
+    "other_fold_negative": 448
+  },
+  {
+    "query_id": "d2e1fa_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 33,
+    "other_fold_negative": 448
+  },
+  {
+    "query_id": "d2a1jb1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 34,
+    "other_fold_negative": 448
+  },
+  {
+    "query_id": "d2duya1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 34,
+    "other_fold_negative": 448
+  },
+  {
+    "query_id": "d1kw4a_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 6,
+    "same_fold_negative": 26,
+    "other_fold_negative": 448
+  },
+  {
+    "query_id": "d1x40a1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 6,
+    "same_fold_negative": 26,
+    "other_fold_negative": 448
+  },
+  {
+    "query_id": "d1q7l.1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 9,
+    "other_fold_negative": 473
+  },
+  {
+    "query_id": "d1vhoa2",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 9,
+    "other_fold_negative": 473
+  },
+  {
+    "query_id": "d3ddoa_",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 2,
+    "same_fold_negative": 7,
+    "other_fold_negative": 473
+  },
+  {
+    "query_id": "d1je0a_",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 2,
+    "same_fold_negative": 7,
+    "other_fold_negative": 473
+  },
+  {
+    "query_id": "d1c3za_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 1,
+    "same_fold_negative": 10,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d2wcja_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 10,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1k9ua_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 3,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1k8ua_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 3,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1cuna2",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 19,
+    "other_fold_negative": 463
+  },
+  {
+    "query_id": "d1hcia4",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 19,
+    "other_fold_negative": 463
+  },
+  {
+    "query_id": "d1w0ha_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 8,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d1exqa_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d2yx6a_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 28,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d1o13a_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 28,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d1saza2",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 9,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d2e1za1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 9,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d2dmya1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 2,
+    "same_fold_negative": 3,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d2dixa1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 2,
+    "same_fold_negative": 3,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1veka_",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 1,
+    "same_fold_negative": 5,
+    "other_fold_negative": 475
+  },
+  {
+    "query_id": "d1wiva_",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 1,
+    "same_fold_negative": 5,
+    "other_fold_negative": 475
+  },
+  {
+    "query_id": "d1yuda1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 8,
+    "same_fold_negative": 13,
+    "other_fold_negative": 461
+  },
+  {
+    "query_id": "d1o5ua_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 13,
+    "other_fold_negative": 461
+  },
+  {
+    "query_id": "d3bpza_",
+    "split": "test",
+    "positive": 9,
+    "cross_family_positive": 2,
+    "same_fold_negative": 14,
+    "other_fold_negative": 461
+  },
+  {
+    "query_id": "d1wgpa_",
+    "split": "test",
+    "positive": 9,
+    "cross_family_positive": 2,
+    "same_fold_negative": 14,
+    "other_fold_negative": 461
+  },
+  {
+    "query_id": "d2iuwa1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 21,
+    "other_fold_negative": 461
+  },
+  {
+    "query_id": "d1nx4a_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 21,
+    "other_fold_negative": 461
+  },
+  {
+    "query_id": "d1ufya_",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 4,
+    "same_fold_negative": 13,
+    "other_fold_negative": 467
+  },
+  {
+    "query_id": "d2otma1",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 2,
+    "same_fold_negative": 13,
+    "other_fold_negative": 467
+  },
+  {
+    "query_id": "d1ipaa2",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 15,
+    "other_fold_negative": 467
+  },
+  {
+    "query_id": "d1xbia1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 15,
+    "other_fold_negative": 467
+  },
+  {
+    "query_id": "d1jaka2",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 10,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d2gjxa2",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 10,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1r55a_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 9,
+    "same_fold_negative": 3,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d3e11a1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 9,
+    "same_fold_negative": 3,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1y1oa_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 2,
+    "other_fold_negative": 472
+  },
+  {
+    "query_id": "d2ot9a1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 2,
+    "other_fold_negative": 472
+  },
+  {
+    "query_id": "d1l5ja2",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 9,
+    "other_fold_negative": 473
+  },
+  {
+    "query_id": "d2hi6a1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 9,
+    "other_fold_negative": 473
+  },
+  {
+    "query_id": "d1xs1a_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 1,
+    "same_fold_negative": 2,
+    "other_fold_negative": 479
+  },
+  {
+    "query_id": "d3p48a_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 2,
+    "other_fold_negative": 479
+  },
+  {
+    "query_id": "d3n8ia_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 3,
+    "other_fold_negative": 479
+  },
+  {
+    "query_id": "d2wmya_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 3,
+    "other_fold_negative": 479
+  },
+  {
+    "query_id": "d1rg8a_",
+    "split": "test",
+    "positive": 6,
+    "cross_family_positive": 2,
+    "same_fold_negative": 19,
+    "other_fold_negative": 459
+  },
+  {
+    "query_id": "d2ilaa_",
+    "split": "test",
+    "positive": 6,
+    "cross_family_positive": 5,
+    "same_fold_negative": 19,
+    "other_fold_negative": 459
+  },
+  {
+    "query_id": "d1r8o.1",
+    "split": "test",
+    "positive": 6,
+    "cross_family_positive": 4,
+    "same_fold_negative": 19,
+    "other_fold_negative": 459
+  },
+  {
+    "query_id": "d3bx1c_",
+    "split": "test",
+    "positive": 6,
+    "cross_family_positive": 4,
+    "same_fold_negative": 19,
+    "other_fold_negative": 459
+  },
+  {
+    "query_id": "d1qxma2",
+    "split": "test",
+    "positive": 8,
+    "cross_family_positive": 2,
+    "same_fold_negative": 17,
+    "other_fold_negative": 459
+  },
+  {
+    "query_id": "d1hwmb2",
+    "split": "test",
+    "positive": 8,
+    "cross_family_positive": 2,
+    "same_fold_negative": 17,
+    "other_fold_negative": 459
+  },
+  {
+    "query_id": "d1h6ka2",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 6,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d2i9ca1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d1hxia_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 4,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d1a17a_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 4,
+    "same_fold_negative": 20,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d1dvpa1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 28,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d3ldza_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 28,
+    "other_fold_negative": 454
+  },
+  {
+    "query_id": "d1ac0a_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 2,
+    "same_fold_negative": 7,
+    "other_fold_negative": 474
+  },
+  {
+    "query_id": "d2fhfa3",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 1,
+    "same_fold_negative": 7,
+    "other_fold_negative": 474
+  },
+  {
+    "query_id": "d1t01a1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 31,
+    "other_fold_negative": 451
+  },
+  {
+    "query_id": "d1st6a5",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 31,
+    "other_fold_negative": 451
+  },
+  {
+    "query_id": "d1knya1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 31,
+    "other_fold_negative": 451
+  },
+  {
+    "query_id": "d1wola_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 2,
+    "same_fold_negative": 31,
+    "other_fold_negative": 451
+  },
+  {
+    "query_id": "d1tqga_",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 3,
+    "same_fold_negative": 29,
+    "other_fold_negative": 451
+  },
+  {
+    "query_id": "d2ooca1",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 4,
+    "same_fold_negative": 29,
+    "other_fold_negative": 451
+  },
+  {
+    "query_id": "d1bbha_",
+    "split": "test",
+    "positive": 3,
+    "cross_family_positive": 1,
+    "same_fold_negative": 30,
+    "other_fold_negative": 451
+  },
+  {
+    "query_id": "d1ugka_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 6,
+    "same_fold_negative": 2,
+    "other_fold_negative": 472
+  },
+  {
+    "query_id": "d1xhja_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 10,
+    "other_fold_negative": 472
+  },
+  {
+    "query_id": "d1ejea_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 10,
+    "same_fold_negative": 2,
+    "other_fold_negative": 472
+  },
+  {
+    "query_id": "d2f8ya_",
+    "split": "test",
+    "positive": 5,
+    "cross_family_positive": 1,
+    "same_fold_negative": 2,
+    "other_fold_negative": 477
+  },
+  {
+    "query_id": "d1sqra_",
+    "split": "test",
+    "positive": 7,
+    "cross_family_positive": 7,
+    "same_fold_negative": 6,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1a8pa1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 11,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d3ui4a_",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 3,
+    "same_fold_negative": 3,
+    "other_fold_negative": 471
+  },
+  {
+    "query_id": "d1qapa2",
+    "split": "test",
+    "positive": 4,
+    "cross_family_positive": 2,
+    "same_fold_negative": 5,
+    "other_fold_negative": 475
+  },
+  {
+    "query_id": "d2f3la1",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 2,
+    "other_fold_negative": 480
+  },
+  {
+    "query_id": "d2qrda_",
+    "split": "test",
+    "positive": 2,
+    "cross_family_positive": 1,
+    "same_fold_negative": 16,
+    "other_fold_negative": 466
+  },
+  {
+    "query_id": "d2il5a1",
+    "split": "test",
+    "positive": 10,
+    "cross_family_positive": 7,
+    "same_fold_negative": 8,
+    "other_fold_negative": 466
+  }
+]

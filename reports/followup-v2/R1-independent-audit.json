@@ -1,0 +1,6446 @@
+{
+  "passed": true,
+  "query_view_run_checks": 6000,
+  "conditions": 5,
+  "poor_query_examples": [
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1iura_",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.024493705528188286,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2cpta1",
+          "score": 154,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wfda_",
+          "score": 151,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 149,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 148,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 144,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 135,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1urfa_",
+          "score": 135,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 135,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 130,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 128,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1fpoa1",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.036111111111111115,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1u5pa1",
+          "score": 150,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 146,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 140,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 137,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 136,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qsda_",
+          "score": 136,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 136,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2imla1",
+          "score": 136,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 131,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xwma_",
+          "score": 131,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1kjqa1",
+      "fold": "b.84",
+      "superfamily": "b.84.2",
+      "AP": 0.03306878306878307,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2wp4a_",
+          "score": 161,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v97a3",
+          "score": 156,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o4ua2",
+          "score": 148,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qpoa2",
+          "score": 146,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1rm6a1",
+          "score": 144,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1jrob1",
+          "score": 143,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fm0e_",
+          "score": 139,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ft9a2",
+          "score": 126,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o7fa2",
+          "score": 112,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ne6a2",
+          "score": 111,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1go3f_",
+      "fold": "a.60",
+      "superfamily": "a.60.8",
+      "AP": 0.379173740803622,
+      "recall_at_10": 0.3333333333333333,
+      "relevant_count": 3,
+      "top10": [
+        {
+          "target_id": "d1y14a_",
+          "score": 182,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 146,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 143,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 139,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1j8mf1",
+          "score": 138,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 138,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 136,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3usya_",
+          "score": 134,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1uw4b_",
+          "score": 130,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2awia2",
+          "score": 130,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2duya1",
+      "fold": "a.60",
+      "superfamily": "a.60.2",
+      "AP": 0.25757575757575757,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d3arcu_",
+          "score": 146,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u9la_",
+          "score": 93,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1cuka2",
+          "score": 80,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2fmpa1",
+          "score": 77,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2i1qa1",
+          "score": 77,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 75,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 75,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1z3eb1",
+          "score": 74,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1szpa1",
+          "score": 72,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2j9wa_",
+          "score": 72,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1x40a1",
+      "fold": "a.60",
+      "superfamily": "a.60.1",
+      "AP": 0.4003274385189279,
+      "recall_at_10": 0.2,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1v38a_",
+          "score": 239,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3bq7a_",
+          "score": 113,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1doqa_",
+          "score": 111,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 110,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1szpa1",
+          "score": 106,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u9la_",
+          "score": 105,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 104,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2qzga1",
+          "score": 104,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1x9ma1",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 103,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1k9ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.42230208377234557,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1exra_",
+          "score": 154,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1oqpa_",
+          "score": 129,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 119,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2jxca1",
+          "score": 113,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1fd9a_",
+          "score": 112,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 112,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1alva_",
+          "score": 110,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1qsda_",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2f66c1",
+          "score": 103,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1k8ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.16398915243069434,
+      "recall_at_10": 0.1,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2j9wa_",
+          "score": 125,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1oqca_",
+          "score": 118,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 114,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1eg3a1",
+          "score": 112,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 109,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 109,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 108,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1i5na_",
+          "score": 107,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2j9ua_",
+          "score": 107,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 106,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1nx4a_",
+      "fold": "b.82",
+      "superfamily": "b.82.2",
+      "AP": 0.3611111111111111,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1nxma_",
+          "score": 240,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3i3qa_",
+          "score": 227,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ep0a_",
+          "score": 218,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1xe7a_",
+          "score": 202,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1lrha_",
+          "score": 199,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1znpa1",
+          "score": 189,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y9qa2",
+          "score": 178,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2wp4a_",
+          "score": 168,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3dl3a1",
+          "score": 166,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ig3a1",
+          "score": 162,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1ufya_",
+      "fold": "d.79",
+      "superfamily": "d.79.1",
+      "AP": 0.2117063492063492,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1w5fa2",
+          "score": 242,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1clia1",
+          "score": 210,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2yyea1",
+          "score": 206,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2qtpa1",
+          "score": 196,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vk3a1",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2btoa2",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3b6na_",
+          "score": 190,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1t0aa_",
+          "score": 188,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3d01a_",
+          "score": 184,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3lmea_",
+          "score": 183,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1h6ka2",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.35797994987468673,
+      "recall_at_10": 0.5,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2b6ca1",
+          "score": 290,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 281,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 263,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2hr2a1",
+          "score": 259,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hh8a_",
+          "score": 251,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 251,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1uw4b_",
+          "score": 243,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2awia2",
+          "score": 243,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 241,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ug3a1",
+          "score": 231,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2i9ca1",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.1773384759454796,
+      "recall_at_10": 0.1,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1ihga1",
+          "score": 238,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 229,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hf8a1",
+          "score": 218,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2hr2a1",
+          "score": 214,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 209,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1elra_",
+          "score": 208,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1nzna_",
+          "score": 208,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 206,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3k1sa_",
+          "score": 202,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 202,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1st6a5",
+      "fold": "a.24",
+      "superfamily": "a.24.9",
+      "AP": 0.07777777777777778,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d3k1sa_",
+          "score": 224,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xwma_",
+          "score": 220,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 220,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 210,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2e2aa_",
+          "score": 209,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 207,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1t72a_",
+          "score": 205,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 204,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 204,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 204,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1knya1",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.055,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2b0ha1",
+          "score": 210,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 206,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 205,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g4us1",
+          "score": 199,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 197,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 196,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2ykza_",
+          "score": 194,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 194,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 192,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 190,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1wola_",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.05202702702702703,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1f1ma_",
+          "score": 243,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 228,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 212,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 208,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3k1sa_",
+          "score": 208,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 206,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1he1a_",
+          "score": 205,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 204,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 204,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 202,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1tqga_",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.3875,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1i5na_",
+          "score": 290,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 249,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3iqca_",
+          "score": 239,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 231,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 230,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 228,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 225,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 223,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 221,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 215,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2ooca1",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.23809523809523808,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d3iqca_",
+          "score": 189,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 183,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2a0ba_",
+          "score": 182,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 182,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 181,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 172,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 172,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 172,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2gsca1",
+          "score": 171,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ihga1",
+          "score": 168,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1xhja_",
+      "fold": "d.52",
+      "superfamily": "d.52.8",
+      "AP": 0.3666666666666667,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1wh9a_",
+          "score": 172,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1egaa2",
+          "score": 156,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1th5a1",
+          "score": 156,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1v9ja_",
+          "score": 155,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3cq1a_",
+          "score": 143,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2okfa1",
+          "score": 137,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ny8a_",
+          "score": 125,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2e7ga1",
+          "score": 121,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2gw6a1",
+          "score": 119,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2dyja1",
+          "score": 115,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1iura_",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.022760290556900726,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2cpta1",
+          "score": 168,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wfda_",
+          "score": 167,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 166,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 162,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 152,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 148,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1urfa_",
+          "score": 147,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 147,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o3xa_",
+          "score": 143,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 143,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1fpoa1",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.03409090909090909,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1u5pa1",
+          "score": 164,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 160,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 158,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 152,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 151,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 151,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2imla1",
+          "score": 150,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 149,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 149,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 148,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1kjqa1",
+      "fold": "b.84",
+      "superfamily": "b.84.2",
+      "AP": 0.03709795321637427,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2wp4a_",
+          "score": 183,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v97a3",
+          "score": 180,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1jrob1",
+          "score": 174,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1rm6a1",
+          "score": 170,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o4ua2",
+          "score": 166,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qpoa2",
+          "score": 162,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fm0e_",
+          "score": 159,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ft9a2",
+          "score": 157,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o7fa2",
+          "score": 138,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wjwa_",
+          "score": 138,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1go3f_",
+      "fold": "a.60",
+      "superfamily": "a.60.8",
+      "AP": 0.3703703703703704,
+      "recall_at_10": 0.3333333333333333,
+      "relevant_count": 3,
+      "top10": [
+        {
+          "target_id": "d1y14a_",
+          "score": 196,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3usya_",
+          "score": 170,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 166,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 164,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 164,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2cj4a_",
+          "score": 162,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 161,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 159,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1j8mf1",
+          "score": 154,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v4aa1",
+          "score": 150,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2duya1",
+      "fold": "a.60",
+      "superfamily": "a.60.2",
+      "AP": 0.13025210084033612,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d3arcu_",
+          "score": 150,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u9la_",
+          "score": 98,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2fmpa1",
+          "score": 88,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2i1qa1",
+          "score": 87,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 87,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2j9wa_",
+          "score": 87,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1cuka2",
+          "score": 84,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1szpa1",
+          "score": 83,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 81,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1y14a_",
+          "score": 81,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1x40a1",
+      "fold": "a.60",
+      "superfamily": "a.60.1",
+      "AP": 0.33050248419925976,
+      "recall_at_10": 0.3,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1v38a_",
+          "score": 239,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 119,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 119,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3bq7a_",
+          "score": 119,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 118,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1vdla_",
+          "score": 117,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1oxja1",
+          "score": 116,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2cpta1",
+          "score": 116,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2qzga1",
+          "score": 116,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1doqa_",
+          "score": 115,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1k9ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.4282121929357733,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1exra_",
+          "score": 162,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1oqpa_",
+          "score": 133,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1fd9a_",
+          "score": 125,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 125,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1alva_",
+          "score": 122,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2jxca1",
+          "score": 120,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 117,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1joga_",
+          "score": 115,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 115,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2fj6a1",
+          "score": 114,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1k8ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.17154579124340846,
+      "recall_at_10": 0.2,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2j9wa_",
+          "score": 145,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2j9ua_",
+          "score": 135,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1oqca_",
+          "score": 134,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 132,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1eg3a1",
+          "score": 131,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 131,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 127,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 127,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sraa_",
+          "score": 121,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1i5na_",
+          "score": 120,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2e1za1",
+      "fold": "c.55",
+      "superfamily": "c.55.1",
+      "AP": 0.46350207893989015,
+      "recall_at_10": 0.3,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1g99a1",
+          "score": 751,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1hjra_",
+          "score": 276,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1z6ra2",
+          "score": 273,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2hoea3",
+          "score": 273,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1kcfa2",
+          "score": 242,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3emva_",
+          "score": 239,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1vhxa_",
+          "score": 230,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3hyfa_",
+          "score": 230,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1ybfa_",
+          "score": 228,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2etja1",
+          "score": 225,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1nx4a_",
+      "fold": "b.82",
+      "superfamily": "b.82.2",
+      "AP": 0.2777777777777778,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1nxma_",
+          "score": 299,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1ep0a_",
+          "score": 271,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3i3qa_",
+          "score": 268,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1xe7a_",
+          "score": 259,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1lrha_",
+          "score": 251,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1znpa1",
+          "score": 245,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y9qa2",
+          "score": 222,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2psoa1",
+          "score": 218,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3dl3a1",
+          "score": 206,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3kwua1",
+          "score": 206,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1ufya_",
+      "fold": "d.79",
+      "superfamily": "d.79.1",
+      "AP": 0.18875291375291375,
+      "recall_at_10": 0.0,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1w5fa2",
+          "score": 265,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1clia1",
+          "score": 241,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2qtpa1",
+          "score": 233,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2yyea1",
+          "score": 233,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3byqa1",
+          "score": 221,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3b6na_",
+          "score": 219,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1t0aa_",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vk3a1",
+          "score": 214,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2btoa2",
+          "score": 213,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1iv3a_",
+          "score": 211,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2hi6a1",
+      "fold": "c.8",
+      "superfamily": "c.8.2",
+      "AP": 0.34090909090909094,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1kbla2",
+          "score": 265,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1v7la_",
+          "score": 264,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2b0aa1",
+          "score": 235,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1q3qa2",
+          "score": 219,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1zyma2",
+          "score": 218,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1r61a_",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3osxa_",
+          "score": 199,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3nm6b_",
+          "score": 187,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3bi1a2",
+          "score": 186,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1de4c2",
+          "score": 184,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1h6ka2",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.3938303594856993,
+      "recall_at_10": 0.5,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2b6ca1",
+          "score": 334,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 326,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 301,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 292,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2hr2a1",
+          "score": 290,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1uw4b_",
+          "score": 287,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1hh8a_",
+          "score": 283,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 281,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ug3a1",
+          "score": 279,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 279,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2i9ca1",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.17524571265398617,
+      "recall_at_10": 0.2,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1ihga1",
+          "score": 265,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 248,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hf8a1",
+          "score": 239,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1zu2a1",
+          "score": 233,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1nzna_",
+          "score": 232,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1elra_",
+          "score": 231,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 230,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2hr2a1",
+          "score": 230,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 230,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 224,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1st6a5",
+      "fold": "a.24",
+      "superfamily": "a.24.9",
+      "AP": 0.05654761904761904,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1xwma_",
+          "score": 252,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 247,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 246,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1t72a_",
+          "score": 244,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 238,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 236,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sumb_",
+          "score": 236,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 236,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 235,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 234,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1knya1",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.057291666666666664,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2b0ha1",
+          "score": 241,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 233,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 230,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 225,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 223,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 223,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g4us1",
+          "score": 220,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 217,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2ykza_",
+          "score": 214,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hf8a1",
+          "score": 212,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1wola_",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.054411764705882354,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1f1ma_",
+          "score": 259,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 250,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 249,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 234,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 233,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 229,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1he1a_",
+          "score": 228,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g4us1",
+          "score": 223,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 223,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 223,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1tqga_",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.36336580086580084,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1i5na_",
+          "score": 290,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 268,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3iqca_",
+          "score": 255,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 251,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 246,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 243,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 241,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 236,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 235,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qkra_",
+          "score": 233,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2ooca1",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.23948123948123948,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d3iqca_",
+          "score": 205,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 201,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2a0ba_",
+          "score": 198,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2ff4a2",
+          "score": 195,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 195,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 192,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 191,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 190,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ihga1",
+          "score": 188,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 188,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_original",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1xhja_",
+      "fold": "d.52",
+      "superfamily": "d.52.8",
+      "AP": 0.325,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1wh9a_",
+          "score": 193,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1egaa2",
+          "score": 187,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1v9ja_",
+          "score": 170,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1th5a1",
+          "score": 164,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3cq1a_",
+          "score": 158,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2okfa1",
+          "score": 155,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ny8a_",
+          "score": 144,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y0ka1",
+          "score": 144,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2e7ga1",
+          "score": 143,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2gw6a1",
+          "score": 139,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1iura_",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.024818577648766327,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2cpta1",
+          "score": 154,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 151,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 146,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wfda_",
+          "score": 146,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 145,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 135,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1urfa_",
+          "score": 133,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 128,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 126,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 125,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1fpoa1",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.08253968253968254,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1srya1",
+          "score": 138,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 138,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 130,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 128,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 127,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2imla1",
+          "score": 124,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o37a_",
+          "score": 123,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2gsca1",
+          "score": 120,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 119,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 118,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1kjqa1",
+      "fold": "b.84",
+      "superfamily": "b.84.2",
+      "AP": 0.025724275724275728,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2wp4a_",
+          "score": 171,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v97a3",
+          "score": 165,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o4ua2",
+          "score": 158,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qpoa2",
+          "score": 158,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1rm6a1",
+          "score": 158,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1jrob1",
+          "score": 156,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fm0e_",
+          "score": 143,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ft9a2",
+          "score": 132,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3i3qa_",
+          "score": 122,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o7fa2",
+          "score": 121,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1go3f_",
+      "fold": "a.60",
+      "superfamily": "a.60.8",
+      "AP": 0.4163934426229508,
+      "recall_at_10": 0.6666666666666666,
+      "relevant_count": 3,
+      "top10": [
+        {
+          "target_id": "d1y14a_",
+          "score": 166,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 133,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 132,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1j8mf1",
+          "score": 129,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 127,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 123,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2awia2",
+          "score": 122,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2cj4a_",
+          "score": 122,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 122,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2hbja1",
+          "score": 120,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2duya1",
+      "fold": "a.60",
+      "superfamily": "a.60.2",
+      "AP": 0.2111111111111111,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d3arcu_",
+          "score": 154,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u9la_",
+          "score": 90,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2i1qa1",
+          "score": 79,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2fmpa1",
+          "score": 77,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1cuka2",
+          "score": 75,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 73,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1z3eb1",
+          "score": 72,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1szpa1",
+          "score": 70,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1dgsa1",
+          "score": 68,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 68,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1x40a1",
+      "fold": "a.60",
+      "superfamily": "a.60.1",
+      "AP": 0.39328095975232197,
+      "recall_at_10": 0.3,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1v38a_",
+          "score": 241,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1doqa_",
+          "score": 108,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3bq7a_",
+          "score": 107,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 105,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1szpa1",
+          "score": 101,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 101,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2qzga1",
+          "score": 101,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 100,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1oxja1",
+          "score": 99,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1x9ma1",
+          "score": 97,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1k9ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.4001009336587778,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1exra_",
+          "score": 154,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1oqpa_",
+          "score": 130,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 111,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fd9a_",
+          "score": 102,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1alva_",
+          "score": 101,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 99,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2jxca1",
+          "score": 99,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2fj6a1",
+          "score": 97,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 96,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1joga_",
+          "score": 95,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1k8ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.2249751540793294,
+      "recall_at_10": 0.2,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2j9wa_",
+          "score": 114,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1eg3a1",
+          "score": 108,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1oqca_",
+          "score": 105,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 104,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 102,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sraa_",
+          "score": 101,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 100,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2j9ua_",
+          "score": 100,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1urfa_",
+          "score": 98,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 98,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1nx4a_",
+      "fold": "b.82",
+      "superfamily": "b.82.2",
+      "AP": 0.375,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1nxma_",
+          "score": 270,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3i3qa_",
+          "score": 257,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ep0a_",
+          "score": 238,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1lrha_",
+          "score": 225,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1xe7a_",
+          "score": 225,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1znpa1",
+          "score": 222,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y9qa2",
+          "score": 196,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3dl3a1",
+          "score": 190,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ig3a1",
+          "score": 184,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3kwua1",
+          "score": 181,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1ufya_",
+      "fold": "d.79",
+      "superfamily": "d.79.1",
+      "AP": 0.2020375457875458,
+      "recall_at_10": 0.25,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1w5fa2",
+          "score": 248,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1clia1",
+          "score": 215,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2yyea1",
+          "score": 213,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2qtpa1",
+          "score": 201,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3b6na_",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2btoa2",
+          "score": 188,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vk3a1",
+          "score": 185,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3lmea_",
+          "score": 185,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1iv3a_",
+          "score": 183,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1t0aa_",
+          "score": 182,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1h6ka2",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.3669405624568668,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2b6ca1",
+          "score": 276,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 259,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 237,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 235,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2hr2a1",
+          "score": 232,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hh8a_",
+          "score": 228,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1uw4b_",
+          "score": 217,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2awia2",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 214,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ihga1",
+          "score": 210,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2i9ca1",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.17100000777377686,
+      "recall_at_10": 0.2,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1ihga1",
+          "score": 225,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 214,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hf8a1",
+          "score": 212,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1elra_",
+          "score": 200,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1nzna_",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 189,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 188,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1zu2a1",
+          "score": 187,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 186,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 186,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1st6a5",
+      "fold": "a.24",
+      "superfamily": "a.24.9",
+      "AP": 0.0804093567251462,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d3k1sa_",
+          "score": 208,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 199,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 195,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2e2aa_",
+          "score": 195,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xwma_",
+          "score": 192,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 187,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1qsda_",
+          "score": 186,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 186,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 185,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 180,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1knya1",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.05357142857142857,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2rlda1",
+          "score": 194,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g4us1",
+          "score": 189,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 183,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 180,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 179,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2a0ba_",
+          "score": 179,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2ykza_",
+          "score": 177,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 176,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1wola_",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.04224137931034483,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1f1ma_",
+          "score": 218,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 209,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 199,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 190,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3k1sa_",
+          "score": 190,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1he1a_",
+          "score": 187,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 186,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 185,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g4us1",
+          "score": 184,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 180,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1tqga_",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.39872872225813405,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1i5na_",
+          "score": 270,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 232,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3iqca_",
+          "score": 227,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 217,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 215,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 214,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 213,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 207,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 206,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1qkra_",
+          "score": 201,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2ooca1",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.34375,
+      "recall_at_10": 0.75,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d3iqca_",
+          "score": 179,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2a0ba_",
+          "score": 175,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 173,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 169,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 166,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 164,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 162,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 158,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 157,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 157,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1xhja_",
+      "fold": "d.52",
+      "superfamily": "d.52.8",
+      "AP": 0.41666666666666663,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1wh9a_",
+          "score": 174,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1th5a1",
+          "score": 158,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1egaa2",
+          "score": 155,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1v9ja_",
+          "score": 151,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2okfa1",
+          "score": 141,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3cq1a_",
+          "score": 139,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ny8a_",
+          "score": 127,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2dyja1",
+          "score": 118,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2gw6a1",
+          "score": 118,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1y0ka1",
+          "score": 116,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1iura_",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.024313186813186814,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2cpta1",
+          "score": 170,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 169,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wfda_",
+          "score": 163,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 162,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 153,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 148,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1urfa_",
+          "score": 147,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 143,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 142,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o3xa_",
+          "score": 139,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1fpoa1",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.0649895178197065,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1u5pa1",
+          "score": 154,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 151,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 150,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 148,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 140,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 139,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1m62a_",
+          "score": 139,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2imla1",
+          "score": 139,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o37a_",
+          "score": 139,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 138,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1gsoa1",
+      "fold": "b.84",
+      "superfamily": "b.84.2",
+      "AP": 0.25588235294117645,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1jrob1",
+          "score": 178,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w96a1",
+          "score": 177,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2wp4a_",
+          "score": 175,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1lrha_",
+          "score": 171,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1vyqa1",
+          "score": 171,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1rm6a1",
+          "score": 169,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1zrra1",
+          "score": 167,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fm0e_",
+          "score": 165,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2vbua_",
+          "score": 161,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o7fa2",
+          "score": 158,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1kjqa1",
+      "fold": "b.84",
+      "superfamily": "b.84.2",
+      "AP": 0.0314935064935065,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2wp4a_",
+          "score": 192,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v97a3",
+          "score": 189,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1jrob1",
+          "score": 186,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1rm6a1",
+          "score": 181,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o4ua2",
+          "score": 177,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qpoa2",
+          "score": 174,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ft9a2",
+          "score": 164,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fm0e_",
+          "score": 163,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o7fa2",
+          "score": 150,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1nh2a1",
+          "score": 148,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1go3f_",
+      "fold": "a.60",
+      "superfamily": "a.60.8",
+      "AP": 0.385,
+      "recall_at_10": 0.3333333333333333,
+      "relevant_count": 3,
+      "top10": [
+        {
+          "target_id": "d1y14a_",
+          "score": 184,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2cj4a_",
+          "score": 156,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3usya_",
+          "score": 156,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 155,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 153,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 152,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 150,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1j8mf1",
+          "score": 145,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 144,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v4aa1",
+          "score": 142,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2duya1",
+      "fold": "a.60",
+      "superfamily": "a.60.2",
+      "AP": 0.11666666666666667,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d3arcu_",
+          "score": 158,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u9la_",
+          "score": 97,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2fmpa1",
+          "score": 87,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2i1qa1",
+          "score": 87,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 85,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2j9wa_",
+          "score": 85,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1szpa1",
+          "score": 81,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y14a_",
+          "score": 81,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sxda_",
+          "score": 80,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1cuka2",
+          "score": 79,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1x40a1",
+      "fold": "a.60",
+      "superfamily": "a.60.1",
+      "AP": 0.38646721737109113,
+      "recall_at_10": 0.3,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1v38a_",
+          "score": 241,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 123,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3bq7a_",
+          "score": 120,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 117,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1oxja1",
+          "score": 115,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2cpta1",
+          "score": 115,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1vdla_",
+          "score": 114,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1my6a1",
+          "score": 113,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 113,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2qzga1",
+          "score": 113,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1k9ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.3895798550417572,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1exra_",
+          "score": 161,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1oqpa_",
+          "score": 134,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 121,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fd9a_",
+          "score": 118,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1alva_",
+          "score": 113,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2fj6a1",
+          "score": 113,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1joga_",
+          "score": 108,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 108,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 107,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2jxca1",
+          "score": 106,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1k8ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.20262008253133162,
+      "recall_at_10": 0.3,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2j9wa_",
+          "score": 138,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2j9ua_",
+          "score": 133,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 130,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1eg3a1",
+          "score": 126,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1oqca_",
+          "score": 122,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 121,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 119,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sraa_",
+          "score": 118,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2crua1",
+          "score": 118,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1exra_",
+          "score": 117,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2e1za1",
+      "fold": "c.55",
+      "superfamily": "c.55.1",
+      "AP": 0.47360958013434795,
+      "recall_at_10": 0.3,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1g99a1",
+          "score": 785,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1hjra_",
+          "score": 285,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1z6ra2",
+          "score": 285,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2hoea3",
+          "score": 278,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3emva_",
+          "score": 248,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1kcfa2",
+          "score": 241,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vhxa_",
+          "score": 238,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3hyfa_",
+          "score": 234,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1i39a_",
+          "score": 229,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2ptha_",
+          "score": 227,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1nx4a_",
+      "fold": "b.82",
+      "superfamily": "b.82.2",
+      "AP": 0.3611111111111111,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1nxma_",
+          "score": 330,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3i3qa_",
+          "score": 299,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ep0a_",
+          "score": 295,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1lrha_",
+          "score": 285,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1xe7a_",
+          "score": 285,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1znpa1",
+          "score": 279,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y9qa2",
+          "score": 247,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2psoa1",
+          "score": 234,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3dl3a1",
+          "score": 232,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ig3a1",
+          "score": 230,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1ufya_",
+      "fold": "d.79",
+      "superfamily": "d.79.1",
+      "AP": 0.1938034188034188,
+      "recall_at_10": 0.25,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1w5fa2",
+          "score": 274,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1clia1",
+          "score": 247,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2yyea1",
+          "score": 239,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2qtpa1",
+          "score": 238,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3byqa1",
+          "score": 226,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3b6na_",
+          "score": 220,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1iv3a_",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vk3a1",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2ewca1",
+          "score": 215,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2btoa2",
+          "score": 214,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2hi6a1",
+      "fold": "c.8",
+      "superfamily": "c.8.2",
+      "AP": 0.34090909090909094,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1kbla2",
+          "score": 277,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1v7la_",
+          "score": 276,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2b0aa1",
+          "score": 235,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1q3qa2",
+          "score": 231,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1zyma2",
+          "score": 231,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1r61a_",
+          "score": 223,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3osxa_",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3nm6b_",
+          "score": 195,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3bi1a2",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1de4c2",
+          "score": 184,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1h6ka2",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.3829906692406692,
+      "recall_at_10": 0.5,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2b6ca1",
+          "score": 320,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 314,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 277,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 274,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2hr2a1",
+          "score": 274,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hh8a_",
+          "score": 267,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1uw4b_",
+          "score": 266,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ug3a1",
+          "score": 262,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ihga1",
+          "score": 258,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 254,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2i9ca1",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.1808949923193056,
+      "recall_at_10": 0.2,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1ihga1",
+          "score": 254,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 236,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hf8a1",
+          "score": 234,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1elra_",
+          "score": 224,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1zu2a1",
+          "score": 224,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 216,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1nzna_",
+          "score": 215,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 215,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 212,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2ff4a2",
+          "score": 212,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1st6a5",
+      "fold": "a.24",
+      "superfamily": "a.24.9",
+      "AP": 0.051250000000000004,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1w07a2",
+          "score": 230,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xwma_",
+          "score": 229,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 228,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 221,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 220,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ihga1",
+          "score": 219,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 218,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1t72a_",
+          "score": 218,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qsda_",
+          "score": 216,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 216,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1knya1",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.07194899817850638,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2b0ha1",
+          "score": 222,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 220,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 218,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g4us1",
+          "score": 211,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 211,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 210,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 206,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1joga_",
+          "score": 203,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 201,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1wola_",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.0440891472868217,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1f1ma_",
+          "score": 240,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 235,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 232,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1he1a_",
+          "score": 220,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g4us1",
+          "score": 214,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 214,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 213,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 212,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 208,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 206,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1tqga_",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.36997441520467833,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1i5na_",
+          "score": 274,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 256,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3iqca_",
+          "score": 242,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 236,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 235,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 229,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 227,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1qkra_",
+          "score": 225,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 222,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2j9wa_",
+          "score": 222,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d2ooca1",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.36036036036036034,
+      "recall_at_10": 0.75,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d3iqca_",
+          "score": 199,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2a0ba_",
+          "score": 193,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 192,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 188,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2ff4a2",
+          "score": 185,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 182,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 181,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 180,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 178,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 178,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "official_refit",
+      "gap": [
+        6,
+        1
+      ],
+      "query_id": "d1xhja_",
+      "fold": "d.52",
+      "superfamily": "d.52.8",
+      "AP": 0.29166666666666663,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1wh9a_",
+          "score": 198,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1egaa2",
+          "score": 187,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1v9ja_",
+          "score": 168,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1th5a1",
+          "score": 165,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2okfa1",
+          "score": 159,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3cq1a_",
+          "score": 158,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ny8a_",
+          "score": 148,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y0ka1",
+          "score": 148,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2dyja1",
+          "score": 147,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2gw6a1",
+          "score": 143,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1iura_",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.04096989966555184,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1m62a_",
+          "score": 123,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wfda_",
+          "score": 123,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2cpta1",
+          "score": 114,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2nr4a1",
+          "score": 112,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 110,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2qzga1",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 102,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1j8mf1",
+          "score": 101,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 100,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1fpoa1",
+      "fold": "a.2",
+      "superfamily": "a.2.3",
+      "AP": 0.08113730929264909,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1h7ca_",
+          "score": 130,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xwma_",
+          "score": 130,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1urfa_",
+          "score": 126,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 121,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qsda_",
+          "score": 120,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1srya1",
+          "score": 114,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2o37a_",
+          "score": 114,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1o3xa_",
+          "score": 110,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 109,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 106,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1kjqa1",
+      "fold": "b.84",
+      "superfamily": "b.84.2",
+      "AP": 0.02399425287356322,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1jrob1",
+          "score": 146,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1rm6a1",
+          "score": 134,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1zrra1",
+          "score": 130,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o4ua2",
+          "score": 127,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v97a3",
+          "score": 126,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1o5la1",
+          "score": 119,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1g7sa2",
+          "score": 118,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1nxma_",
+          "score": 114,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1fm0e_",
+          "score": 113,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2c78a1",
+          "score": 112,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1go3f_",
+      "fold": "a.60",
+      "superfamily": "a.60.8",
+      "AP": 0.4692982456140351,
+      "recall_at_10": 0.6666666666666666,
+      "relevant_count": 3,
+      "top10": [
+        {
+          "target_id": "d1y14a_",
+          "score": 154,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 124,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1w07a2",
+          "score": 121,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 120,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3juia_",
+          "score": 120,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1v4aa1",
+          "score": 117,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2jv3a_",
+          "score": 116,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2hbja1",
+          "score": 113,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2ff4a2",
+          "score": 112,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 111,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2duya1",
+      "fold": "a.60",
+      "superfamily": "a.60.2",
+      "AP": 0.19444444444444442,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d3arcu_",
+          "score": 137,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2i1qa1",
+          "score": 83,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2qzga1",
+          "score": 74,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 71,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2etja1",
+          "score": 70,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1dgsa1",
+          "score": 68,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1szpa1",
+          "score": 68,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1w9aa_",
+          "score": 67,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1cuka2",
+          "score": 65,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1u9la_",
+          "score": 65,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1x40a1",
+      "fold": "a.60",
+      "superfamily": "a.60.1",
+      "AP": 0.4984058901272618,
+      "recall_at_10": 0.5,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1v38a_",
+          "score": 192,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3bq7a_",
+          "score": 124,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2cpta1",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2f3na1",
+          "score": 95,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ugoa_",
+          "score": 93,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1oxja1",
+          "score": 90,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1u9la_",
+          "score": 90,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2bl8a1",
+          "score": 90,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 88,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1pk3a1",
+          "score": 85,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1k9ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.2901920173134606,
+      "recall_at_10": 0.2,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1exra_",
+          "score": 142,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1oqpa_",
+          "score": 112,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 93,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2fj6a1",
+          "score": 90,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2f6ma_",
+          "score": 89,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 88,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1f44a1",
+          "score": 85,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 85,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 85,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1k8ua_",
+      "fold": "a.39",
+      "superfamily": "a.39.1",
+      "AP": 0.1811581469033567,
+      "recall_at_10": 0.3,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2j9wa_",
+          "score": 122,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1wrda1",
+          "score": 107,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1exra_",
+          "score": 101,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1jr8a_",
+          "score": 101,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1oqca_",
+          "score": 100,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1eyha_",
+          "score": 97,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sraa_",
+          "score": 97,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 97,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1f44a1",
+          "score": 96,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1eg3a1",
+          "score": 95,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1w0ha_",
+      "fold": "c.55",
+      "superfamily": "c.55.3",
+      "AP": 0.43185377066474623,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2hoea3",
+          "score": 156,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1x9ma1",
+          "score": 150,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1hjra_",
+          "score": 140,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3hyfa_",
+          "score": 133,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1dt9a1",
+          "score": 132,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1z6ra2",
+          "score": 130,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g99a1",
+          "score": 126,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2qi2a2",
+          "score": 121,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3bexa2",
+          "score": 117,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vhxa_",
+          "score": 114,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1nx4a_",
+      "fold": "b.82",
+      "superfamily": "b.82.2",
+      "AP": 0.14090909090909093,
+      "recall_at_10": 0.5,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1nxma_",
+          "score": 216,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1xe7a_",
+          "score": 215,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1ep0a_",
+          "score": 210,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1znpa1",
+          "score": 200,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1lrha_",
+          "score": 168,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2bgca2",
+          "score": 162,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1y9qa2",
+          "score": 158,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2xcea_",
+          "score": 155,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1a8da2",
+          "score": 150,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3dl3a1",
+          "score": 149,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1ufya_",
+      "fold": "d.79",
+      "superfamily": "d.79.1",
+      "AP": 0.30892857142857144,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1w5fa2",
+          "score": 226,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2ewca1",
+          "score": 192,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2qtpa1",
+          "score": 188,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2yyea1",
+          "score": 175,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1t0aa_",
+          "score": 174,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1clia1",
+          "score": 169,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1iv3a_",
+          "score": 166,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3b6na_",
+          "score": 161,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2btoa2",
+          "score": 159,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1pf5a_",
+          "score": 156,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d3e11a1",
+      "fold": "d.92",
+      "superfamily": "d.92.1",
+      "AP": 0.4632695045231207,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d2ejqa1",
+          "score": 209,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1j7na1",
+          "score": 110,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ft9a2",
+          "score": 93,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1tvia_",
+          "score": 91,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1gqia2",
+          "score": 88,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1g99a1",
+          "score": 87,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1y93a_",
+          "score": 85,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1qpoa2",
+          "score": 81,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1y0ka1",
+          "score": 79,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2fxua2",
+          "score": 77,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1y1oa_",
+      "fold": "c.52",
+      "superfamily": "c.52.1",
+      "AP": 0.38069663909547197,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1ob8a_",
+          "score": 191,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2giga_",
+          "score": 132,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1a79a1",
+          "score": 121,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1wu7a1",
+          "score": 117,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3epua_",
+          "score": 116,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1d02a_",
+          "score": 103,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2nuga2",
+          "score": 96,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2v3za1",
+          "score": 96,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xkpb1",
+          "score": 95,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2okfa1",
+          "score": 95,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2ot9a1",
+      "fold": "c.52",
+      "superfamily": "c.52.1",
+      "AP": 0.42659458787027277,
+      "recall_at_10": 0.6,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d3c0ua_",
+          "score": 599,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1vp8a_",
+          "score": 113,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1y0ka1",
+          "score": 112,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2anua1",
+          "score": 108,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3hyfa_",
+          "score": 103,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1ob8a_",
+          "score": 98,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2cxha1",
+          "score": 96,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2a1ia1",
+          "score": 95,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2giga_",
+          "score": 93,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2foka4",
+          "score": 92,
+          "kind": "positive"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1h6ka2",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.3317174453534763,
+      "recall_at_10": 0.4,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1t72a_",
+          "score": 210,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 207,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1hu3a_",
+          "score": 202,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 192,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1hh8a_",
+          "score": 183,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1ihga1",
+          "score": 179,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1uw4b_",
+          "score": 174,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1ug3a1",
+          "score": 172,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1zu2a1",
+          "score": 172,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d2i9ca1",
+      "fold": "a.118",
+      "superfamily": "a.118.1",
+      "AP": 0.16248483398988084,
+      "recall_at_10": 0.1,
+      "relevant_count": 10,
+      "top10": [
+        {
+          "target_id": "d1ihga1",
+          "score": 196,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1vh6a_",
+          "score": 195,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1hf8a1",
+          "score": 187,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1elra_",
+          "score": 175,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1nzna_",
+          "score": 172,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3efza1",
+          "score": 171,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2ff4a2",
+          "score": 163,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1zu2a1",
+          "score": 161,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2b6ca1",
+          "score": 160,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 160,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1t01a1",
+      "fold": "a.24",
+      "superfamily": "a.24.9",
+      "AP": 0.41666666666666663,
+      "recall_at_10": 1.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1yaro_",
+          "score": 177,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1qkra_",
+          "score": 173,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 167,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 160,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1xg2b_",
+          "score": 159,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 158,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1t72a_",
+          "score": 154,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 153,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3f31a_",
+          "score": 151,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2cj4a_",
+          "score": 148,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1st6a5",
+      "fold": "a.24",
+      "superfamily": "a.24.9",
+      "AP": 0.050706033376123234,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d1xwma_",
+          "score": 185,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 182,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2o8pa1",
+          "score": 182,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1sumb_",
+          "score": 180,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1h7ca_",
+          "score": 179,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 177,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2gsca1",
+          "score": 170,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3d19a2",
+          "score": 170,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3iqua_",
+          "score": 170,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1qsda_",
+          "score": 166,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1knya1",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.05795454545454545,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2im8a_",
+          "score": 184,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 175,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 172,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 170,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sumb_",
+          "score": 169,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1hf8a1",
+          "score": 166,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1u5pa1",
+          "score": 166,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 165,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2rlda1",
+          "score": 164,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d3ldqb_",
+          "score": 159,
+          "kind": "other_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1wola_",
+      "fold": "a.24",
+      "superfamily": "a.24.16",
+      "AP": 0.07261904761904761,
+      "recall_at_10": 0.0,
+      "relevant_count": 2,
+      "top10": [
+        {
+          "target_id": "d2b0ha1",
+          "score": 191,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3k1sa_",
+          "score": 186,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2hr2a1",
+          "score": 175,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 173,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2im8a_",
+          "score": 173,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d3l8ra_",
+          "score": 172,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d1yaro_",
+          "score": 167,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 166,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1he1a_",
+          "score": 166,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2r25a_",
+          "score": 166,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1tqga_",
+      "fold": "a.24",
+      "superfamily": "a.24.10",
+      "AP": 0.4508333333333333,
+      "recall_at_10": 0.5,
+      "relevant_count": 4,
+      "top10": [
+        {
+          "target_id": "d1i5na_",
+          "score": 254,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d3iqca_",
+          "score": 194,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1orja_",
+          "score": 188,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sr2a_",
+          "score": 187,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1f1ma_",
+          "score": 182,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2b0ha1",
+          "score": 182,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1mqva_",
+          "score": 179,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1yjga_",
+          "score": 178,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d256ba_",
+          "score": 175,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2huja1",
+          "score": 167,
+          "kind": "same_fold"
+        }
+      ]
+    },
+    {
+      "variant": "learned_refit",
+      "gap": [
+        10,
+        1
+      ],
+      "query_id": "d1sqra_",
+      "fold": "b.43",
+      "superfamily": "b.43.3",
+      "AP": 0.47908599337170765,
+      "recall_at_10": 0.7142857142857143,
+      "relevant_count": 7,
+      "top10": [
+        {
+          "target_id": "d2piaa1",
+          "score": 188,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1kzla2",
+          "score": 163,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d2c78a1",
+          "score": 163,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1jnya1",
+          "score": 160,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d1g7sa2",
+          "score": 155,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2f1la2",
+          "score": 153,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2dy1a1",
+          "score": 151,
+          "kind": "positive"
+        },
+        {
+          "target_id": "d2rdea1",
+          "score": 132,
+          "kind": "other_fold"
+        },
+        {
+          "target_id": "d2ajta1",
+          "score": 131,
+          "kind": "same_fold"
+        },
+        {
+          "target_id": "d1sr4a_",
+          "score": 130,
+          "kind": "other_fold"
+        }
+      ]
+    }
+  ],
+  "no_metric_helpers_reused": true,
+  "script_sha256": "435b61325b384eb9f4a25f3f24519a77ee9c811bcf5fde4ed882bc1912d8f182",
+  "freeze_sha256": "c4f666c1fdfd5e95a77df084f59958a65c7ad3ab67e1fd6adab86b038420864b",
+  "results_sha256": "31b23f7edb534a168097084ae27168c68f3178ea75d60b150154cbb24607be44"
+}

@@ -20,6 +20,11 @@ def main():
     queries = [r for r in rows if r["split"] == "test" and r["role"] == "query"]
     targets = {r["record_id"]: r for r in rows if r["split"] == "test" and r["role"] == "target"}
     result = read(out / "R1-results.json")
+    if result["script_sha256"] != freeze["search_code_sha256"]:
+        repair = read(out / "execution-repair.json")
+        assert repair["original_freeze_sha256"] == sha(out / "test-freeze.json")
+        assert repair["original_search_sha256"] == freeze["search_code_sha256"]
+        assert repair["corrected_search_sha256"] == result["script_sha256"]
     tested, failures = 0, []
     for condition in result["rows"]:
         variant, (go, ge) = condition["variant"], condition["gap"]

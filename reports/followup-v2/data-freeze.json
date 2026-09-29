@@ -1,0 +1,23 @@
+{
+  "manifest_sha256": "cbd0f79ac6c0a66694a3b573f39d6f2ca02810c02ec402d56a60326fa6bd7202",
+  "denominators_sha256": "883bca76f03b67228d9522e833d8d9c80cfbc502f0848362b3c4d8ebddb8d79a",
+  "similarity_summary_sha256": "06c0223bea799f6acf8c1924a8b6bbb142d461f7b6ac13597b4a22d40fcd840d",
+  "similarity_journal_sha256": "5bf886d0ffd6a386aceceb55883386d731891b0c46d17697b0eb725a45aa56cc",
+  "protocol_sha256": "b07553d484f861dcaa0012efd51db604f3d1f7fbf9bcb7edb9379ed7daec5006",
+  "learned_encoder_sha256": "14e61e8c1d7cb1a7db106515687ff7c0e6dfd8128454f194c08b12e3b94a7f0b",
+  "matrices": {
+    "official_refit.mat": "ec0878a1d2026dc066e49f99482f8a1d16eccf0a4b43e3b199cce62c40a5e61b",
+    "official_original.mat": "63cdc9b17de248c790e934ffb7739d067a59c7c6cdb73a2c9c99de63e662b557",
+    "learned_refit.mat": "a85b9eea1574bca5681a75cf56df3223644c01bc6d4bae1a9da511aad2971be1"
+  },
+  "counts": {
+    "train:train": 256,
+    "validation:target": 84,
+    "validation:query": 30,
+    "test:target": 484,
+    "test:query": 100
+  },
+  "test_search_has_not_run": true,
+  "script_sha256": "1d9f8cd004b1cd1ce93c7400c534d025fd3cd989cca2c8063d0e45c590fca7d2",
+  "plan_sha256": "5d65e67636e750892edce611289d32afddb0b08fce68cc06059b0de01c3dc4a8"
+}

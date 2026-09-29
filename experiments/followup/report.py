@@ -36,6 +36,8 @@ def main():
         "cost-preflight.json",
         "validation-selection.json",
         "encoding.json",
+        "execution-repair.json",
+        "test-attempt1-failure.json",
     ]:
         shutil.copyfile(out / name, destination / name)
     flat = []
@@ -214,6 +216,8 @@ AP<0.5 사례는 원인 분석 후보이며 점수만으로 구조 표현의 실
 ## 검증·비용
 
 별도 코드가 실제 TSV를 다시 읽어 AP·Recall·대상 제외 규칙·fold bootstrap을 재계산했다.
+첫 test 실행은 결과 기록용 hash 함수의 이름 충돌로 지표 저장 전에 중단됐다. 원래 동결 파일과
+실패 기록을 보존하고 코드 수정 hash를 별도 연결했다. 데이터·모델·gap·지표 정의는 바꾸지 않았다.
 세 반복의 점수/순위가 같고, top-1 경로는 Python 정렬·재채점으로 검사했다. 무효 mask/X를
 포함한 인덱스 seed가 없는지도 확인했다. 시간은 warm Numba + top-1 Python traceback이며
 인코딩·JIT·디스크 출력은 포함하지 않는다. 동일 gap 조건은 두 설정의 공통 결과로 표시했다.
