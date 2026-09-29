@@ -1,0 +1,50 @@
+{
+  "fractions": [
+    {
+      "structure_pairs": 38,
+      "test_MAP_mean": 0.7257589807028777,
+      "test_MAP_sample_sd": 0.02070844951071893,
+      "validation_MAP_mean": 0.6459381465029257,
+      "seeds": 5
+    },
+    {
+      "structure_pairs": 76,
+      "test_MAP_mean": 0.7371663838304181,
+      "test_MAP_sample_sd": 0.009668789208887647,
+      "validation_MAP_mean": 0.6468566192620995,
+      "seeds": 5
+    },
+    {
+      "structure_pairs": 152,
+      "test_MAP_mean": 0.7287390535282195,
+      "test_MAP_sample_sd": 0.003239724397761785,
+      "validation_MAP_mean": 0.635530040961376,
+      "seeds": 5
+    }
+  ],
+  "paired_seed_deltas": [
+    {
+      "seed": 17,
+      "full_minus_quarter_MAP": 0.040372519285597486
+    },
+    {
+      "seed": 29,
+      "full_minus_quarter_MAP": -0.0121553198105816
+    },
+    {
+      "seed": 43,
+      "full_minus_quarter_MAP": -0.011225509218106389
+    },
+    {
+      "seed": 59,
+      "full_minus_quarter_MAP": -0.004021335590952524
+    },
+    {
+      "seed": 71,
+      "full_minus_quarter_MAP": 0.0019300094607516138
+    }
+  ],
+  "all_seed_signs_positive": false,
+  "all_seed_signs_negative": false,
+  "soft_seed_adopted": false
+}

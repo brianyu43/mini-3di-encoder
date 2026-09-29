@@ -1,0 +1,70 @@
+{
+  "training_results_sha256": "4df69d0ed2ef5f79bd19aebb97e303095782c3caa3a8cf658653e710217c8124",
+  "manifest_sha256": "cbd0f79ac6c0a66694a3b573f39d6f2ca02810c02ec402d56a60326fa6bd7202",
+  "script_sha256": "f67262a25922d7aaefb9f7206b40ce5ce0b2d9d1dc99b2720fbe854f67e205c5",
+  "evaluation_sha256": "6fbda488c9db1f2b8ebb068a4d5559cb5864c4530889d7180500c29ead98a0af",
+  "primary_seed": 71,
+  "selection_fixed_before_curve_test": true,
+  "models": {
+    "pairs-38-seed-17": {
+      "encoder.json": "7e4dd0f86cd464d5098e7c09292dbb14a0c71fc697089db55f040198dc3c2481",
+      "substitution.mat": "45c6f4ba89083db99063dfac5f35fbcfc664eb4ab5f2b3a61edb2ff22dd487a0"
+    },
+    "pairs-38-seed-29": {
+      "encoder.json": "db52a67f1e0f46d038434bce31df14c8cb74d6646cfa850e636a2ff60faca50e",
+      "substitution.mat": "4120fd1893f56bbc4af4d58193724406ee999d55e7c74f1c9e9577c73c75d4c0"
+    },
+    "pairs-38-seed-43": {
+      "encoder.json": "73f321403106c660080f3e2d33ce4ee7dbdbcbd64d712ddc9675b0f06a4669db",
+      "substitution.mat": "e457e240be47dcf4af64efe51b3ab0c04117d23495704e7344b735a793a4d9bb"
+    },
+    "pairs-38-seed-59": {
+      "encoder.json": "411546d1cdc992da703457a2dfc71f33c7bf585929207e96b92cbed19ac01d10",
+      "substitution.mat": "062ea4e5e101c8447113ca6beb167350e363fda6f7dbda0ab783e9b0ce637041"
+    },
+    "pairs-38-seed-71": {
+      "encoder.json": "7e62c0afcaf8949b9c97d3dd619843266e0fe18edb95e080e535f9fa1996e4ab",
+      "substitution.mat": "1d970317559802e6364236c0ca267f145f8531d0fc6ada33fc9223ad5bb59652"
+    },
+    "pairs-76-seed-17": {
+      "encoder.json": "aa89e515b5d1c73d80452cd69cc4734775edfacb0eea3e15424925d999449c28",
+      "substitution.mat": "c7d5a7628163b4f11a10d65c0dbc5ea8d7fb7c0908f10a66770cfd9e54a8ce33"
+    },
+    "pairs-76-seed-29": {
+      "encoder.json": "d69915c5eef60144b7cda661e727cdcb2487c074cf1436ce9d88163f281141a7",
+      "substitution.mat": "6a04a58613d3d509e281d04c7438010627a0ebbf8a9a08498a0a8576ed208d63"
+    },
+    "pairs-76-seed-43": {
+      "encoder.json": "c9df896588e86bb7c984238fb52229eeac13b355d0e6ca17c44766134b76e442",
+      "substitution.mat": "d00fd450ae7959152b73c043d32b4a9758bc9a17fe51d7e498c0e115e360d1e3"
+    },
+    "pairs-76-seed-59": {
+      "encoder.json": "2145e673595d9837014e5793d34c7ba4888922bc48a826f9b97ca39dbb14c348",
+      "substitution.mat": "2f801ac2b5d5ab8978ae3ad7ca950b32b70b310077e3789edf09210556f9c875"
+    },
+    "pairs-76-seed-71": {
+      "encoder.json": "c881c5f2ab9a8e96799fb6913d24e3e1d1a7ff62ae9655fb30ad2774ebd74672",
+      "substitution.mat": "6a5f8ec9920d3839a0c139335863f0845675e31c0813bba683f484d3298b6630"
+    },
+    "pairs-152-seed-17": {
+      "encoder.json": "6864fe55de222341548830bf3f9820042721b9eafd5e13db66b9a1161197fc5b",
+      "substitution.mat": "289a0ce45adec834a3e0c0c67cfc5060c3836c3c0c18d56be70f565a872b5d07"
+    },
+    "pairs-152-seed-29": {
+      "encoder.json": "a61772abba4181a83222c7ba29ba5b10145c049d33b0c4adf30251de1e0adc1a",
+      "substitution.mat": "36d7cd012826c02dcd5987b67f83f775ea3aab0d0295cba992742dac95ebb94b"
+    },
+    "pairs-152-seed-43": {
+      "encoder.json": "4d29f2971e9ea5c6eaa4499ad958e1d89767280deec201f545a064a67af8d144",
+      "substitution.mat": "3acd82583caa7448259edc9c8c7a3454750a154007ce459647adccf1aeaae73e"
+    },
+    "pairs-152-seed-59": {
+      "encoder.json": "af6adc30f292d62ffc52a2f32e42941ecaef7a79983b4a1262326f76f65cf589",
+      "substitution.mat": "1f2c0df9817eb9d738e9b354ec5ea962fdb7ae6f37d11644a2aabfa86c54fff9"
+    },
+    "pairs-152-seed-71": {
+      "encoder.json": "e84373718cbfc4d634479c5c7152adacedff7f338055da3b706e347d1e07050c",
+      "substitution.mat": "3eac7940824e434cd6f4eedfc5ead0ee53f4a6c21913db1d2a3ff047702eba35"
+    }
+  }
+}
